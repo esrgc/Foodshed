@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <publishData>
-  <publishProfile publishUrl="D:\Documents\Projects\Kellog\Foodshed\Deploy-restored" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+  <publishProfile publishUrl="D:\Documents\Projects\Kellog\Foodshed\Deploy" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
     <file relUrl="bin/System.Web.Http.xml" publishTime="09/03/2013 14:38:13" />
     <file relUrl="jsLib/bootstrap/js/bootstrap.js" publishTime="05/31/2013 15:09:43" />
     <file relUrl="Scripts/Applications/foodshed/app.js" publishTime="08/29/2013 15:34:41" />
@@ -12,7 +12,7 @@
     <file relUrl="bin/ESRGC.GIS.Domain.dll" publishTime="09/03/2013 16:22:49" />
     <file relUrl="bin/System.Web.Mvc.dll" publishTime="09/03/2013 14:38:10" />
     <file relUrl="bin/System.Net.Http.WebRequest.dll" publishTime="09/03/2013 14:38:15" />
-    <file relUrl="Web.config" publishTime="09/03/2013 17:08:37" />
+    <file relUrl="Web.config" publishTime="09/03/2013 17:23:13" />
     <file relUrl="bin/System.Web.WebPages.Deployment.xml" publishTime="09/03/2013 14:38:14" />
     <file relUrl="bin/Ninject.xml" publishTime="09/03/2013 14:36:48" />
     <file relUrl="jsLib/bootstrap/js/bootstrap.min.js" publishTime="05/31/2013 15:09:43" />
