@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{491C790C-755D-4EA5-92ED-3A99C3F1F1FB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ESRGC.GIS.Domain</RootNamespace>
+    <AssemblyName>ESRGC.GIS.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ESRGCDataGeometry">
+      <HintPath>..\..\..\CrimeMap\SU PD\Code\SU Crime Map\ESRGC.GIS.Domain\bin\Debug\ESRGCDataGeometry.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLConnection">
+      <HintPath>..\..\..\CrimeMap\SU PD\Code\SU Crime Map\ESRGC.GIS.Domain\bin\Debug\SQLConnection.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GeoTools\IAddressLocator.cs" />
+    <Compile Include="Abstract\IEntitiesRepository.cs" />
+    <Compile Include="GeoTools\IFoodshed.cs" />
+    <Compile Include="GeoTools\IParcelTool.cs" />
+    <Compile Include="Abstract\IUnitOfWork.cs" />
+    <Compile Include="GeoTools\Foodshed.cs" />
+    <Compile Include="Concrete\WorkUnit.cs" />
+    <Compile Include="GeoTools\AddressLocator.cs" />
+    <Compile Include="Concrete\ManifoldRepository.cs" />
+    <Compile Include="Concrete\SqlRepository.cs" />
+    <Compile Include="Constants\MapExtents.cs" />
+    <Compile Include="Entities\AddressPoint.cs" />
+    <Compile Include="Entities\Geometry\GeoBase.cs" />
+    <Compile Include="Entities\Geometry\MapPoint.cs" />
+    <Compile Include="Entities\Geometry\PointData.cs" />
+    <Compile Include="Entities\Geometry\PolygonData.cs" />
+    <Compile Include="Entities\Geometry\PolylineData.cs" />
+    <Compile Include="Entities\JSonClasses.cs" />
+    <Compile Include="Extensions\IEnumerableExtentions.cs" />
+    <Compile Include="Extensions\WKTStringExtentions.cs" />
+    <Compile Include="GeoTools\ParcelTool.cs" />
+    <Compile Include="Helpers\HelperClass.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\DataManager.cs" />
+    <Compile Include="Services\Manifold\IGeometryProcessor.cs" />
+    <Compile Include="Services\Manifold\GeometryProcessor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Manifold">
+      <Guid>{3F343400-7ABF-11D5-BAFA-00A0C98DED6D}</Guid>
+      <VersionMajor>4</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\Visual Studio 2008\Projects\ESRGCManifoldWrapper\ESRGCManifoldWrapper\ESRGCManifoldWrapper.csproj">
+      <Project>{F67A9AA3-80A9-42EA-9FA6-993963E0EECF}</Project>
+      <Name>ESRGCManifoldWrapper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

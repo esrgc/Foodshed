@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESRGC.GIS.WebUI", "ESRGC.GIS.WebUI\ESRGC.GIS.WebUI.csproj", "{2C89616E-FAA1-40BC-ACBE-1587F2777CA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESRGC.GIS.Domain", "ESRGC.GIS.Domain\ESRGC.GIS.Domain.csproj", "{491C790C-755D-4EA5-92ED-3A99C3F1F1FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESRGC.GIS.UnitTests", "ESRGC.GIS.UnitTests\ESRGC.GIS.UnitTests.csproj", "{42725E61-D651-44A3-9CFD-2C297187068E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESRGCManifoldWrapper", "..\..\..\..\Visual Studio 2008\Projects\ESRGCManifoldWrapper\ESRGCManifoldWrapper\ESRGCManifoldWrapper.csproj", "{F67A9AA3-80A9-42EA-9FA6-993963E0EECF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESRGC.GIS.WebApp", "ESRGC.GIS.WebMVC3\ESRGC.GIS.WebApp.csproj", "{FBCC3289-7290-4BCC-A5E2-4252D5A821B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C89616E-FAA1-40BC-ACBE-1587F2777CA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C89616E-FAA1-40BC-ACBE-1587F2777CA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C89616E-FAA1-40BC-ACBE-1587F2777CA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C89616E-FAA1-40BC-ACBE-1587F2777CA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{491C790C-755D-4EA5-92ED-3A99C3F1F1FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{491C790C-755D-4EA5-92ED-3A99C3F1F1FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{491C790C-755D-4EA5-92ED-3A99C3F1F1FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{491C790C-755D-4EA5-92ED-3A99C3F1F1FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42725E61-D651-44A3-9CFD-2C297187068E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42725E61-D651-44A3-9CFD-2C297187068E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42725E61-D651-44A3-9CFD-2C297187068E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42725E61-D651-44A3-9CFD-2C297187068E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F67A9AA3-80A9-42EA-9FA6-993963E0EECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F67A9AA3-80A9-42EA-9FA6-993963E0EECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F67A9AA3-80A9-42EA-9FA6-993963E0EECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F67A9AA3-80A9-42EA-9FA6-993963E0EECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBCC3289-7290-4BCC-A5E2-4252D5A821B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBCC3289-7290-4BCC-A5E2-4252D5A821B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBCC3289-7290-4BCC-A5E2-4252D5A821B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBCC3289-7290-4BCC-A5E2-4252D5A821B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal

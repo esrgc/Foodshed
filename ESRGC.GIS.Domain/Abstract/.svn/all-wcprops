@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/esrgc/!svn/ver/859/ASP.NET%20MVC/ESRGC.GIS.WebApp/Branches/Kellog/ESRGC.GIS.Domain/Abstract
+END
+IEntitiesRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/esrgc/!svn/ver/851/ASP.NET%20MVC/ESRGC.GIS.WebApp/Branches/Kellog/ESRGC.GIS.Domain/Abstract/IEntitiesRepository.cs
+END
+IUnitOfWork.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/esrgc/!svn/ver/863/ASP.NET%20MVC/ESRGC.GIS.WebApp/Branches/Kellog/ESRGC.GIS.Domain/Abstract/IUnitOfWork.cs
+END
