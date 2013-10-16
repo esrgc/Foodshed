@@ -1,89 +1,0 @@
-10
-
-dir
-862
-https://fairview.salisbury.edu:8443/svn/esrgc/ASP.NET%20MVC/ESRGC.GIS.WebApp/Branches/Kellog/ESRGC.GIS.Domain
-https://fairview.salisbury.edu:8443/svn/esrgc
-
-
-
-2011-09-06T21:13:07.710817Z
-859
-TAHOANG
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-dbc522c8-a028-c949-b03c-def94699ed74
-
-Extensions
-dir
-
-Concrete
-dir
-
-Helpers
-dir
-
-Abstract
-dir
-
-Services
-dir
-
-Entities
-dir
-
-ESRGC.GIS.Domain.csproj
-file
-863
-
-
-
-2011-09-07T14:41:19.111843Z
-73e3dfdb2ad9e1b159b0d33f92c99379
-2011-09-08T22:18:26.297155Z
-863
-TAHOANG
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5170
-
-GeoTools
-dir
-
-Constants
-dir
-
-Properties
-dir
-
