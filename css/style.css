@@ -1,0 +1,52 @@
+body{
+	height:100%;
+	width:100%;
+	margin:0px;
+}
+
+#map{
+	height:100%;
+	width:100%;
+}
+
+#panel{
+	float:right;
+	position:relative;
+	height:100%;
+	width:25%;
+	z-index:10000;
+	background: rgba(142,207,71, 0.5);
+}
+
+.panel{
+	height:calc(50% - 22px);
+	margin:20px;
+	border:2px solid;
+}
+
+.panel-default{
+	border-color:#000000;
+	border-radius:10px;
+}
+
+
+.panel-body{
+	background-color:white;
+	border-radius:10px;
+}
+
+#subpanel{
+	height:calc(100% - 74px);
+}
+
+.btn-group{
+	width:100%;
+}
+
+.btn{
+	width:100%;
+}
+
+.dropdown-menu{
+	width:100%;
+}
