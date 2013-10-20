@@ -5,15 +5,18 @@ body{
 }
 
 #map{
+	position:absolute;
 	height:100%;
 	width:100%;
+	z-index:10;
 }
 
 #panel{
 	float:right;
-	position:relative;
+	position:absolute;
 	height:100%;
 	width:25%;
+	margin-left:75%;
 	z-index:10000;
 	background: rgba(142,207,71, 0.5);
 }
@@ -22,6 +25,7 @@ body{
 	height:calc(50% - 22px);
 	margin:20px;
 	border:2px solid;
+	overflow:auto;
 }
 
 .panel-default{
@@ -43,10 +47,37 @@ body{
 	width:100%;
 }
 
-.btn{
+.btn.btn-default.dropdown-toggle{
 	width:100%;
 }
 
 .dropdown-menu{
 	width:100%;
+}
+
+#button-green{
+	background-color:green;
+}
+
+#button-red{
+	background-color:red;
+}
+
+#button-blue{
+	background-color:blue;
+}
+
+#button-yellow{
+	background-color:yellow;
+}
+
+.btn-group.horizontal {
+    margin: 0 auto; 
+    text-align: center;
+    width: inherit;
+    display: inline-block;
+}
+
+.piechart{
+	height:calc(100% - 105px);
 }
