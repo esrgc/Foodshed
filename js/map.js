@@ -1,12 +1,11 @@
-var p = new MapPane();
-p.init();
-
 function MapPane(){
 	var that=this;
 
 	that.mapObj;
 
-	this.init = function(){
+	that.loadedFilename = null;
+
+	that.init = function(){
 		that.mapObj = L.map('map', {
 			measureControl: true
 		}).setView([42.2, -75.2319], 8);
@@ -20,34 +19,42 @@ function MapPane(){
 		    maxZoom: 18
 		}).addTo(that.mapObj);
 
+		L.featureGroup()
+
 		//that.mapObj=map;
 
-		that.getData("MIData");
+		//that.getData("MIData");
+
+		//that.getData("NYData");
 	};
 
-	this.getData = function(filename){
-		/*$.getJSON("data/"+filename+".json&callback=?", function(data){
-			alert("here 2");
-		});*/
+	that.selectCity = function(loadedFilename, city){
+		that.loadedFilename = loadedFilename;
+
+//		that.mapObj.removeLayer();
+
+		var features = L.featureGroup().addTo(that.mapObj);
 
 		$.ajax({
-			url: "data/"+filename+".json",
+			url: "data/"+that.loadedFilename+".json",
 			processData: true,
 			data: {},
 			dataType: "json",
 			success: function(data) {
-				//alert(data[0]["X (I)"])
-				_.each(data, function(entry){
-				//	var bounds = [[entry["SouthwestLat"], entry["SouthwestLon"]], [entry["SoutheastLat"], entry["SoutheastLon"]], [entry["NortheastLat"], entry["NortheastLon"]], [entry["NorthwestLat"], entry["NorthwestLon"]]];
-
-					L.polygon([
-						[entry["SouthwestLat"], entry["SouthwestLon"]], 
-						[entry["SoutheastLat"], entry["SoutheastLon"]], 
-						[entry["NortheastLat"], entry["NortheastLon"]], 
-						[entry["NorthwestLat"], entry["NorthwestLon"]]
-					]).addTo(that.mapObj);
-				})
-				that.mapObj.panTo(new L.LatLng(data[0]["Latitude (I)"], data[0]["Longitude (I)"]));
+			//	console.log(data.length);
+				for(var i=0;i<data.length;i++){
+				//	console.log("here in for 1");
+		          	var obj = data[i];
+		          	if(data[i][city]!=0){
+						L.polygon([
+							[obj["SouthwestLat"], obj["SouthwestLon"]], 
+							[obj["SoutheastLat"], obj["SoutheastLon"]], 
+							[obj["NortheastLat"], obj["NortheastLon"]], 
+							[obj["NorthwestLat"], obj["NorthwestLon"]]
+						]).addTo(features);
+					}
+				}	
+				that.mapObj.fitBounds(features.getBounds());
 			},
 			error: function(x,y,z) {
 				console.log("Error");
