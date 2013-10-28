@@ -3,6 +3,8 @@ function SidePanel(mapPanel){
 
   var loadedFilename = null;
 
+  that.city = null;
+
   that.mapPanel = mapPanel;
 
   that.init = function(){
@@ -22,10 +24,31 @@ function SidePanel(mapPanel){
 
     $('#dropdown-options-state li').on('click', function() {
         $('#dropdown-title-state').html($(this).find('a').html());
+        $('#dropdown-title-city').html("Select a City");
 
         that.loadedFilename = $(this).find('a').attr("id")+"data";
 
         var cityHTML = that.setCities(that.loadedFilename);
+    });
+
+    $('#button-green').on('click', function() {
+        that.mapPanel.changeColor("0x55ff55");
+        that.mapPanel.selectCity(that.loadedFilename, that.city);
+    });
+
+    $('#button-red').on('click', function() {
+        that.mapPanel.changeColor("0xff5555");
+        that.mapPanel.selectCity(that.loadedFilename, that.city);
+    });
+
+    $('#button-blue').on('click', function() {
+        that.mapPanel.changeColor("0x5555ff");
+        that.mapPanel.selectCity(that.loadedFilename, that.city);
+    });
+
+    $('#button-orange').on('click', function() {
+        that.mapPanel.changeColor("0xff9955");
+        that.mapPanel.selectCity(that.loadedFilename, that.city);
     });
 
     var piechart = new GeoDash.PieChart('.piechart', {
@@ -61,9 +84,11 @@ function SidePanel(mapPanel){
             if(key=="ID"){
               $('#dropdown-options-city').html(cityHTML);
               $('#dropdown-options-city li').on('click', function() {
-                $('#dropdown-title-city').html($(this).find('a').html());
+                that.city = $(this).find('a').html();
 
-                that.mapPanel.selectCity(that.loadedFilename, $(this).find('a').html());
+                $('#dropdown-title-city').html(that.city);
+
+                that.mapPanel.selectCity(that.loadedFilename, that.city);
               });
               return;
             }
