@@ -11,6 +11,7 @@ This assumes that the data is being stored in Manifold.
 * In the CSV file, delete entire columns so that the only ones remaining are "P_(CITY NAME)", "C_(CITY NAME)", and "prodzone"
 * Rename "P_(CITY NAME)" and "C_(CITY NAME)" to "P_(City name)" and "C_(City name)"
 * Now, in Manifold, run the following script, substituting your table name in:
+
 ```sql
 	OPTIONS COORDSYS("Drawing as COMPONENT");
 	SELECT [ID], [Point],
@@ -23,7 +24,8 @@ This assumes that the data is being stored in Manifold.
 		SPLIT BY Coords([Geom (I)] as [Vertex]
 	)
 '''
-Take the generated table and export it to another CSV file. Open it in Excel.
+
+* Take the generated table and export it to another CSV file. Open it in Excel.
 * Delete the first row (the one that contains column titles)
 * In the blank column next to your final column, click on the top cell. Type "=mod(row(), 4)" and hit enter
 * Apply that formula to the rest of the column (use control-enter to apply a formula to many cells at once)
@@ -44,10 +46,13 @@ Take the generated table and export it to another CSV file. Open it in Excel.
 * In the data folder of the application, open Cities.json
 * Add the state abbreviation and the city names in the pattern evident in the file
 * In panel.js, in the line that begins with:
+
 '''javascript
 	$('#dropdown-options-state').html('
 '''
+
 , add the new state in the list with the format
+
 '''html
 	<li><a id="STATE ABBREVIATION" href="#">STATE NAME</a></li>
 '''
