@@ -18,11 +18,11 @@ This assumes that the data is being stored in Manifold.
 		CentroidX([Point]) as [Longitude].
 		CentroidY([Point]) as [Latitude]
 	FROM
-		(Select [ID}, Project([Vertex], COORDSYS("Latitude / Longitude")) as [Point]
+		(Select [ID], Project([Vertex], COORDSYS("Latitude / Longitude")) as [Point]
 		FROM [ YOUR TABLE NAME HERE ] 
 		WHERE IsArea([ID])
 		SPLIT BY Coords([Geom (I)] as [Vertex]
-	)
+	))
 '''
 
 * Take the generated table and export it to another CSV file. Open it in Excel.
