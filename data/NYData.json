@@ -40,7 +40,7 @@
   },
   {
     "C_Jamestown":1869,
-    "P_Dunkirk--Fredonia":331,
+    "P_Dunkirk-Fredonia":331,
     "P_Jamestown":77,
     "prodzone":4,
     "NorthwestLon":-79.77489913,
@@ -93,7 +93,7 @@
   },
   {
     "C_Jamestown":1051,
-    "P_Dunkirk--Fredonia":315,
+    "P_Dunkirk-Fredonia":315,
     "prodzone":8,
     "NorthwestLon":-79.77827577,
     "NorthwestLat":42.1294701,
@@ -145,7 +145,7 @@
   },
   {
     "C_Jamestown":1865,
-    "P_Dunkirk--Fredonia":608,
+    "P_Dunkirk-Fredonia":608,
     "prodzone":12,
     "NorthwestLon":-79.71798586,
     "NorthwestLat":42.13197069,
@@ -222,8 +222,8 @@
     "SouthwestLat":42.08955591
   },
   {
-    "C_Dunkirk--Fredonia":1736,
-    "P_Dunkirk--Fredonia":544,
+    "C_Dunkirk-Fredonia":1736,
+    "P_Dunkirk-Fredonia":544,
     "prodzone":18,
     "NorthwestLon":-79.72132789,
     "NorthwestLat":42.17685005,
@@ -301,7 +301,7 @@
   },
   {
     "C_Jamestown":1748,
-    "P_Dunkirk--Fredonia":594,
+    "P_Dunkirk-Fredonia":594,
     "prodzone":24,
     "NorthwestLon":-79.66098805,
     "NorthwestLat":42.17932294,
@@ -405,8 +405,8 @@
     "SouthwestLat":42.13687715
   },
   {
-    "C_Dunkirk--Fredonia":690,
-    "P_Dunkirk--Fredonia":318,
+    "C_Dunkirk-Fredonia":690,
+    "P_Dunkirk-Fredonia":318,
     "prodzone":32,
     "NorthwestLon":-79.66429526,
     "NorthwestLat":42.22420561,
@@ -509,8 +509,8 @@
     "SouthwestLat":42.139283
   },
   {
-    "C_Dunkirk--Fredonia":698,
-    "P_Dunkirk--Fredonia":321,
+    "C_Dunkirk-Fredonia":698,
+    "P_Dunkirk-Fredonia":321,
     "prodzone":40,
     "NorthwestLon":-79.60390545,
     "NorthwestLat":42.22665069,
@@ -613,7 +613,7 @@
     "SouthwestLat":42.14165726
   },
   {
-    "C_Dunkirk--Fredonia":685,
+    "C_Dunkirk-Fredonia":685,
     "P_Buffalo":301,
     "prodzone":48,
     "NorthwestLon":-79.54350818,
@@ -626,8 +626,8 @@
     "SouthwestLat":42.18417382
   },
   {
-    "C_Dunkirk--Fredonia":732,
-    "P_Dunkirk--Fredonia":337,
+    "C_Dunkirk-Fredonia":732,
+    "P_Dunkirk-Fredonia":337,
     "prodzone":49,
     "NorthwestLon":-79.60717767,
     "NorthwestLat":42.27153662,
@@ -717,7 +717,7 @@
     "SouthwestLat":42.14399991
   },
   {
-    "C_Dunkirk--Fredonia":350,
+    "C_Dunkirk-Fredonia":350,
     "P_Silver Creek":147,
     "prodzone":56,
     "NorthwestLon":-79.48310356,
@@ -730,8 +730,8 @@
     "SouthwestLat":42.18655179
   },
   {
-    "C_Dunkirk--Fredonia":973,
-    "P_Dunkirk--Fredonia":382,
+    "C_Dunkirk-Fredonia":973,
+    "P_Dunkirk-Fredonia":382,
     "prodzone":57,
     "NorthwestLon":-79.54673784,
     "NorthwestLat":42.27395379,
@@ -743,9 +743,9 @@
     "SouthwestLat":42.22906408
   },
   {
-    "C_Dunkirk--Fredonia":1122,
+    "C_Dunkirk-Fredonia":1122,
     "C_West Hurley":278,
-    "P_Dunkirk--Fredonia":468,
+    "P_Dunkirk-Fredonia":468,
     "prodzone":58,
     "NorthwestLon":-79.61045737,
     "NorthwestLat":42.31642199,
@@ -757,7 +757,7 @@
     "SouthwestLat":42.27153662
   },
   {
-    "C_Dunkirk--Fredonia":266,
+    "C_Dunkirk-Fredonia":266,
     "P_Buffalo":96,
     "prodzone":59,
     "NorthwestLon":-79.67426229,
@@ -848,7 +848,7 @@
     "SouthwestLat":42.18889811
   },
   {
-    "C_Dunkirk--Fredonia":1561,
+    "C_Dunkirk-Fredonia":1561,
     "P_Buffalo":504,
     "prodzone":66,
     "NorthwestLon":-79.48629063,
@@ -861,8 +861,8 @@
     "SouthwestLat":42.23144578
   },
   {
-    "C_Dunkirk--Fredonia":747,
-    "P_Dunkirk--Fredonia":344,
+    "C_Dunkirk-Fredonia":747,
+    "P_Dunkirk-Fredonia":344,
     "prodzone":67,
     "NorthwestLon":-79.54997487,
     "NorthwestLat":42.31884294,
@@ -874,7 +874,7 @@
     "SouthwestLat":42.27395379
   },
   {
-    "C_Dunkirk--Fredonia":1678,
+    "C_Dunkirk-Fredonia":1678,
     "P_Buffalo":476,
     "prodzone":68,
     "NorthwestLon":-79.61374455,
@@ -965,7 +965,7 @@
     "SouthwestLat":42.19121275
   },
   {
-    "C_Dunkirk--Fredonia":637,
+    "C_Dunkirk-Fredonia":637,
     "P_Silver Creek":287,
     "prodzone":75,
     "NorthwestLon":-79.42583615,
@@ -978,7 +978,7 @@
     "SouthwestLat":42.23379576
   },
   {
-    "C_Dunkirk--Fredonia":904,
+    "C_Dunkirk-Fredonia":904,
     "P_Buffalo":384,
     "prodzone":76,
     "NorthwestLon":-79.48948499,
@@ -991,9 +991,9 @@
     "SouthwestLat":42.27633921
   },
   {
-    "C_Dunkirk--Fredonia":2300,
+    "C_Dunkirk-Fredonia":2300,
     "P_Buffalo":432,
-    "P_Dunkirk--Fredonia":280,
+    "P_Dunkirk-Fredonia":280,
     "prodzone":77,
     "NorthwestLon":-79.5532193,
     "NorthwestLat":42.36373154,
@@ -1097,7 +1097,7 @@
     "SouthwestLat":42.23611403
   },
   {
-    "C_Dunkirk--Fredonia":770,
+    "C_Dunkirk-Fredonia":770,
     "P_Silver Creek":292,
     "prodzone":85,
     "NorthwestLon":-79.4289878,
@@ -1110,8 +1110,8 @@
     "SouthwestLat":42.27869288
   },
   {
-    "C_Dunkirk--Fredonia":900,
-    "P_Dunkirk--Fredonia":386,
+    "C_Dunkirk-Fredonia":900,
+    "P_Dunkirk-Fredonia":386,
     "prodzone":86,
     "NorthwestLon":-79.49268664,
     "NorthwestLat":42.36612444,
@@ -1123,7 +1123,7 @@
     "SouthwestLat":42.3212321
   },
   {
-    "C_Dunkirk--Fredonia":446,
+    "C_Dunkirk-Fredonia":446,
     "P_Buffalo":143,
     "prodzone":87,
     "NorthwestLon":-79.55647115,
@@ -1242,7 +1242,7 @@
     "SouthwestLat":42.28101478
   },
   {
-    "C_Dunkirk--Fredonia":827,
+    "C_Dunkirk-Fredonia":827,
     "P_Buffalo":304,
     "prodzone":96,
     "NorthwestLon":-79.43214666,
@@ -1255,7 +1255,7 @@
     "SouthwestLat":42.32358945
   },
   {
-    "C_Dunkirk--Fredonia":2242,
+    "C_Dunkirk-Fredonia":2242,
     "P_Buffalo":613,
     "prodzone":97,
     "NorthwestLon":-79.49589561,
@@ -1372,7 +1372,7 @@
     "SouthwestLat":42.2833049
   },
   {
-    "C_Dunkirk--Fredonia":549,
+    "C_Dunkirk-Fredonia":549,
     "C_Silver Creek":359,
     "P_Silver Creek":351,
     "prodzone":106,
@@ -1386,8 +1386,8 @@
     "SouthwestLat":42.32591498
   },
   {
-    "C_Dunkirk--Fredonia":1665,
-    "P_Dunkirk--Fredonia":579,
+    "C_Dunkirk-Fredonia":1665,
+    "P_Dunkirk-Fredonia":579,
     "prodzone":107,
     "NorthwestLon":-79.43531273,
     "NorthwestLat":42.41338096,
@@ -1399,7 +1399,7 @@
     "SouthwestLat":42.36848548
   },
   {
-    "C_Dunkirk--Fredonia":62,
+    "C_Dunkirk-Fredonia":62,
     "P_Buffalo":22,
     "prodzone":108,
     "NorthwestLon":-79.49911192,
@@ -1527,7 +1527,7 @@
     "SouthwestLat":42.32820869
   },
   {
-    "C_Dunkirk--Fredonia":1090,
+    "C_Dunkirk-Fredonia":1090,
     "P_Buffalo":457,
     "prodzone":118,
     "NorthwestLon":-79.37472262,
@@ -1540,7 +1540,7 @@
     "SouthwestLat":42.37081465
   },
   {
-    "C_Dunkirk--Fredonia":1750,
+    "C_Dunkirk-Fredonia":1750,
     "P_Buffalo":599,
     "prodzone":119,
     "NorthwestLon":-79.43848605,
@@ -1681,8 +1681,8 @@
     "SouthwestLat":42.37311194
   },
   {
-    "C_Dunkirk--Fredonia":2622,
-    "P_Dunkirk--Fredonia":747,
+    "C_Dunkirk-Fredonia":2622,
+    "P_Dunkirk-Fredonia":747,
     "prodzone":130,
     "NorthwestLon":-79.37785293,
     "NorthwestLat":42.46061236,
@@ -9777,7 +9777,7 @@
   },
   {
     "C_Buffalo":2581,
-    "C_New York--Newark":121,
+    "C_New York-Newark":121,
     "P_Buffalo":868,
     "prodzone":751,
     "NorthwestLon":-78.8236224,
@@ -10183,8 +10183,8 @@
     "SouthwestLat":43.25003279
   },
   {
-    "C_New York--Newark":4008,
-    "P_New York--Newark":977,
+    "C_New York-Newark":4008,
+    "P_New York-Newark":977,
     "prodzone":782,
     "NorthwestLon":-78.76207598,
     "NorthwestLat":43.33788083,
@@ -10590,8 +10590,8 @@
     "SouthwestLat":43.25200447
   },
   {
-    "C_New York--Newark":4301,
-    "P_New York--Newark":1151,
+    "C_New York-Newark":4301,
+    "P_New York-Newark":1151,
     "prodzone":813,
     "NorthwestLon":-78.70052315,
     "NorthwestLat":43.33989172,
@@ -11008,9 +11008,9 @@
     "SouthwestLat":43.25394317
   },
   {
-    "C_New York--Newark":4205,
+    "C_New York-Newark":4205,
     "P_Lockport":21,
-    "P_New York--Newark":1145,
+    "P_New York-Newark":1145,
     "prodzone":845,
     "NorthwestLon":-78.63896402,
     "NorthwestLat":43.34186956,
@@ -11022,8 +11022,8 @@
     "SouthwestLat":43.29693725
   },
   {
-    "C_New York--Newark":804,
-    "P_New York--Newark":176,
+    "C_New York-Newark":804,
+    "P_New York-Newark":176,
     "prodzone":846,
     "NorthwestLon":-78.70325873,
     "NorthwestLat":43.38482045,
@@ -11443,8 +11443,8 @@
     "SouthwestLat":43.29887899
   },
   {
-    "C_New York--Newark":1278,
-    "P_New York--Newark":423,
+    "C_New York-Newark":1278,
+    "P_New York-Newark":423,
     "prodzone":878,
     "NorthwestLon":-78.64165434,
     "NorthwestLat":43.38680137,
@@ -11860,7 +11860,7 @@
     "SouthwestLat":43.30078771
   },
   {
-    "C_New York--Newark":1818,
+    "C_New York-Newark":1818,
     "P_Lockport":562,
     "prodzone":910,
     "NorthwestLon":-78.58004374,
@@ -22572,7 +22572,7 @@
     "SouthwestLat":40.91750025
   },
   {
-    "C_Bridgeport--Stamford":8,
+    "C_Bridgeport-Stamford":8,
     "P_Newfane":3,
     "prodzone":1742,
     "NorthwestLon":-73.92933575,
@@ -22585,7 +22585,7 @@
     "SouthwestLat":40.96310009
   },
   {
-    "C_Bridgeport--Stamford":7,
+    "C_Bridgeport-Stamford":7,
     "P_Newfane":2,
     "prodzone":1743,
     "NorthwestLon":-73.98809641,
@@ -23338,7 +23338,7 @@
     "SouthwestLat":40.91690392
   },
   {
-    "C_Bridgeport--Stamford":3,
+    "C_Bridgeport-Stamford":3,
     "P_Newfane":1,
     "prodzone":1802,
     "NorthwestLon":-73.86988741,
@@ -23351,7 +23351,7 @@
     "SouthwestLat":40.96253341
   },
   {
-    "C_Bridgeport--Stamford":1,
+    "C_Bridgeport-Stamford":1,
     "P_Newfane":1,
     "prodzone":1803,
     "NorthwestLon":-73.9286059,
@@ -23364,7 +23364,7 @@
     "SouthwestLat":41.00813377
   },
   {
-    "C_Bridgeport--Stamford":3,
+    "C_Bridgeport-Stamford":3,
     "P_Newfane":1,
     "prodzone":1804,
     "NorthwestLon":-73.9874055,
@@ -24104,7 +24104,7 @@
     "SouthwestLat":40.91627703
   },
   {
-    "C_Bridgeport--Stamford":5,
+    "C_Bridgeport-Stamford":5,
     "P_Newfane":1,
     "prodzone":1862,
     "NorthwestLon":-73.8104408,
@@ -24117,7 +24117,7 @@
     "SouthwestLat":40.96193613
   },
   {
-    "C_Bridgeport--Stamford":2,
+    "C_Bridgeport-Stamford":2,
     "P_Newfane":1,
     "prodzone":1863,
     "NorthwestLon":-73.86911705,
@@ -24130,7 +24130,7 @@
     "SouthwestLat":41.0075662
   },
   {
-    "C_Bridgeport--Stamford":1,
+    "C_Bridgeport-Stamford":1,
     "prodzone":1864,
     "NorthwestLon":-73.9278744,
     "NorthwestLat":41.09820005,
@@ -24142,7 +24142,7 @@
     "SouthwestLat":41.05316709
   },
   {
-    "C_Bridgeport--Stamford":5,
+    "C_Bridgeport-Stamford":5,
     "P_Newfane":1,
     "prodzone":1865,
     "NorthwestLon":-73.98671303,
@@ -24869,7 +24869,7 @@
     "SouthwestLat":40.91561959
   },
   {
-    "C_Bridgeport--Stamford":9,
+    "C_Bridgeport-Stamford":9,
     "P_Newfane":3,
     "prodzone":1922,
     "NorthwestLon":-73.75099604,
@@ -24893,7 +24893,7 @@
     "SouthwestLat":41.00696798
   },
   {
-    "C_Bridgeport--Stamford":55,
+    "C_Bridgeport-Stamford":55,
     "P_Newfane":20,
     "prodzone":1924,
     "NorthwestLon":-73.86834495,
@@ -24906,7 +24906,7 @@
     "SouthwestLat":41.05259862
   },
   {
-    "C_Bridgeport--Stamford":4,
+    "C_Bridgeport-Stamford":4,
     "P_Newfane":4,
     "prodzone":1925,
     "NorthwestLon":-73.92714123,
@@ -25666,7 +25666,7 @@
     "SouthwestLat":40.96064977
   },
   {
-    "C_Bridgeport--Stamford":39,
+    "C_Bridgeport-Stamford":39,
     "P_Newfane":10,
     "prodzone":1984,
     "NorthwestLon":-73.75014469,
@@ -25679,7 +25679,7 @@
     "SouthwestLat":41.00633911
   },
   {
-    "C_Bridgeport--Stamford":32,
+    "C_Bridgeport-Stamford":32,
     "P_Newfane":10,
     "prodzone":1985,
     "NorthwestLon":-73.80881726,
@@ -25692,7 +25692,7 @@
     "SouthwestLat":41.05199946
   },
   {
-    "C_Bridgeport--Stamford":209,
+    "C_Bridgeport-Stamford":209,
     "P_Newfane":77,
     "prodzone":1986,
     "NorthwestLon":-73.8675711,
@@ -25705,7 +25705,7 @@
     "SouthwestLat":41.09763068
   },
   {
-    "C_Bridgeport--Stamford":21,
+    "C_Bridgeport-Stamford":21,
     "P_Newfane":8,
     "prodzone":1987,
     "NorthwestLon":-73.9264064,
@@ -26435,7 +26435,7 @@
     "SouthwestLat":40.9599607
   },
   {
-    "C_Bridgeport--Stamford":12,
+    "C_Bridgeport-Stamford":12,
     "P_Newfane":3,
     "prodzone":2044,
     "NorthwestLon":-73.69066136,
@@ -26448,7 +26448,7 @@
     "SouthwestLat":41.00567959
   },
   {
-    "C_Bridgeport--Stamford":61,
+    "C_Bridgeport-Stamford":61,
     "P_Newfane":16,
     "prodzone":2045,
     "NorthwestLon":-73.74929141,
@@ -26461,7 +26461,7 @@
     "SouthwestLat":41.05136959
   },
   {
-    "C_Bridgeport--Stamford":32,
+    "C_Bridgeport-Stamford":32,
     "P_Newfane":9,
     "prodzone":2046,
     "NorthwestLon":-73.80800272,
@@ -26474,7 +26474,7 @@
     "SouthwestLat":41.09703057
   },
   {
-    "C_Bridgeport--Stamford":79,
+    "C_Bridgeport-Stamford":79,
     "P_Newfane":24,
     "prodzone":2047,
     "NorthwestLon":-73.86679549,
@@ -26565,7 +26565,7 @@
     "SouthwestLat":41.4158325
   },
   {
-    "C_Montgomery--Maybrook":1673,
+    "C_Montgomery-Maybrook":1673,
     "P_Newfane":536,
     "prodzone":2054,
     "NorthwestLon":-74.28064191,
@@ -27198,7 +27198,7 @@
     "SouthwestLat":40.913464
   },
   {
-    "C_Bridgeport--Stamford":8,
+    "C_Bridgeport-Stamford":8,
     "P_Newfane":2,
     "prodzone":2103,
     "NorthwestLon":-73.68976749,
@@ -27211,7 +27211,7 @@
     "SouthwestLat":41.05070904
   },
   {
-    "C_Bridgeport--Stamford":63,
+    "C_Bridgeport-Stamford":63,
     "P_Newfane":18,
     "prodzone":2104,
     "NorthwestLon":-73.74843619,
@@ -27224,7 +27224,7 @@
     "SouthwestLat":41.09639972
   },
   {
-    "C_Bridgeport--Stamford":12,
+    "C_Bridgeport-Stamford":12,
     "P_Newfane":4,
     "prodzone":2105,
     "NorthwestLon":-73.80718633,
@@ -27237,7 +27237,7 @@
     "SouthwestLat":41.14206132
   },
   {
-    "C_Bridgeport--Stamford":78,
+    "C_Bridgeport-Stamford":78,
     "P_Newfane":24,
     "prodzone":2106,
     "NorthwestLon":-73.86601811,
@@ -27315,7 +27315,7 @@
     "SouthwestLat":41.41541231
   },
   {
-    "C_Montgomery--Maybrook":645,
+    "C_Montgomery-Maybrook":645,
     "P_Newfane":262,
     "prodzone":2112,
     "NorthwestLon":-74.22073414,
@@ -27328,7 +27328,7 @@
     "SouthwestLat":41.46086635
   },
   {
-    "C_Montgomery--Maybrook":1658,
+    "C_Montgomery-Maybrook":1658,
     "P_Newfane":497,
     "prodzone":2113,
     "NorthwestLon":-74.28014286,
@@ -27955,8 +27955,8 @@
     "SouthwestLat":40.91268439
   },
   {
-    "C_Bridgeport--Stamford":21,
-    "P_Bridgeport--Stamford":6,
+    "C_Bridgeport-Stamford":21,
+    "P_Bridgeport-Stamford":6,
     "prodzone":2162,
     "NorthwestLon":-73.6888716,
     "NorthwestLat":41.14076683,
@@ -27968,8 +27968,8 @@
     "SouthwestLat":41.09573812
   },
   {
-    "C_Bridgeport--Stamford":145,
-    "P_Bridgeport--Stamford":49,
+    "C_Bridgeport-Stamford":145,
+    "P_Bridgeport-Stamford":49,
     "prodzone":2163,
     "NorthwestLon":-73.74757903,
     "NorthwestLat":41.18645885,
@@ -27981,7 +27981,7 @@
     "SouthwestLat":41.14142947
   },
   {
-    "C_Bridgeport--Stamford":59,
+    "C_Bridgeport-Stamford":59,
     "P_Newfane":21,
     "prodzone":2164,
     "NorthwestLon":-73.80636809,
@@ -27994,7 +27994,7 @@
     "SouthwestLat":41.1870917
   },
   {
-    "C_Bridgeport--Stamford":119,
+    "C_Bridgeport-Stamford":119,
     "P_Newfane":34,
     "prodzone":2165,
     "NorthwestLon":-73.86523898,
@@ -28072,7 +28072,7 @@
     "SouthwestLat":41.46044549
   },
   {
-    "C_Montgomery--Maybrook":1090,
+    "C_Montgomery-Maybrook":1090,
     "P_Newfane":476,
     "prodzone":2171,
     "NorthwestLon":-74.22019354,
@@ -28085,7 +28085,7 @@
     "SouthwestLat":41.50589983
   },
   {
-    "C_Montgomery--Maybrook":1608,
+    "C_Montgomery-Maybrook":1608,
     "P_Newfane":529,
     "prodzone":2172,
     "NorthwestLon":-74.27964267,
@@ -28138,7 +28138,7 @@
   },
   {
     "C_Ellenville":91,
-    "P_Montgomery--Maybrook":35,
+    "P_Montgomery-Maybrook":35,
     "prodzone":2176,
     "NorthwestLon":-74.51827503,
     "NorthwestLat":41.77774826,
@@ -28702,8 +28702,8 @@
     "SouthwestLat":40.91187425
   },
   {
-    "C_Bridgeport--Stamford":54,
-    "P_Bridgeport--Stamford":14,
+    "C_Bridgeport-Stamford":54,
+    "P_Bridgeport-Stamford":14,
     "prodzone":2220,
     "NorthwestLon":-73.68797368,
     "NorthwestLat":41.18579517,
@@ -28715,8 +28715,8 @@
     "SouthwestLat":41.14076683
   },
   {
-    "C_Bridgeport--Stamford":263,
-    "P_Bridgeport--Stamford":80,
+    "C_Bridgeport-Stamford":263,
+    "P_Bridgeport-Stamford":80,
     "prodzone":2221,
     "NorthwestLon":-73.74671993,
     "NorthwestLat":41.23148787,
@@ -28728,8 +28728,8 @@
     "SouthwestLat":41.18645885
   },
   {
-    "C_Bridgeport--Stamford":144,
-    "P_Bridgeport--Stamford":44,
+    "C_Bridgeport-Stamford":144,
+    "P_Bridgeport-Stamford":44,
     "prodzone":2222,
     "NorthwestLon":-73.80554799,
     "NorthwestLat":41.27715137,
@@ -28742,7 +28742,7 @@
   },
   {
     "C_Highland Mills":77,
-    "P_Bridgeport--Stamford":22,
+    "P_Bridgeport-Stamford":22,
     "prodzone":2223,
     "NorthwestLon":-73.86445807,
     "NorthwestLat":41.32278551,
@@ -28793,7 +28793,7 @@
     "SouthwestLat":41.41447862
   },
   {
-    "C_Poughkeepsie--Newburgh":171,
+    "C_Poughkeepsie-Newburgh":171,
     "P_Newfane":75,
     "prodzone":2227,
     "NorthwestLon":-74.10092239,
@@ -28806,8 +28806,8 @@
     "SouthwestLat":41.45999349
   },
   {
-    "C_Montgomery--Maybrook":366,
-    "C_Poughkeepsie--Newburgh":124,
+    "C_Montgomery-Maybrook":366,
+    "C_Poughkeepsie-Newburgh":124,
     "P_Newfane":199,
     "prodzone":2228,
     "NorthwestLon":-74.16024545,
@@ -28820,7 +28820,7 @@
     "SouthwestLat":41.50547831
   },
   {
-    "C_Montgomery--Maybrook":1691,
+    "C_Montgomery-Maybrook":1691,
     "P_Newfane":568,
     "prodzone":2229,
     "NorthwestLon":-74.21965171,
@@ -28951,7 +28951,7 @@
   },
   {
     "C_Liberty":11,
-    "P_Montgomery--Maybrook":48,
+    "P_Montgomery-Maybrook":48,
     "prodzone":2239,
     "NorthwestLon":-74.81833266,
     "NorthwestLat":42.04882003,
@@ -29424,7 +29424,7 @@
     "SouthwestLat":40.91103358
   },
   {
-    "C_Bridgeport--Stamford":39,
+    "C_Bridgeport-Stamford":39,
     "P_Newfane":10,
     "prodzone":2276,
     "NorthwestLon":-73.62837037,
@@ -29437,8 +29437,8 @@
     "SouthwestLat":41.14007339
   },
   {
-    "C_Bridgeport--Stamford":315,
-    "P_Bridgeport--Stamford":86,
+    "C_Bridgeport-Stamford":315,
+    "P_Bridgeport-Stamford":86,
     "prodzone":2277,
     "NorthwestLon":-73.68707372,
     "NorthwestLat":41.23082314,
@@ -29450,8 +29450,8 @@
     "SouthwestLat":41.18579517
   },
   {
-    "C_Bridgeport--Stamford":119,
-    "P_Bridgeport--Stamford":40,
+    "C_Bridgeport-Stamford":119,
+    "P_Bridgeport-Stamford":40,
     "prodzone":2278,
     "NorthwestLon":-73.74585887,
     "NorthwestLat":41.27651652,
@@ -29463,8 +29463,8 @@
     "SouthwestLat":41.23148787
   },
   {
-    "C_Bridgeport--Stamford":312,
-    "P_Bridgeport--Stamford":89,
+    "C_Bridgeport-Stamford":312,
+    "P_Bridgeport-Stamford":89,
     "prodzone":2279,
     "NorthwestLon":-73.80472603,
     "NorthwestLat":41.32218065,
@@ -29477,7 +29477,7 @@
   },
   {
     "C_Highland Mills":83,
-    "P_Bridgeport--Stamford":24,
+    "P_Bridgeport-Stamford":24,
     "prodzone":2280,
     "NorthwestLon":-73.86367538,
     "NorthwestLat":41.36781537,
@@ -29490,7 +29490,7 @@
   },
   {
     "C_Highland Mills":12,
-    "P_Bridgeport--Stamford":4,
+    "P_Bridgeport-Stamford":4,
     "prodzone":2281,
     "NorthwestLon":-73.92270713,
     "NorthwestLat":41.41342055,
@@ -29502,8 +29502,8 @@
     "SouthwestLat":41.36839014
   },
   {
-    "C_Poughkeepsie--Newburgh":39,
-    "P_Bridgeport--Stamford":11,
+    "C_Poughkeepsie-Newburgh":39,
+    "P_Bridgeport-Stamford":11,
     "prodzone":2282,
     "NorthwestLon":-73.98182147,
     "NorthwestLat":41.45899603,
@@ -29515,7 +29515,7 @@
     "SouthwestLat":41.41396513
   },
   {
-    "C_Poughkeepsie--Newburgh":58,
+    "C_Poughkeepsie-Newburgh":58,
     "P_Newfane":22,
     "prodzone":2283,
     "NorthwestLon":-74.04101859,
@@ -29528,7 +29528,7 @@
     "SouthwestLat":41.45951033
   },
   {
-    "C_Poughkeepsie--Newburgh":97,
+    "C_Poughkeepsie-Newburgh":97,
     "P_Newfane":43,
     "prodzone":2284,
     "NorthwestLon":-74.10029869,
@@ -29541,7 +29541,7 @@
     "SouthwestLat":41.50502559
   },
   {
-    "C_Poughkeepsie--Newburgh":976,
+    "C_Poughkeepsie-Newburgh":976,
     "P_Newfane":306,
     "prodzone":2285,
     "NorthwestLon":-74.15966198,
@@ -29733,7 +29733,7 @@
   },
   {
     "C_Liberty":485,
-    "P_Montgomery--Maybrook":325,
+    "P_Montgomery-Maybrook":325,
     "prodzone":2300,
     "NorthwestLon":-75.06022656,
     "NorthwestLat":42.27410958,
@@ -29746,7 +29746,7 @@
   },
   {
     "C_Liberty":589,
-    "P_Montgomery--Maybrook":262,
+    "P_Montgomery-Maybrook":262,
     "prodzone":2301,
     "NorthwestLon":-75.12094748,
     "NorthwestLat":42.31909287,
@@ -30165,7 +30165,7 @@
     "SouthwestLat":41.13934918
   },
   {
-    "C_Bridgeport--Stamford":69,
+    "C_Bridgeport-Stamford":69,
     "P_Newfane":19,
     "prodzone":2334,
     "NorthwestLon":-73.62742955,
@@ -30178,8 +30178,8 @@
     "SouthwestLat":41.18510064
   },
   {
-    "C_Bridgeport--Stamford":287,
-    "P_Bridgeport--Stamford":85,
+    "C_Bridgeport-Stamford":287,
+    "P_Bridgeport-Stamford":85,
     "prodzone":2335,
     "NorthwestLon":-73.68617171,
     "NorthwestLat":41.27585074,
@@ -30191,8 +30191,8 @@
     "SouthwestLat":41.23082314
   },
   {
-    "C_Bridgeport--Stamford":242,
-    "P_Bridgeport--Stamford":71,
+    "C_Bridgeport-Stamford":242,
+    "P_Bridgeport-Stamford":71,
     "prodzone":2336,
     "NorthwestLon":-73.74499586,
     "NorthwestLat":41.3215448,
@@ -30205,7 +30205,7 @@
   },
   {
     "C_Highland Mills":402,
-    "P_Bridgeport--Stamford":115,
+    "P_Bridgeport-Stamford":115,
     "prodzone":2337,
     "NorthwestLon":-73.8039022,
     "NorthwestLat":41.36720956,
@@ -30217,8 +30217,8 @@
     "SouthwestLat":41.32218065
   },
   {
-    "C_Poughkeepsie--Newburgh":14,
-    "P_Bridgeport--Stamford":5,
+    "C_Poughkeepsie-Newburgh":14,
+    "P_Bridgeport-Stamford":5,
     "prodzone":2338,
     "NorthwestLon":-73.86289092,
     "NorthwestLat":41.41284488,
@@ -30230,8 +30230,8 @@
     "SouthwestLat":41.36781537
   },
   {
-    "C_Poughkeepsie--Newburgh":110,
-    "P_Bridgeport--Stamford":38,
+    "C_Poughkeepsie-Newburgh":110,
+    "P_Bridgeport-Stamford":38,
     "prodzone":2339,
     "NorthwestLon":-73.92196222,
     "NorthwestLat":41.45845059,
@@ -30243,8 +30243,8 @@
     "SouthwestLat":41.41342055
   },
   {
-    "C_Poughkeepsie--Newburgh":58,
-    "P_Bridgeport--Stamford":15,
+    "C_Poughkeepsie-Newburgh":58,
+    "P_Bridgeport-Stamford":15,
     "prodzone":2340,
     "NorthwestLon":-73.9811163,
     "NorthwestLat":41.50402657,
@@ -30256,8 +30256,8 @@
     "SouthwestLat":41.45899603
   },
   {
-    "C_Poughkeepsie--Newburgh":19,
-    "P_Bridgeport--Stamford":7,
+    "C_Poughkeepsie-Newburgh":19,
+    "P_Bridgeport-Stamford":7,
     "prodzone":2341,
     "NorthwestLon":-74.04035335,
     "NorthwestLat":41.54957266,
@@ -30269,7 +30269,7 @@
     "SouthwestLat":41.50454168
   },
   {
-    "C_Poughkeepsie--Newburgh":125,
+    "C_Poughkeepsie-Newburgh":125,
     "P_Newfane":37,
     "prodzone":2342,
     "NorthwestLon":-74.09967358,
@@ -30542,7 +30542,7 @@
   },
   {
     "C_Sidney":682,
-    "P_Montgomery--Maybrook":275,
+    "P_Montgomery-Maybrook":275,
     "prodzone":2363,
     "NorthwestLon":-75.36496037,
     "NorthwestLat":42.54372643,
@@ -30555,7 +30555,7 @@
   },
   {
     "C_Norwich":666,
-    "P_Montgomery--Maybrook":137,
+    "P_Montgomery-Maybrook":137,
     "P_Newfane":182,
     "prodzone":2364,
     "NorthwestLon":-75.4261603,
@@ -30890,7 +30890,7 @@
     "SouthwestLat":40.90926066
   },
   {
-    "C_Bridgeport--Stamford":12,
+    "C_Bridgeport-Stamford":12,
     "P_Newfane":4,
     "prodzone":2390,
     "NorthwestLon":-73.56778752,
@@ -30903,7 +30903,7 @@
     "SouthwestLat":41.18437528
   },
   {
-    "C_Bridgeport--Stamford":187,
+    "C_Bridgeport-Stamford":187,
     "P_Newfane":57,
     "prodzone":2391,
     "NorthwestLon":-73.6264866,
@@ -30916,8 +30916,8 @@
     "SouthwestLat":41.23012752
   },
   {
-    "C_Bridgeport--Stamford":94,
-    "P_Bridgeport--Stamford":29,
+    "C_Bridgeport-Stamford":94,
+    "P_Bridgeport-Stamford":29,
     "prodzone":2392,
     "NorthwestLon":-73.68526765,
     "NorthwestLat":41.32087797,
@@ -30929,8 +30929,8 @@
     "SouthwestLat":41.27585074
   },
   {
-    "C_Bridgeport--Stamford":43,
-    "P_Bridgeport--Stamford":15,
+    "C_Bridgeport-Stamford":43,
+    "P_Bridgeport-Stamford":15,
     "prodzone":2393,
     "NorthwestLon":-73.74413089,
     "NorthwestLat":41.36657272,
@@ -30942,8 +30942,8 @@
     "SouthwestLat":41.3215448
   },
   {
-    "C_Poughkeepsie--Newburgh":198,
-    "P_Bridgeport--Stamford":56,
+    "C_Poughkeepsie-Newburgh":198,
+    "P_Bridgeport-Stamford":56,
     "prodzone":2394,
     "NorthwestLon":-73.80307649,
     "NorthwestLat":41.41223811,
@@ -30966,8 +30966,8 @@
     "SouthwestLat":41.41284488
   },
   {
-    "C_Poughkeepsie--Newburgh":16,
-    "P_Bridgeport--Stamford":5,
+    "C_Poughkeepsie-Newburgh":16,
+    "P_Bridgeport-Stamford":5,
     "prodzone":2396,
     "NorthwestLon":-73.92121562,
     "NorthwestLat":41.50348027,
@@ -30979,8 +30979,8 @@
     "SouthwestLat":41.45845059
   },
   {
-    "C_Poughkeepsie--Newburgh":170,
-    "P_Bridgeport--Stamford":70,
+    "C_Poughkeepsie-Newburgh":170,
+    "P_Bridgeport-Stamford":70,
     "prodzone":2397,
     "NorthwestLon":-73.98040953,
     "NorthwestLat":41.54905675,
@@ -30992,8 +30992,8 @@
     "SouthwestLat":41.50402657
   },
   {
-    "C_Poughkeepsie--Newburgh":575,
-    "P_Bridgeport--Stamford":252,
+    "C_Poughkeepsie-Newburgh":575,
+    "P_Bridgeport-Stamford":252,
     "prodzone":2398,
     "NorthwestLon":-74.0396866,
     "NorthwestLat":41.59460329,
@@ -31005,8 +31005,8 @@
     "SouthwestLat":41.54957266
   },
   {
-    "C_Poughkeepsie--Newburgh":197,
-    "P_Poughkeepsie--Newburgh":87,
+    "C_Poughkeepsie-Newburgh":197,
+    "P_Poughkeepsie-Newburgh":87,
     "prodzone":2399,
     "NorthwestLon":-74.09904704,
     "NorthwestLat":41.64011975,
@@ -31019,7 +31019,7 @@
   },
   {
     "C_Newark":1535,
-    "P_Poughkeepsie--Newburgh":459,
+    "P_Poughkeepsie-Newburgh":459,
     "prodzone":2400,
     "NorthwestLon":-74.15849104,
     "NorthwestLat":41.68560598,
@@ -31328,7 +31328,7 @@
   },
   {
     "C_Norwich":1554,
-    "P_Montgomery--Maybrook":492,
+    "P_Montgomery-Maybrook":492,
     "prodzone":2424,
     "NorthwestLon":-75.61072898,
     "NorthwestLat":42.76782119,
@@ -31341,7 +31341,7 @@
   },
   {
     "C_Hamilton":1008,
-    "P_Montgomery--Maybrook":470,
+    "P_Montgomery-Maybrook":470,
     "prodzone":2425,
     "NorthwestLon":-75.67232626,
     "NorthwestLat":42.81250325,
@@ -31622,7 +31622,7 @@
     "SouthwestLat":40.95428081
   },
   {
-    "C_Bridgeport--Stamford":1,
+    "C_Bridgeport-Stamford":1,
     "prodzone":2447,
     "NorthwestLon":-73.50814772,
     "NorthwestLat":41.22864364,
@@ -31634,7 +31634,7 @@
     "SouthwestLat":41.18361909
   },
   {
-    "C_Bridgeport--Stamford":103,
+    "C_Bridgeport-Stamford":103,
     "P_Newfane":29,
     "prodzone":2448,
     "NorthwestLon":-73.56680363,
@@ -31647,7 +31647,7 @@
     "SouthwestLat":41.22940102
   },
   {
-    "C_Bridgeport--Stamford":323,
+    "C_Bridgeport-Stamford":323,
     "P_Newfane":93,
     "prodzone":2449,
     "NorthwestLon":-73.6255415,
@@ -31660,7 +31660,7 @@
     "SouthwestLat":41.27515402
   },
   {
-    "C_Bridgeport--Stamford":121,
+    "C_Bridgeport-Stamford":121,
     "P_Newfane":40,
     "prodzone":2450,
     "NorthwestLon":-73.68436154,
@@ -31673,8 +31673,8 @@
     "SouthwestLat":41.32087797
   },
   {
-    "C_Poughkeepsie--Newburgh":13,
-    "P_Bridgeport--Stamford":4,
+    "C_Poughkeepsie-Newburgh":13,
+    "P_Bridgeport-Stamford":4,
     "prodzone":2451,
     "NorthwestLon":-73.74326394,
     "NorthwestLat":41.41160026,
@@ -31686,8 +31686,8 @@
     "SouthwestLat":41.36657272
   },
   {
-    "C_Poughkeepsie--Newburgh":2,
-    "P_Bridgeport--Stamford":1,
+    "C_Poughkeepsie-Newburgh":2,
+    "P_Bridgeport-Stamford":1,
     "prodzone":2452,
     "NorthwestLon":-73.80224891,
     "NorthwestLat":41.45726629,
@@ -31699,8 +31699,8 @@
     "SouthwestLat":41.41223811
   },
   {
-    "C_Poughkeepsie--Newburgh":7,
-    "P_Bridgeport--Stamford":3,
+    "C_Poughkeepsie-Newburgh":7,
+    "P_Bridgeport-Stamford":3,
     "prodzone":2453,
     "NorthwestLon":-73.86131663,
     "NorthwestLat":41.50290278,
@@ -31712,8 +31712,8 @@
     "SouthwestLat":41.45787401
   },
   {
-    "C_Poughkeepsie--Newburgh":166,
-    "P_Bridgeport--Stamford":51,
+    "C_Poughkeepsie-Newburgh":166,
+    "P_Bridgeport-Stamford":51,
     "prodzone":2454,
     "NorthwestLon":-73.92046731,
     "NorthwestLat":41.54850959,
@@ -31725,8 +31725,8 @@
     "SouthwestLat":41.50348027
   },
   {
-    "C_Poughkeepsie--Newburgh":149,
-    "P_Poughkeepsie--Newburgh":53,
+    "C_Poughkeepsie-Newburgh":149,
+    "P_Poughkeepsie-Newburgh":53,
     "prodzone":2455,
     "NorthwestLon":-73.97970115,
     "NorthwestLat":41.59408655,
@@ -31738,8 +31738,8 @@
     "SouthwestLat":41.54905675
   },
   {
-    "C_Poughkeepsie--Newburgh":698,
-    "P_Poughkeepsie--Newburgh":322,
+    "C_Poughkeepsie-Newburgh":698,
+    "P_Poughkeepsie-Newburgh":322,
     "prodzone":2456,
     "NorthwestLon":-74.03901834,
     "NorthwestLat":41.63963354,
@@ -31752,7 +31752,7 @@
   },
   {
     "C_Newark":340,
-    "P_Poughkeepsie--Newburgh":148,
+    "P_Poughkeepsie-Newburgh":148,
     "prodzone":2457,
     "NorthwestLon":-74.09841908,
     "NorthwestLat":41.68515041,
@@ -31765,7 +31765,7 @@
   },
   {
     "C_Newark":1332,
-    "P_Poughkeepsie--Newburgh":464,
+    "P_Poughkeepsie-Newburgh":464,
     "prodzone":2458,
     "NorthwestLon":-74.15790356,
     "NorthwestLat":41.730637,
@@ -31778,7 +31778,7 @@
   },
   {
     "C_Newark":26,
-    "P_Poughkeepsie--Newburgh":26,
+    "P_Poughkeepsie-Newburgh":26,
     "prodzone":2459,
     "NorthwestLon":-74.217472,
     "NorthwestLat":41.77609317,
@@ -31791,7 +31791,7 @@
   },
   {
     "C_Ellenville":2037,
-    "P_Poughkeepsie--Newburgh":506,
+    "P_Poughkeepsie-Newburgh":506,
     "prodzone":2460,
     "NorthwestLon":-74.27712458,
     "NorthwestLat":41.82151877,
@@ -31804,7 +31804,7 @@
   },
   {
     "C_Ellenville":167,
-    "P_Poughkeepsie--Newburgh":52,
+    "P_Poughkeepsie-Newburgh":52,
     "prodzone":2461,
     "NorthwestLon":-74.3368615,
     "NorthwestLat":41.86691365,
@@ -31817,7 +31817,7 @@
   },
   {
     "C_Ellenville":2,
-    "P_Poughkeepsie--Newburgh":1,
+    "P_Poughkeepsie-Newburgh":1,
     "prodzone":2462,
     "NorthwestLon":-74.39668297,
     "NorthwestLat":41.91227767,
@@ -32368,7 +32368,7 @@
     "SouthwestLat":41.22864364
   },
   {
-    "C_Bridgeport--Stamford":53,
+    "C_Bridgeport-Stamford":53,
     "P_Newfane":16,
     "prodzone":2505,
     "NorthwestLon":-73.5658175,
@@ -32407,8 +32407,8 @@
     "SouthwestLat":41.36590484
   },
   {
-    "C_Poughkeepsie--Newburgh":56,
-    "P_Bridgeport--Stamford":20,
+    "C_Poughkeepsie-Newburgh":56,
+    "P_Bridgeport-Stamford":20,
     "prodzone":2508,
     "NorthwestLon":-73.74239503,
     "NorthwestLat":41.45662744,
@@ -32420,8 +32420,8 @@
     "SouthwestLat":41.41160026
   },
   {
-    "C_Poughkeepsie--Newburgh":14,
-    "P_Bridgeport--Stamford":5,
+    "C_Poughkeepsie-Newburgh":14,
+    "P_Bridgeport-Stamford":5,
     "prodzone":2509,
     "NorthwestLon":-73.80141944,
     "NorthwestLat":41.50229411,
@@ -32433,8 +32433,8 @@
     "SouthwestLat":41.45726629
   },
   {
-    "C_Poughkeepsie--Newburgh":648,
-    "P_Bridgeport--Stamford":169,
+    "C_Poughkeepsie-Newburgh":648,
+    "P_Bridgeport-Stamford":169,
     "prodzone":2510,
     "NorthwestLon":-73.8605268,
     "NorthwestLat":41.54793119,
@@ -32446,8 +32446,8 @@
     "SouthwestLat":41.50290278
   },
   {
-    "C_Poughkeepsie--Newburgh":86,
-    "P_Bridgeport--Stamford":32,
+    "C_Poughkeepsie-Newburgh":86,
+    "P_Bridgeport-Stamford":32,
     "prodzone":2511,
     "NorthwestLon":-73.91971731,
     "NorthwestLat":41.59353853,
@@ -32459,8 +32459,8 @@
     "SouthwestLat":41.54850959
   },
   {
-    "C_Poughkeepsie--Newburgh":370,
-    "P_Poughkeepsie--Newburgh":147,
+    "C_Poughkeepsie-Newburgh":370,
+    "P_Poughkeepsie-Newburgh":147,
     "prodzone":2512,
     "NorthwestLon":-73.97899115,
     "NorthwestLat":41.639116,
@@ -32473,7 +32473,7 @@
   },
   {
     "C_Newark":819,
-    "P_Poughkeepsie--Newburgh":383,
+    "P_Poughkeepsie-Newburgh":383,
     "prodzone":2513,
     "NorthwestLon":-74.03834855,
     "NorthwestLat":41.68466344,
@@ -32486,7 +32486,7 @@
   },
   {
     "C_Newark":630,
-    "P_Poughkeepsie--Newburgh":284,
+    "P_Poughkeepsie-Newburgh":284,
     "prodzone":2514,
     "NorthwestLon":-74.09778968,
     "NorthwestLat":41.73018071,
@@ -32499,7 +32499,7 @@
   },
   {
     "C_Newark":723,
-    "P_Poughkeepsie--Newburgh":252,
+    "P_Poughkeepsie-Newburgh":252,
     "prodzone":2515,
     "NorthwestLon":-74.15731475,
     "NorthwestLat":41.77566765,
@@ -32512,7 +32512,7 @@
   },
   {
     "C_Newark":1483,
-    "P_Poughkeepsie--Newburgh":373,
+    "P_Poughkeepsie-Newburgh":373,
     "prodzone":2516,
     "NorthwestLon":-74.21692396,
     "NorthwestLat":41.82112413,
@@ -32525,7 +32525,7 @@
   },
   {
     "C_Ellenville":270,
-    "P_Poughkeepsie--Newburgh":97,
+    "P_Poughkeepsie-Newburgh":97,
     "prodzone":2517,
     "NorthwestLon":-74.27661751,
     "NorthwestLat":41.86654999,
@@ -32538,7 +32538,7 @@
   },
   {
     "C_Ellenville":90,
-    "P_Poughkeepsie--Newburgh":44,
+    "P_Poughkeepsie-Newburgh":44,
     "prodzone":2518,
     "NorthwestLon":-74.33639559,
     "NorthwestLat":41.91194509,
@@ -32584,7 +32584,7 @@
   },
   {
     "C_Woodridge":32,
-    "P_Poughkeepsie--Newburgh":12,
+    "P_Poughkeepsie-Newburgh":12,
     "prodzone":2522,
     "NorthwestLon":-74.57635727,
     "NorthwestLat":42.09321486,
@@ -32597,7 +32597,7 @@
   },
   {
     "C_Woodridge":3,
-    "P_Poughkeepsie--Newburgh":12,
+    "P_Poughkeepsie-Newburgh":12,
     "prodzone":2523,
     "NorthwestLon":-74.63656102,
     "NorthwestLat":42.13845391,
@@ -32610,7 +32610,7 @@
   },
   {
     "C_Woodridge":129,
-    "P_Poughkeepsie--Newburgh":154,
+    "P_Poughkeepsie-Newburgh":154,
     "prodzone":2524,
     "NorthwestLon":-74.69685049,
     "NorthwestLat":42.18366129,
@@ -33125,8 +33125,8 @@
     "SouthwestLat":41.41093133
   },
   {
-    "C_Poughkeepsie--Newburgh":8,
-    "P_Bridgeport--Stamford":3,
+    "C_Poughkeepsie-Newburgh":8,
+    "P_Bridgeport-Stamford":3,
     "prodzone":2564,
     "NorthwestLon":-73.74152414,
     "NorthwestLat":41.50165425,
@@ -33138,8 +33138,8 @@
     "SouthwestLat":41.45662744
   },
   {
-    "C_Poughkeepsie--Newburgh":382,
-    "P_Bridgeport--Stamford":137,
+    "C_Poughkeepsie-Newburgh":382,
+    "P_Bridgeport-Stamford":137,
     "prodzone":2565,
     "NorthwestLon":-73.80058809,
     "NorthwestLat":41.54732155,
@@ -33151,8 +33151,8 @@
     "SouthwestLat":41.50229411
   },
   {
-    "C_Poughkeepsie--Newburgh":271,
-    "P_Bridgeport--Stamford":67,
+    "C_Poughkeepsie-Newburgh":271,
+    "P_Bridgeport-Stamford":67,
     "prodzone":2566,
     "NorthwestLon":-73.85973517,
     "NorthwestLat":41.59295922,
@@ -33164,8 +33164,8 @@
     "SouthwestLat":41.54793119
   },
   {
-    "C_Poughkeepsie--Newburgh":224,
-    "P_Bridgeport--Stamford":79,
+    "C_Poughkeepsie-Newburgh":224,
+    "P_Bridgeport-Stamford":79,
     "prodzone":2567,
     "NorthwestLon":-73.91896559,
     "NorthwestLat":41.63856712,
@@ -33177,8 +33177,8 @@
     "SouthwestLat":41.59353853
   },
   {
-    "C_Poughkeepsie--Newburgh":468,
-    "P_Poughkeepsie--Newburgh":223,
+    "C_Poughkeepsie-Newburgh":468,
+    "P_Poughkeepsie-Newburgh":223,
     "prodzone":2568,
     "NorthwestLon":-73.97827954,
     "NorthwestLat":41.68414508,
@@ -33191,7 +33191,7 @@
   },
   {
     "C_Newark":299,
-    "P_Poughkeepsie--Newburgh":149,
+    "P_Poughkeepsie-Newburgh":149,
     "prodzone":2569,
     "NorthwestLon":-74.03767723,
     "NorthwestLat":41.72969297,
@@ -33204,7 +33204,7 @@
   },
   {
     "C_Newark":700,
-    "P_Poughkeepsie--Newburgh":184,
+    "P_Poughkeepsie-Newburgh":184,
     "prodzone":2570,
     "NorthwestLon":-74.09715884,
     "NorthwestLat":41.77521064,
@@ -33217,7 +33217,7 @@
   },
   {
     "C_Newark":174,
-    "P_Poughkeepsie--Newburgh":60,
+    "P_Poughkeepsie-Newburgh":60,
     "prodzone":2571,
     "NorthwestLon":-74.15672459,
     "NorthwestLat":41.82069795,
@@ -33230,7 +33230,7 @@
   },
   {
     "C_Newark":1233,
-    "P_Poughkeepsie--Newburgh":364,
+    "P_Poughkeepsie-Newburgh":364,
     "prodzone":2572,
     "NorthwestLon":-74.21637467,
     "NorthwestLat":41.86615473,
@@ -33243,7 +33243,7 @@
   },
   {
     "C_Ellenville":165,
-    "P_Poughkeepsie--Newburgh":71,
+    "P_Poughkeepsie-Newburgh":71,
     "prodzone":2573,
     "NorthwestLon":-74.27610928,
     "NorthwestLat":41.91158085,
@@ -33256,7 +33256,7 @@
   },
   {
     "C_Ellenville":8,
-    "P_Poughkeepsie--Newburgh":6,
+    "P_Poughkeepsie-Newburgh":6,
     "prodzone":2574,
     "NorthwestLon":-74.33592862,
     "NorthwestLat":41.95697616,
@@ -33291,7 +33291,7 @@
   },
   {
     "C_Westfield":1,
-    "P_Poughkeepsie--Newburgh":7,
+    "P_Poughkeepsie-Newburgh":7,
     "prodzone":2577,
     "NorthwestLon":-74.515897,
     "NorthwestLat":42.09297573,
@@ -33304,7 +33304,7 @@
   },
   {
     "C_Westfield":49,
-    "P_Poughkeepsie--Newburgh":69,
+    "P_Poughkeepsie-Newburgh":69,
     "prodzone":2578,
     "NorthwestLon":-74.57605725,
     "NorthwestLat":42.13824631,
@@ -33317,7 +33317,7 @@
   },
   {
     "C_Woodridge":234,
-    "P_Poughkeepsie--Newburgh":143,
+    "P_Poughkeepsie-Newburgh":143,
     "prodzone":2579,
     "NorthwestLon":-74.63630322,
     "NorthwestLat":42.18348532,
@@ -33330,7 +33330,7 @@
   },
   {
     "C_Woodridge":141,
-    "P_Poughkeepsie--Newburgh":134,
+    "P_Poughkeepsie-Newburgh":134,
     "prodzone":2580,
     "NorthwestLon":-74.69663513,
     "NorthwestLat":42.22869263,
@@ -33343,7 +33343,7 @@
   },
   {
     "C_Woodridge":67,
-    "P_Poughkeepsie--Newburgh":171,
+    "P_Poughkeepsie-Newburgh":171,
     "prodzone":2581,
     "NorthwestLon":-74.75705315,
     "NorthwestLat":42.27386808,
@@ -33356,7 +33356,7 @@
   },
   {
     "C_Woodridge":278,
-    "P_Poughkeepsie--Newburgh":197,
+    "P_Poughkeepsie-Newburgh":197,
     "prodzone":2582,
     "NorthwestLon":-74.81755751,
     "NorthwestLat":42.31901152,
@@ -33369,7 +33369,7 @@
   },
   {
     "C_Woodridge":473,
-    "P_Poughkeepsie--Newburgh":320,
+    "P_Poughkeepsie-Newburgh":320,
     "prodzone":2583,
     "NorthwestLon":-74.87814838,
     "NorthwestLat":42.3641228,
@@ -33383,7 +33383,7 @@
   {
     "C_Liberty":59,
     "C_Woodridge":702,
-    "P_Poughkeepsie--Newburgh":300,
+    "P_Poughkeepsie-Newburgh":300,
     "prodzone":2584,
     "NorthwestLon":-74.93882599,
     "NorthwestLat":42.40920177,
@@ -33838,8 +33838,8 @@
     "SouthwestLat":41.45595745
   },
   {
-    "C_Poughkeepsie--Newburgh":46,
-    "P_Bridgeport--Stamford":17,
+    "C_Poughkeepsie-Newburgh":46,
+    "P_Bridgeport-Stamford":17,
     "prodzone":2619,
     "NorthwestLon":-73.74065127,
     "NorthwestLat":41.54668068,
@@ -33851,8 +33851,8 @@
     "SouthwestLat":41.50165425
   },
   {
-    "C_Poughkeepsie--Newburgh":728,
-    "P_Bridgeport--Stamford":253,
+    "C_Poughkeepsie-Newburgh":728,
+    "P_Bridgeport-Stamford":253,
     "prodzone":2620,
     "NorthwestLon":-73.79975484,
     "NorthwestLat":41.59234863,
@@ -33864,8 +33864,8 @@
     "SouthwestLat":41.54732155
   },
   {
-    "C_Poughkeepsie--Newburgh":891,
-    "P_Bridgeport--Stamford":266,
+    "C_Poughkeepsie-Newburgh":891,
+    "P_Bridgeport-Stamford":266,
     "prodzone":2621,
     "NorthwestLon":-73.85894174,
     "NorthwestLat":41.6379869,
@@ -33877,8 +33877,8 @@
     "SouthwestLat":41.59295922
   },
   {
-    "C_Poughkeepsie--Newburgh":198,
-    "P_Bridgeport--Stamford":52,
+    "C_Poughkeepsie-Newburgh":198,
+    "P_Bridgeport-Stamford":52,
     "prodzone":2622,
     "NorthwestLon":-73.91821216,
     "NorthwestLat":41.68359534,
@@ -33891,7 +33891,7 @@
   },
   {
     "C_Newark":175,
-    "P_Poughkeepsie--Newburgh":86,
+    "P_Poughkeepsie-Newburgh":86,
     "prodzone":2623,
     "NorthwestLon":-73.97756631,
     "NorthwestLat":41.7291738,
@@ -33904,7 +33904,7 @@
   },
   {
     "C_Newark":23,
-    "P_Poughkeepsie--Newburgh":13,
+    "P_Poughkeepsie-Newburgh":13,
     "prodzone":2624,
     "NorthwestLon":-74.03700438,
     "NorthwestLat":41.77472214,
@@ -33917,7 +33917,7 @@
   },
   {
     "C_Newark":756,
-    "P_Poughkeepsie--Newburgh":241,
+    "P_Poughkeepsie-Newburgh":241,
     "prodzone":2625,
     "NorthwestLon":-74.09652657,
     "NorthwestLat":41.82024022,
@@ -33931,7 +33931,7 @@
   {
     "C_Kingston":106,
     "C_Newark":959,
-    "P_Poughkeepsie--Newburgh":311,
+    "P_Poughkeepsie-Newburgh":311,
     "prodzone":2626,
     "NorthwestLon":-74.15613309,
     "NorthwestLat":41.86572788,
@@ -33944,7 +33944,7 @@
   },
   {
     "C_Kingston":74,
-    "P_Poughkeepsie--Newburgh":29,
+    "P_Poughkeepsie-Newburgh":29,
     "prodzone":2627,
     "NorthwestLon":-74.21582413,
     "NorthwestLat":41.91118498,
@@ -33957,7 +33957,7 @@
   },
   {
     "C_Kingston":130,
-    "P_Poughkeepsie--Newburgh":53,
+    "P_Poughkeepsie-Newburgh":53,
     "prodzone":2628,
     "NorthwestLon":-74.27559989,
     "NorthwestLat":41.95661136,
@@ -33970,7 +33970,7 @@
   },
   {
     "C_Westfield":49,
-    "P_Poughkeepsie--Newburgh":22,
+    "P_Poughkeepsie-Newburgh":22,
     "prodzone":2629,
     "NorthwestLon":-74.33546058,
     "NorthwestLat":42.00200688,
@@ -33994,7 +33994,7 @@
   },
   {
     "C_Westfield":6,
-    "P_Poughkeepsie--Newburgh":5,
+    "P_Poughkeepsie-Newburgh":5,
     "prodzone":2631,
     "NorthwestLon":-74.45543751,
     "NorthwestLat":42.09270475,
@@ -34007,7 +34007,7 @@
   },
   {
     "C_Westfield":4,
-    "P_Poughkeepsie--Newburgh":14,
+    "P_Poughkeepsie-Newburgh":14,
     "prodzone":2632,
     "NorthwestLon":-74.51555417,
     "NorthwestLat":42.1380068,
@@ -34020,7 +34020,7 @@
   },
   {
     "C_Westfield":102,
-    "P_Poughkeepsie--Newburgh":73,
+    "P_Poughkeepsie-Newburgh":73,
     "prodzone":2633,
     "NorthwestLon":-74.57575654,
     "NorthwestLat":42.18327739,
@@ -34033,7 +34033,7 @@
   },
   {
     "C_Westfield":134,
-    "P_Poughkeepsie--Newburgh":180,
+    "P_Poughkeepsie-Newburgh":180,
     "prodzone":2634,
     "NorthwestLon":-74.63604484,
     "NorthwestLat":42.22851638,
@@ -34046,7 +34046,7 @@
   },
   {
     "C_Westfield":198,
-    "P_Poughkeepsie--Newburgh":105,
+    "P_Poughkeepsie-Newburgh":105,
     "prodzone":2635,
     "NorthwestLon":-74.69641926,
     "NorthwestLat":42.27372361,
@@ -34059,7 +34059,7 @@
   },
   {
     "C_Woodridge":344,
-    "P_Poughkeepsie--Newburgh":191,
+    "P_Poughkeepsie-Newburgh":191,
     "prodzone":2636,
     "NorthwestLon":-74.75688001,
     "NorthwestLat":42.31889893,
@@ -34072,7 +34072,7 @@
   },
   {
     "C_Woodridge":898,
-    "P_Poughkeepsie--Newburgh":406,
+    "P_Poughkeepsie-Newburgh":406,
     "prodzone":2637,
     "NorthwestLon":-74.81742728,
     "NorthwestLat":42.36404219,
@@ -34085,7 +34085,7 @@
   },
   {
     "C_Woodridge":441,
-    "P_Poughkeepsie--Newburgh":220,
+    "P_Poughkeepsie-Newburgh":220,
     "prodzone":2638,
     "NorthwestLon":-74.87806127,
     "NorthwestLat":42.40915324,
@@ -34098,7 +34098,7 @@
   },
   {
     "C_Woodridge":737,
-    "P_Poughkeepsie--Newburgh":229,
+    "P_Poughkeepsie-Newburgh":229,
     "prodzone":2639,
     "NorthwestLon":-74.93878218,
     "NorthwestLat":42.45423193,
@@ -34112,7 +34112,7 @@
   {
     "C_Liberty":41,
     "C_Oneonta":1077,
-    "P_Poughkeepsie--Newburgh":216,
+    "P_Poughkeepsie-Newburgh":216,
     "prodzone":2640,
     "NorthwestLon":-74.99959022,
     "NorthwestLat":42.49927811,
@@ -34125,7 +34125,7 @@
   },
   {
     "C_Oneonta":370,
-    "P_Poughkeepsie--Newburgh":171,
+    "P_Poughkeepsie-Newburgh":171,
     "prodzone":2641,
     "NorthwestLon":-75.06048558,
     "NorthwestLat":42.54429163,
@@ -34138,7 +34138,7 @@
   },
   {
     "C_Oneonta":1100,
-    "P_Poughkeepsie--Newburgh":347,
+    "P_Poughkeepsie-Newburgh":347,
     "prodzone":2642,
     "NorthwestLon":-75.12146847,
     "NorthwestLat":42.58927233,
@@ -34152,7 +34152,7 @@
   {
     "C_Oneonta":545,
     "P_Newfane":112,
-    "P_Poughkeepsie--Newburgh":126,
+    "P_Poughkeepsie-Newburgh":126,
     "prodzone":2643,
     "NorthwestLon":-75.18253908,
     "NorthwestLat":42.63422006,
@@ -34528,8 +34528,8 @@
     "SouthwestLat":41.5009832
   },
   {
-    "C_Poughkeepsie--Newburgh":790,
-    "P_Bridgeport--Stamford":279,
+    "C_Poughkeepsie-Newburgh":790,
+    "P_Bridgeport-Stamford":279,
     "prodzone":2672,
     "NorthwestLon":-73.73977641,
     "NorthwestLat":41.59170675,
@@ -34541,8 +34541,8 @@
     "SouthwestLat":41.54668068
   },
   {
-    "C_Poughkeepsie--Newburgh":416,
-    "P_Bridgeport--Stamford":141,
+    "C_Poughkeepsie-Newburgh":416,
+    "P_Bridgeport-Stamford":141,
     "prodzone":2673,
     "NorthwestLon":-73.7989197,
     "NorthwestLat":41.63737534,
@@ -34554,8 +34554,8 @@
     "SouthwestLat":41.59234863
   },
   {
-    "C_Poughkeepsie--Newburgh":869,
-    "P_Bridgeport--Stamford":309,
+    "C_Poughkeepsie-Newburgh":869,
+    "P_Bridgeport-Stamford":309,
     "prodzone":2674,
     "NorthwestLon":-73.8581465,
     "NorthwestLat":41.6830142,
@@ -34567,8 +34567,8 @@
     "SouthwestLat":41.6379869
   },
   {
-    "C_Poughkeepsie--Newburgh":409,
-    "P_Bridgeport--Stamford":132,
+    "C_Poughkeepsie-Newburgh":409,
+    "P_Bridgeport-Stamford":132,
     "prodzone":2675,
     "NorthwestLon":-73.91745702,
     "NorthwestLat":41.72862319,
@@ -34581,7 +34581,7 @@
   },
   {
     "C_Newark":190,
-    "P_Poughkeepsie--Newburgh":81,
+    "P_Poughkeepsie-Newburgh":81,
     "prodzone":2676,
     "NorthwestLon":-73.97685145,
     "NorthwestLat":41.77420215,
@@ -34594,7 +34594,7 @@
   },
   {
     "C_Newark":8,
-    "P_Poughkeepsie--Newburgh":1,
+    "P_Poughkeepsie-Newburgh":1,
     "prodzone":2677,
     "NorthwestLon":-74.03632999,
     "NorthwestLat":41.81975095,
@@ -34607,7 +34607,7 @@
   },
   {
     "C_Kingston":118,
-    "P_Poughkeepsie--Newburgh":32,
+    "P_Poughkeepsie-Newburgh":32,
     "prodzone":2678,
     "NorthwestLon":-74.09589286,
     "NorthwestLat":41.86526943,
@@ -34620,7 +34620,7 @@
   },
   {
     "C_Kingston":1465,
-    "P_Poughkeepsie--Newburgh":354,
+    "P_Poughkeepsie-Newburgh":354,
     "prodzone":2679,
     "NorthwestLon":-74.15554023,
     "NorthwestLat":41.91075745,
@@ -34633,7 +34633,7 @@
   },
   {
     "C_Kingston":82,
-    "P_Poughkeepsie--Newburgh":36,
+    "P_Poughkeepsie-Newburgh":36,
     "prodzone":2680,
     "NorthwestLon":-74.21527233,
     "NorthwestLat":41.95621486,
@@ -34646,7 +34646,7 @@
   },
   {
     "C_Westfield":3,
-    "P_Poughkeepsie--Newburgh":1,
+    "P_Poughkeepsie-Newburgh":1,
     "prodzone":2681,
     "NorthwestLon":-74.27508934,
     "NorthwestLat":42.0016415,
@@ -34659,7 +34659,7 @@
   },
   {
     "C_Westfield":53,
-    "P_Poughkeepsie--Newburgh":12,
+    "P_Poughkeepsie-Newburgh":12,
     "prodzone":2682,
     "NorthwestLon":-74.33499147,
     "NorthwestLat":42.04703724,
@@ -34684,7 +34684,7 @@
   },
   {
     "C_Westfield":72,
-    "P_Poughkeepsie--Newburgh":17,
+    "P_Poughkeepsie-Newburgh":17,
     "prodzone":2684,
     "NorthwestLon":-74.45505187,
     "NorthwestLat":42.1377354,
@@ -34697,7 +34697,7 @@
   },
   {
     "C_Westfield":74,
-    "P_Poughkeepsie--Newburgh":35,
+    "P_Poughkeepsie-Newburgh":35,
     "prodzone":2685,
     "NorthwestLon":-74.51521055,
     "NorthwestLat":42.18303751,
@@ -34710,7 +34710,7 @@
   },
   {
     "C_Westfield":89,
-    "P_Poughkeepsie--Newburgh":70,
+    "P_Poughkeepsie-Newburgh":70,
     "prodzone":2686,
     "NorthwestLon":-74.57545515,
     "NorthwestLat":42.22830813,
@@ -34723,7 +34723,7 @@
   },
   {
     "C_Westfield":57,
-    "P_Poughkeepsie--Newburgh":127,
+    "P_Poughkeepsie-Newburgh":127,
     "prodzone":2687,
     "NorthwestLon":-74.63578587,
     "NorthwestLat":42.27354708,
@@ -34736,7 +34736,7 @@
   },
   {
     "C_Westfield":113,
-    "P_Poughkeepsie--Newburgh":133,
+    "P_Poughkeepsie-Newburgh":133,
     "prodzone":2688,
     "NorthwestLon":-74.69620291,
     "NorthwestLat":42.31875423,
@@ -34749,7 +34749,7 @@
   },
   {
     "C_Westfield":737,
-    "P_Poughkeepsie--Newburgh":336,
+    "P_Poughkeepsie-Newburgh":336,
     "prodzone":2689,
     "NorthwestLon":-74.75670647,
     "NorthwestLat":42.36392942,
@@ -34762,7 +34762,7 @@
   },
   {
     "C_Westfield":409,
-    "P_Poughkeepsie--Newburgh":231,
+    "P_Poughkeepsie-Newburgh":231,
     "prodzone":2690,
     "NorthwestLon":-74.81729675,
     "NorthwestLat":42.4090725,
@@ -34775,7 +34775,7 @@
   },
   {
     "C_Woodridge":772,
-    "P_Poughkeepsie--Newburgh":311,
+    "P_Poughkeepsie-Newburgh":311,
     "prodzone":2691,
     "NorthwestLon":-74.87797395,
     "NorthwestLat":42.45418333,
@@ -34788,7 +34788,7 @@
   },
   {
     "C_Woodridge":776,
-    "P_Poughkeepsie--Newburgh":186,
+    "P_Poughkeepsie-Newburgh":186,
     "prodzone":2692,
     "NorthwestLon":-74.93873828,
     "NorthwestLat":42.49926174,
@@ -34801,7 +34801,7 @@
   },
   {
     "C_Oneonta":746,
-    "P_Poughkeepsie--Newburgh":198,
+    "P_Poughkeepsie-Newburgh":198,
     "prodzone":2693,
     "NorthwestLon":-74.99958993,
     "NorthwestLat":42.54430759,
@@ -34814,7 +34814,7 @@
   },
   {
     "C_Oneonta":901,
-    "P_Poughkeepsie--Newburgh":315,
+    "P_Poughkeepsie-Newburgh":315,
     "prodzone":2694,
     "NorthwestLon":-75.0605291,
     "NorthwestLat":42.58932073,
@@ -34827,7 +34827,7 @@
   },
   {
     "C_Oneonta":717,
-    "P_Poughkeepsie--Newburgh":321,
+    "P_Poughkeepsie-Newburgh":321,
     "prodzone":2695,
     "NorthwestLon":-75.121556,
     "NorthwestLat":42.634301,
@@ -34840,7 +34840,7 @@
   },
   {
     "C_Oneonta":1140,
-    "P_Poughkeepsie--Newburgh":390,
+    "P_Poughkeepsie-Newburgh":390,
     "prodzone":2696,
     "NorthwestLon":-75.18267083,
     "NorthwestLat":42.67924825,
@@ -34853,7 +34853,7 @@
   },
   {
     "C_Oneonta":1842,
-    "P_Poughkeepsie--Newburgh":556,
+    "P_Poughkeepsie-Newburgh":556,
     "prodzone":2697,
     "NorthwestLon":-75.24387378,
     "NorthwestLat":42.72416233,
@@ -34866,7 +34866,7 @@
   },
   {
     "C_Oneonta":1946,
-    "P_Poughkeepsie--Newburgh":564,
+    "P_Poughkeepsie-Newburgh":564,
     "prodzone":2698,
     "NorthwestLon":-75.30516506,
     "NorthwestLat":42.76904308,
@@ -34879,7 +34879,7 @@
   },
   {
     "C_Oneonta":1034,
-    "P_Poughkeepsie--Newburgh":406,
+    "P_Poughkeepsie-Newburgh":406,
     "prodzone":2699,
     "NorthwestLon":-75.36654487,
     "NorthwestLat":42.81389035,
@@ -35201,8 +35201,8 @@
     "SouthwestLat":41.54600859
   },
   {
-    "C_Poughkeepsie--Newburgh":1120,
-    "P_Bridgeport--Stamford":439,
+    "C_Poughkeepsie-Newburgh":1120,
+    "P_Bridgeport-Stamford":439,
     "prodzone":2724,
     "NorthwestLon":-73.73889956,
     "NorthwestLat":41.63673246,
@@ -35214,8 +35214,8 @@
     "SouthwestLat":41.59170675
   },
   {
-    "C_Poughkeepsie--Newburgh":1033,
-    "P_Bridgeport--Stamford":336,
+    "C_Poughkeepsie-Newburgh":1033,
+    "P_Bridgeport-Stamford":336,
     "prodzone":2725,
     "NorthwestLon":-73.79808265,
     "NorthwestLat":41.68240169,
@@ -35227,8 +35227,8 @@
     "SouthwestLat":41.63737534
   },
   {
-    "C_Poughkeepsie--Newburgh":860,
-    "P_Bridgeport--Stamford":338,
+    "C_Poughkeepsie-Newburgh":860,
+    "P_Bridgeport-Stamford":338,
     "prodzone":2726,
     "NorthwestLon":-73.85734944,
     "NorthwestLat":41.72804114,
@@ -35241,7 +35241,7 @@
   },
   {
     "C_Newark":533,
-    "P_Bridgeport--Stamford":225,
+    "P_Bridgeport-Stamford":225,
     "prodzone":2727,
     "NorthwestLon":-73.91670015,
     "NorthwestLat":41.77365068,
@@ -35254,7 +35254,7 @@
   },
   {
     "C_Newark":58,
-    "P_Bridgeport--Stamford":27,
+    "P_Bridgeport-Stamford":27,
     "prodzone":2728,
     "NorthwestLon":-73.97613496,
     "NorthwestLat":41.81923014,
@@ -35267,7 +35267,7 @@
   },
   {
     "C_Kingston":77,
-    "P_Poughkeepsie--Newburgh":37,
+    "P_Poughkeepsie-Newburgh":37,
     "prodzone":2729,
     "NorthwestLon":-74.03565407,
     "NorthwestLat":41.8647794,
@@ -35280,7 +35280,7 @@
   },
   {
     "C_Kingston":184,
-    "P_Poughkeepsie--Newburgh":42,
+    "P_Poughkeepsie-Newburgh":42,
     "prodzone":2730,
     "NorthwestLon":-74.09525769,
     "NorthwestLat":41.91029828,
@@ -35293,7 +35293,7 @@
   },
   {
     "C_Kingston":6,
-    "P_Poughkeepsie--Newburgh":5,
+    "P_Poughkeepsie-Newburgh":5,
     "prodzone":2731,
     "NorthwestLon":-74.15494603,
     "NorthwestLat":41.95578666,
@@ -35306,7 +35306,7 @@
   },
   {
     "C_Westfield":30,
-    "P_Poughkeepsie--Newburgh":11,
+    "P_Poughkeepsie-Newburgh":11,
     "prodzone":2732,
     "NorthwestLon":-74.21471927,
     "NorthwestLat":42.00124438,
@@ -35319,7 +35319,7 @@
   },
   {
     "C_Westfield":108,
-    "P_Poughkeepsie--Newburgh":31,
+    "P_Poughkeepsie-Newburgh":31,
     "prodzone":2733,
     "NorthwestLon":-74.27457762,
     "NorthwestLat":42.04667129,
@@ -35332,7 +35332,7 @@
   },
   {
     "C_Westfield":37,
-    "P_Poughkeepsie--Newburgh":9,
+    "P_Poughkeepsie-Newburgh":9,
     "prodzone":2734,
     "NorthwestLon":-74.33452128,
     "NorthwestLat":42.09206724,
@@ -35345,7 +35345,7 @@
   },
   {
     "C_Westfield":38,
-    "P_Poughkeepsie--Newburgh":8,
+    "P_Poughkeepsie-Newburgh":8,
     "prodzone":2735,
     "NorthwestLon":-74.39455046,
     "NorthwestLat":42.13743209,
@@ -35358,7 +35358,7 @@
   },
   {
     "C_Westfield":4,
-    "P_Poughkeepsie--Newburgh":5,
+    "P_Poughkeepsie-Newburgh":5,
     "prodzone":2736,
     "NorthwestLon":-74.45466534,
     "NorthwestLat":42.18276568,
@@ -35384,7 +35384,7 @@
   },
   {
     "C_Westfield":32,
-    "P_Poughkeepsie--Newburgh":144,
+    "P_Poughkeepsie-Newburgh":144,
     "prodzone":2738,
     "NorthwestLon":-74.57515307,
     "NorthwestLat":42.2733385,
@@ -35397,7 +35397,7 @@
   },
   {
     "C_Westfield":198,
-    "P_Poughkeepsie--Newburgh":113,
+    "P_Poughkeepsie-Newburgh":113,
     "prodzone":2739,
     "NorthwestLon":-74.6355263,
     "NorthwestLat":42.31857743,
@@ -35410,7 +35410,7 @@
   },
   {
     "C_Westfield":303,
-    "P_Poughkeepsie--Newburgh":256,
+    "P_Poughkeepsie-Newburgh":256,
     "prodzone":2740,
     "NorthwestLon":-74.69598605,
     "NorthwestLat":42.3637845,
@@ -35423,7 +35423,7 @@
   },
   {
     "C_Westfield":683,
-    "P_Poughkeepsie--Newburgh":306,
+    "P_Poughkeepsie-Newburgh":306,
     "prodzone":2741,
     "NorthwestLon":-74.75653253,
     "NorthwestLat":42.40895956,
@@ -35436,7 +35436,7 @@
   },
   {
     "C_Westfield":642,
-    "P_Poughkeepsie--Newburgh":249,
+    "P_Poughkeepsie-Newburgh":249,
     "prodzone":2742,
     "NorthwestLon":-74.81716592,
     "NorthwestLat":42.45410246,
@@ -35449,7 +35449,7 @@
   },
   {
     "C_Westfield":897,
-    "P_Poughkeepsie--Newburgh":213,
+    "P_Poughkeepsie-Newburgh":213,
     "prodzone":2743,
     "NorthwestLon":-74.87788643,
     "NorthwestLat":42.49921306,
@@ -35463,7 +35463,7 @@
   {
     "C_Westfield":49,
     "C_Woodridge":500,
-    "P_Poughkeepsie--Newburgh":169,
+    "P_Poughkeepsie-Newburgh":169,
     "prodzone":2744,
     "NorthwestLon":-74.93869427,
     "NorthwestLat":42.54429119,
@@ -35476,7 +35476,7 @@
   },
   {
     "C_Oneonta":1268,
-    "P_Poughkeepsie--Newburgh":430,
+    "P_Poughkeepsie-Newburgh":430,
     "prodzone":2745,
     "NorthwestLon":-74.99958963,
     "NorthwestLat":42.58933671,
@@ -35489,7 +35489,7 @@
   },
   {
     "C_Oneonta":1041,
-    "P_Poughkeepsie--Newburgh":323,
+    "P_Poughkeepsie-Newburgh":323,
     "prodzone":2746,
     "NorthwestLon":-75.06057272,
     "NorthwestLat":42.63434947,
@@ -35502,7 +35502,7 @@
   },
   {
     "C_Oneonta":456,
-    "P_Poughkeepsie--Newburgh":210,
+    "P_Poughkeepsie-Newburgh":210,
     "prodzone":2747,
     "NorthwestLon":-75.12164373,
     "NorthwestLat":42.67932931,
@@ -35515,7 +35515,7 @@
   },
   {
     "C_Oneonta":1185,
-    "P_Poughkeepsie--Newburgh":420,
+    "P_Poughkeepsie-Newburgh":420,
     "prodzone":2748,
     "NorthwestLon":-75.18280287,
     "NorthwestLat":42.72427608,
@@ -35528,7 +35528,7 @@
   },
   {
     "C_Oneonta":886,
-    "P_Poughkeepsie--Newburgh":392,
+    "P_Poughkeepsie-Newburgh":392,
     "prodzone":2749,
     "NorthwestLon":-75.24405035,
     "NorthwestLat":42.76918962,
@@ -35542,7 +35542,7 @@
   {
     "C_Cobleskill":1219,
     "C_Oneonta":560,
-    "P_Poughkeepsie--Newburgh":587,
+    "P_Poughkeepsie-Newburgh":587,
     "prodzone":2750,
     "NorthwestLon":-75.30538635,
     "NorthwestLat":42.81406979,
@@ -35555,7 +35555,7 @@
   },
   {
     "C_Utica":333,
-    "P_Poughkeepsie--Newburgh":123,
+    "P_Poughkeepsie-Newburgh":123,
     "prodzone":2751,
     "NorthwestLon":-75.36681108,
     "NorthwestLat":42.85891642,
@@ -35568,7 +35568,7 @@
   },
   {
     "C_Utica":1474,
-    "P_Poughkeepsie--Newburgh":436,
+    "P_Poughkeepsie-Newburgh":436,
     "prodzone":2752,
     "NorthwestLon":-75.42832475,
     "NorthwestLat":42.90372937,
@@ -35581,7 +35581,7 @@
   },
   {
     "C_Utica":1719,
-    "P_Poughkeepsie--Newburgh":776,
+    "P_Poughkeepsie-Newburgh":776,
     "prodzone":2753,
     "NorthwestLon":-75.48992755,
     "NorthwestLat":42.94850849,
@@ -35594,7 +35594,7 @@
   },
   {
     "C_Utica":3070,
-    "P_Poughkeepsie--Newburgh":962,
+    "P_Poughkeepsie-Newburgh":962,
     "prodzone":2754,
     "NorthwestLon":-75.55161969,
     "NorthwestLat":42.99325361,
@@ -35849,7 +35849,7 @@
     "SouthwestLat":41.54530526
   },
   {
-    "C_Poughkeepsie--Newburgh":444,
+    "C_Poughkeepsie-Newburgh":444,
     "P_Newfane":191,
     "prodzone":2774,
     "NorthwestLon":-73.67888141,
@@ -35862,8 +35862,8 @@
     "SouthwestLat":41.5910336
   },
   {
-    "C_Poughkeepsie--Newburgh":977,
-    "P_Bridgeport--Stamford":468,
+    "C_Poughkeepsie-Newburgh":977,
+    "P_Bridgeport-Stamford":468,
     "prodzone":2775,
     "NorthwestLon":-73.7380207,
     "NorthwestLat":41.68175779,
@@ -35875,8 +35875,8 @@
     "SouthwestLat":41.63673246
   },
   {
-    "C_Poughkeepsie--Newburgh":453,
-    "P_Bridgeport--Stamford":189,
+    "C_Poughkeepsie-Newburgh":453,
+    "P_Bridgeport-Stamford":189,
     "prodzone":2776,
     "NorthwestLon":-73.79724369,
     "NorthwestLat":41.72742766,
@@ -35888,8 +35888,8 @@
     "SouthwestLat":41.68240169
   },
   {
-    "C_Poughkeepsie--Newburgh":727,
-    "P_Bridgeport--Stamford":271,
+    "C_Poughkeepsie-Newburgh":727,
+    "P_Bridgeport-Stamford":271,
     "prodzone":2777,
     "NorthwestLon":-73.85655057,
     "NorthwestLat":41.77306771,
@@ -35902,7 +35902,7 @@
   },
   {
     "C_Newark":342,
-    "P_Bridgeport--Stamford":132,
+    "P_Bridgeport-Stamford":132,
     "prodzone":2778,
     "NorthwestLon":-73.91594155,
     "NorthwestLat":41.8186778,
@@ -35915,7 +35915,7 @@
   },
   {
     "C_Kingston":365,
-    "P_Bridgeport--Stamford":135,
+    "P_Bridgeport-Stamford":135,
     "prodzone":2779,
     "NorthwestLon":-73.97541683,
     "NorthwestLat":41.86425777,
@@ -35928,7 +35928,7 @@
   },
   {
     "C_Kingston":103,
-    "P_Poughkeepsie--Newburgh":52,
+    "P_Poughkeepsie-Newburgh":52,
     "prodzone":2780,
     "NorthwestLon":-74.03497661,
     "NorthwestLat":41.90980748,
@@ -35941,7 +35941,7 @@
   },
   {
     "C_Kingston":1168,
-    "P_Poughkeepsie--Newburgh":251,
+    "P_Poughkeepsie-Newburgh":251,
     "prodzone":2781,
     "NorthwestLon":-74.09462108,
     "NorthwestLat":41.95532677,
@@ -35954,7 +35954,7 @@
   },
   {
     "C_Westfield":54,
-    "P_Poughkeepsie--Newburgh":20,
+    "P_Poughkeepsie-Newburgh":20,
     "prodzone":2782,
     "NorthwestLon":-74.15435046,
     "NorthwestLat":42.00081551,
@@ -35967,7 +35967,7 @@
   },
   {
     "C_Westfield":81,
-    "P_Poughkeepsie--Newburgh":38,
+    "P_Poughkeepsie-Newburgh":38,
     "prodzone":2783,
     "NorthwestLon":-74.21416494,
     "NorthwestLat":42.04627354,
@@ -35980,7 +35980,7 @@
   },
   {
     "C_Westfield":30,
-    "P_Poughkeepsie--Newburgh":23,
+    "P_Poughkeepsie-Newburgh":23,
     "prodzone":2784,
     "NorthwestLon":-74.27406473,
     "NorthwestLat":42.09170072,
@@ -35993,7 +35993,7 @@
   },
   {
     "C_Westfield":1,
-    "P_Poughkeepsie--Newburgh":4,
+    "P_Poughkeepsie-Newburgh":4,
     "prodzone":2785,
     "NorthwestLon":-74.33405002,
     "NorthwestLat":42.13709689,
@@ -36017,7 +36017,7 @@
   },
   {
     "C_Westfield":23,
-    "P_Poughkeepsie--Newburgh":10,
+    "P_Poughkeepsie-Newburgh":10,
     "prodzone":2787,
     "NorthwestLon":-74.45427793,
     "NorthwestLat":42.22779561,
@@ -36030,7 +36030,7 @@
   },
   {
     "C_Westfield":75,
-    "P_Poughkeepsie--Newburgh":44,
+    "P_Poughkeepsie-Newburgh":44,
     "prodzone":2788,
     "NorthwestLon":-74.51452096,
     "NorthwestLat":42.27309787,
@@ -36043,7 +36043,7 @@
   },
   {
     "C_Westfield":51,
-    "P_Poughkeepsie--Newburgh":103,
+    "P_Poughkeepsie-Newburgh":103,
     "prodzone":2789,
     "NorthwestLon":-74.57485029,
     "NorthwestLat":42.31836852,
@@ -36069,7 +36069,7 @@
   },
   {
     "C_Westfield":1316,
-    "P_Poughkeepsie--Newburgh":448,
+    "P_Poughkeepsie-Newburgh":448,
     "prodzone":2791,
     "NorthwestLon":-74.6957687,
     "NorthwestLat":42.40881441,
@@ -36082,7 +36082,7 @@
   },
   {
     "C_Westfield":624,
-    "P_Poughkeepsie--Newburgh":232,
+    "P_Poughkeepsie-Newburgh":232,
     "prodzone":2792,
     "NorthwestLon":-74.75635819,
     "NorthwestLat":42.45398934,
@@ -36095,7 +36095,7 @@
   },
   {
     "C_Westfield":817,
-    "P_Poughkeepsie--Newburgh":234,
+    "P_Poughkeepsie-Newburgh":234,
     "prodzone":2793,
     "NorthwestLon":-74.81703479,
     "NorthwestLat":42.49913207,
@@ -36108,7 +36108,7 @@
   },
   {
     "C_Westfield":538,
-    "P_Poughkeepsie--Newburgh":113,
+    "P_Poughkeepsie-Newburgh":113,
     "prodzone":2794,
     "NorthwestLon":-74.87779871,
     "NorthwestLat":42.54424244,
@@ -36121,7 +36121,7 @@
   },
   {
     "C_Cobleskill":822,
-    "P_Poughkeepsie--Newburgh":226,
+    "P_Poughkeepsie-Newburgh":226,
     "prodzone":2795,
     "NorthwestLon":-74.93865016,
     "NorthwestLat":42.58932029,
@@ -36134,7 +36134,7 @@
   },
   {
     "C_Cobleskill":1071,
-    "P_Poughkeepsie--Newburgh":334,
+    "P_Poughkeepsie-Newburgh":334,
     "prodzone":2796,
     "NorthwestLon":-74.99958934,
     "NorthwestLat":42.63436548,
@@ -36147,7 +36147,7 @@
   },
   {
     "C_Cobleskill":969,
-    "P_Poughkeepsie--Newburgh":326,
+    "P_Poughkeepsie-Newburgh":326,
     "prodzone":2797,
     "NorthwestLon":-75.06061644,
     "NorthwestLat":42.67937786,
@@ -36160,7 +36160,7 @@
   },
   {
     "C_Cobleskill":405,
-    "P_Poughkeepsie--Newburgh":173,
+    "P_Poughkeepsie-Newburgh":173,
     "prodzone":2798,
     "NorthwestLon":-75.12173167,
     "NorthwestLat":42.72435727,
@@ -36173,7 +36173,7 @@
   },
   {
     "C_Cobleskill":1394,
-    "P_Poughkeepsie--Newburgh":450,
+    "P_Poughkeepsie-Newburgh":450,
     "prodzone":2799,
     "NorthwestLon":-75.18293523,
     "NorthwestLat":42.76930355,
@@ -36186,7 +36186,7 @@
   },
   {
     "C_Cobleskill":688,
-    "P_Poughkeepsie--Newburgh":294,
+    "P_Poughkeepsie-Newburgh":294,
     "prodzone":2800,
     "NorthwestLon":-75.24422732,
     "NorthwestLat":42.81421656,
@@ -36199,7 +36199,7 @@
   },
   {
     "C_Albany":1723,
-    "P_Poughkeepsie--Newburgh":519,
+    "P_Poughkeepsie-Newburgh":519,
     "prodzone":2801,
     "NorthwestLon":-75.30560815,
     "NorthwestLat":42.85909614,
@@ -36212,7 +36212,7 @@
   },
   {
     "C_Utica":184,
-    "P_Poughkeepsie--Newburgh":75,
+    "P_Poughkeepsie-Newburgh":75,
     "prodzone":2802,
     "NorthwestLon":-75.36707791,
     "NorthwestLat":42.90394214,
@@ -36225,7 +36225,7 @@
   },
   {
     "C_Utica":3347,
-    "P_Poughkeepsie--Newburgh":886,
+    "P_Poughkeepsie-Newburgh":886,
     "prodzone":2803,
     "NorthwestLon":-75.42863681,
     "NorthwestLat":42.9487544,
@@ -36238,7 +36238,7 @@
   },
   {
     "C_Utica":2980,
-    "P_Poughkeepsie--Newburgh":908,
+    "P_Poughkeepsie-Newburgh":908,
     "prodzone":2804,
     "NorthwestLon":-75.49028505,
     "NorthwestLat":42.99353277,
@@ -36251,7 +36251,7 @@
   },
   {
     "C_Utica":2922,
-    "P_Poughkeepsie--Newburgh":947,
+    "P_Poughkeepsie-Newburgh":947,
     "prodzone":2805,
     "NorthwestLon":-75.55202284,
     "NorthwestLat":43.03827709,
@@ -36264,7 +36264,7 @@
   },
   {
     "C_Oneida":2663,
-    "P_Poughkeepsie--Newburgh":782,
+    "P_Poughkeepsie-Newburgh":782,
     "prodzone":2806,
     "NorthwestLon":-75.61385036,
     "NorthwestLat":43.08298722,
@@ -36492,7 +36492,7 @@
     "SouthwestLat":41.59032917
   },
   {
-    "C_Poughkeepsie--Newburgh":217,
+    "C_Poughkeepsie-Newburgh":217,
     "P_Newfane":90,
     "prodzone":2824,
     "NorthwestLon":-73.67796077,
@@ -36505,8 +36505,8 @@
     "SouthwestLat":41.63605824
   },
   {
-    "C_Poughkeepsie--Newburgh":764,
-    "P_Bridgeport--Stamford":312,
+    "C_Poughkeepsie-Newburgh":764,
+    "P_Bridgeport-Stamford":312,
     "prodzone":2825,
     "NorthwestLon":-73.73713985,
     "NorthwestLat":41.72678275,
@@ -36518,8 +36518,8 @@
     "SouthwestLat":41.68175779
   },
   {
-    "C_Poughkeepsie--Newburgh":104,
-    "P_Bridgeport--Stamford":38,
+    "C_Poughkeepsie-Newburgh":104,
+    "P_Bridgeport-Stamford":38,
     "prodzone":2826,
     "NorthwestLon":-73.79640282,
     "NorthwestLat":41.77245327,
@@ -36532,7 +36532,7 @@
   },
   {
     "C_Kingston":1281,
-    "P_Bridgeport--Stamford":501,
+    "P_Bridgeport-Stamford":501,
     "prodzone":2827,
     "NorthwestLon":-73.85574988,
     "NorthwestLat":41.81809392,
@@ -36545,7 +36545,7 @@
   },
   {
     "C_Kingston":196,
-    "P_Bridgeport--Stamford":71,
+    "P_Bridgeport-Stamford":71,
     "prodzone":2828,
     "NorthwestLon":-73.91518123,
     "NorthwestLat":41.86370456,
@@ -36558,7 +36558,7 @@
   },
   {
     "C_Kingston":235,
-    "P_Bridgeport--Stamford":88,
+    "P_Bridgeport-Stamford":88,
     "prodzone":2829,
     "NorthwestLon":-73.97469706,
     "NorthwestLat":41.90928503,
@@ -36571,7 +36571,7 @@
   },
   {
     "C_Kingston":406,
-    "P_Poughkeepsie--Newburgh":66,
+    "P_Poughkeepsie-Newburgh":66,
     "prodzone":2830,
     "NorthwestLon":-74.03429759,
     "NorthwestLat":41.95483519,
@@ -36610,7 +36610,7 @@
   },
   {
     "C_Westfield":86,
-    "P_Poughkeepsie--Newburgh":28,
+    "P_Poughkeepsie-Newburgh":28,
     "prodzone":2833,
     "NorthwestLon":-74.21360935,
     "NorthwestLat":42.09130234,
@@ -36622,7 +36622,7 @@
     "SouthwestLat":42.04627354
   },
   {
-    "P_Poughkeepsie--Newburgh":1,
+    "P_Poughkeepsie-Newburgh":1,
     "prodzone":2834,
     "NorthwestLon":-74.27355067,
     "NorthwestLat":42.13672978,
@@ -36646,7 +36646,7 @@
   },
   {
     "C_Westfield":125,
-    "P_Poughkeepsie--Newburgh":52,
+    "P_Poughkeepsie-Newburgh":52,
     "prodzone":2836,
     "NorthwestLon":-74.39369061,
     "NorthwestLat":42.22749135,
@@ -36659,7 +36659,7 @@
   },
   {
     "C_Westfield":128,
-    "P_Poughkeepsie--Newburgh":122,
+    "P_Poughkeepsie-Newburgh":122,
     "prodzone":2837,
     "NorthwestLon":-74.45388964,
     "NorthwestLat":42.27282518,
@@ -36672,7 +36672,7 @@
   },
   {
     "C_Westfield":109,
-    "P_Poughkeepsie--Newburgh":85,
+    "P_Poughkeepsie-Newburgh":85,
     "prodzone":2838,
     "NorthwestLon":-74.51417497,
     "NorthwestLat":42.31812751,
@@ -36685,7 +36685,7 @@
   },
   {
     "C_Westfield":81,
-    "P_Poughkeepsie--Newburgh":95,
+    "P_Poughkeepsie-Newburgh":95,
     "prodzone":2839,
     "NorthwestLon":-74.57454682,
     "NorthwestLat":42.36339818,
@@ -36698,7 +36698,7 @@
   },
   {
     "C_Westfield":596,
-    "P_Poughkeepsie--Newburgh":242,
+    "P_Poughkeepsie-Newburgh":242,
     "prodzone":2840,
     "NorthwestLon":-74.63500538,
     "NorthwestLat":42.40863705,
@@ -36737,7 +36737,7 @@
   },
   {
     "C_Westfield":470,
-    "P_Poughkeepsie--Newburgh":142,
+    "P_Poughkeepsie-Newburgh":142,
     "prodzone":2843,
     "NorthwestLon":-74.81690336,
     "NorthwestLat":42.54416132,
@@ -36750,7 +36750,7 @@
   },
   {
     "C_Cobleskill":899,
-    "P_Poughkeepsie--Newburgh":289,
+    "P_Poughkeepsie-Newburgh":289,
     "prodzone":2844,
     "NorthwestLon":-74.87771079,
     "NorthwestLat":42.58927146,
@@ -36763,7 +36763,7 @@
   },
   {
     "C_Cobleskill":1418,
-    "P_Poughkeepsie--Newburgh":376,
+    "P_Poughkeepsie-Newburgh":376,
     "prodzone":2845,
     "NorthwestLon":-74.93860595,
     "NorthwestLat":42.63434903,
@@ -36776,7 +36776,7 @@
   },
   {
     "C_Cobleskill":1841,
-    "P_Poughkeepsie--Newburgh":450,
+    "P_Poughkeepsie-Newburgh":450,
     "prodzone":2846,
     "NorthwestLon":-74.99958904,
     "NorthwestLat":42.6793939,
@@ -36789,7 +36789,7 @@
   },
   {
     "C_Cobleskill":957,
-    "P_Poughkeepsie--Newburgh":367,
+    "P_Poughkeepsie-Newburgh":367,
     "prodzone":2847,
     "NorthwestLon":-75.06066025,
     "NorthwestLat":42.72440589,
@@ -36802,7 +36802,7 @@
   },
   {
     "C_Cobleskill":470,
-    "P_Poughkeepsie--Newburgh":217,
+    "P_Poughkeepsie-Newburgh":217,
     "prodzone":2848,
     "NorthwestLon":-75.1218198,
     "NorthwestLat":42.76938487,
@@ -36815,7 +36815,7 @@
   },
   {
     "C_Albany":1740,
-    "P_Poughkeepsie--Newburgh":470,
+    "P_Poughkeepsie-Newburgh":470,
     "prodzone":2849,
     "NorthwestLon":-75.18306788,
     "NorthwestLat":42.81433067,
@@ -36828,7 +36828,7 @@
   },
   {
     "C_Albany":1485,
-    "P_Poughkeepsie--Newburgh":419,
+    "P_Poughkeepsie-Newburgh":419,
     "prodzone":2850,
     "NorthwestLon":-75.2444047,
     "NorthwestLat":42.85924314,
@@ -36841,7 +36841,7 @@
   },
   {
     "C_Utica":1239,
-    "P_Poughkeepsie--Newburgh":348,
+    "P_Poughkeepsie-Newburgh":348,
     "prodzone":2851,
     "NorthwestLon":-75.30583045,
     "NorthwestLat":42.90412214,
@@ -36854,7 +36854,7 @@
   },
   {
     "C_Utica":1548,
-    "P_Poughkeepsie--Newburgh":507,
+    "P_Poughkeepsie-Newburgh":507,
     "prodzone":2852,
     "NorthwestLon":-75.36734535,
     "NorthwestLat":42.9489675,
@@ -36867,7 +36867,7 @@
   },
   {
     "C_Utica":3071,
-    "P_Poughkeepsie--Newburgh":982,
+    "P_Poughkeepsie-Newburgh":982,
     "prodzone":2853,
     "NorthwestLon":-75.42894959,
     "NorthwestLat":42.99377907,
@@ -36880,7 +36880,7 @@
   },
   {
     "C_Utica":3112,
-    "P_Poughkeepsie--Newburgh":992,
+    "P_Poughkeepsie-Newburgh":992,
     "prodzone":2854,
     "NorthwestLon":-75.49064338,
     "NorthwestLat":43.0385567,
@@ -36893,7 +36893,7 @@
   },
   {
     "C_Utica":2592,
-    "P_Poughkeepsie--Newburgh":787,
+    "P_Poughkeepsie-Newburgh":787,
     "prodzone":2855,
     "NorthwestLon":-75.55242691,
     "NorthwestLat":43.08330022,
@@ -36906,7 +36906,7 @@
   },
   {
     "C_Oneida":2704,
-    "P_Poughkeepsie--Newburgh":849,
+    "P_Poughkeepsie-Newburgh":849,
     "prodzone":2856,
     "NorthwestLon":-75.6143004,
     "NorthwestLat":43.1280095,
@@ -37112,7 +37112,7 @@
   },
   {
     "C_Danbury":92,
-    "C_Poughkeepsie--Newburgh":297,
+    "C_Poughkeepsie-Newburgh":297,
     "P_Newfane":121,
     "prodzone":2872,
     "NorthwestLon":-73.61790292,
@@ -37125,7 +37125,7 @@
     "SouthwestLat":41.6353527
   },
   {
-    "C_Poughkeepsie--Newburgh":393,
+    "C_Poughkeepsie-Newburgh":393,
     "P_Newfane":166,
     "prodzone":2873,
     "NorthwestLon":-73.67703802,
@@ -37138,8 +37138,8 @@
     "SouthwestLat":41.68108251
   },
   {
-    "C_Poughkeepsie--Newburgh":1100,
-    "P_Bridgeport--Stamford":16,
+    "C_Poughkeepsie-Newburgh":1100,
+    "P_Bridgeport-Stamford":16,
     "P_Newfane":429,
     "prodzone":2874,
     "NorthwestLon":-73.73625699,
@@ -37153,7 +37153,7 @@
   },
   {
     "C_Kingston":842,
-    "P_Bridgeport--Stamford":241,
+    "P_Bridgeport-Stamford":241,
     "prodzone":2875,
     "NorthwestLon":-73.79556003,
     "NorthwestLat":41.81747851,
@@ -37166,7 +37166,7 @@
   },
   {
     "C_Kingston":689,
-    "P_Bridgeport--Stamford":292,
+    "P_Bridgeport-Stamford":292,
     "prodzone":2876,
     "NorthwestLon":-73.85494736,
     "NorthwestLat":41.86311976,
@@ -37179,7 +37179,7 @@
   },
   {
     "C_Kingston":400,
-    "P_Bridgeport--Stamford":160,
+    "P_Bridgeport-Stamford":160,
     "prodzone":2877,
     "NorthwestLon":-73.91441916,
     "NorthwestLat":41.90873095,
@@ -37265,7 +37265,7 @@
   },
   {
     "C_Westfield":41,
-    "P_Poughkeepsie--Newburgh":35,
+    "P_Poughkeepsie-Newburgh":35,
     "prodzone":2884,
     "NorthwestLon":-74.33310427,
     "NorthwestLat":42.22715509,
@@ -37278,7 +37278,7 @@
   },
   {
     "C_Westfield":474,
-    "P_Poughkeepsie--Newburgh":196,
+    "P_Poughkeepsie-Newburgh":196,
     "prodzone":2885,
     "NorthwestLon":-74.39325921,
     "NorthwestLat":42.27252044,
@@ -37291,7 +37291,7 @@
   },
   {
     "C_Westfield":267,
-    "P_Poughkeepsie--Newburgh":186,
+    "P_Poughkeepsie-Newburgh":186,
     "prodzone":2886,
     "NorthwestLon":-74.45350045,
     "NorthwestLat":42.31785439,
@@ -37304,7 +37304,7 @@
   },
   {
     "C_Westfield":307,
-    "P_Poughkeepsie--Newburgh":220,
+    "P_Poughkeepsie-Newburgh":220,
     "prodzone":2887,
     "NorthwestLon":-74.5138282,
     "NorthwestLat":42.36315679,
@@ -37317,7 +37317,7 @@
   },
   {
     "C_Westfield":751,
-    "P_Poughkeepsie--Newburgh":309,
+    "P_Poughkeepsie-Newburgh":309,
     "prodzone":2888,
     "NorthwestLon":-74.57424265,
     "NorthwestLat":42.40842749,
@@ -37330,7 +37330,7 @@
   },
   {
     "C_Westfield":369,
-    "P_Poughkeepsie--Newburgh":224,
+    "P_Poughkeepsie-Newburgh":224,
     "prodzone":2889,
     "NorthwestLon":-74.63474402,
     "NorthwestLat":42.45366633,
@@ -37343,7 +37343,7 @@
   },
   {
     "C_Westfield":835,
-    "P_Poughkeepsie--Newburgh":305,
+    "P_Poughkeepsie-Newburgh":305,
     "prodzone":2890,
     "NorthwestLon":-74.69533251,
     "NorthwestLat":42.49887316,
@@ -37356,7 +37356,7 @@
   },
   {
     "C_Albany":717,
-    "P_Poughkeepsie--Newburgh":205,
+    "P_Poughkeepsie-Newburgh":205,
     "prodzone":2891,
     "NorthwestLon":-74.75600831,
     "NorthwestLat":42.54404784,
@@ -37382,7 +37382,7 @@
   },
   {
     "C_Cobleskill":587,
-    "P_Poughkeepsie--Newburgh":231,
+    "P_Poughkeepsie-Newburgh":231,
     "prodzone":2893,
     "NorthwestLon":-74.87762267,
     "NorthwestLat":42.63430012,
@@ -37395,7 +37395,7 @@
   },
   {
     "C_Cobleskill":885,
-    "P_Poughkeepsie--Newburgh":216,
+    "P_Poughkeepsie-Newburgh":216,
     "prodzone":2894,
     "NorthwestLon":-74.93856164,
     "NorthwestLat":42.67937742,
@@ -37408,7 +37408,7 @@
   },
   {
     "C_Cobleskill":1603,
-    "P_Poughkeepsie--Newburgh":468,
+    "P_Poughkeepsie-Newburgh":468,
     "prodzone":2895,
     "NorthwestLon":-74.99958874,
     "NorthwestLat":42.72442195,
@@ -37421,7 +37421,7 @@
   },
   {
     "C_Cobleskill":920,
-    "P_Poughkeepsie--Newburgh":323,
+    "P_Poughkeepsie-Newburgh":323,
     "prodzone":2896,
     "NorthwestLon":-75.06070417,
     "NorthwestLat":42.76943357,
@@ -37434,7 +37434,7 @@
   },
   {
     "C_Albany":868,
-    "P_Poughkeepsie--Newburgh":386,
+    "P_Poughkeepsie-Newburgh":386,
     "prodzone":2897,
     "NorthwestLon":-75.12190814,
     "NorthwestLat":42.81441211,
@@ -37447,7 +37447,7 @@
   },
   {
     "C_Albany":1806,
-    "P_Poughkeepsie--Newburgh":593,
+    "P_Poughkeepsie-Newburgh":593,
     "prodzone":2898,
     "NorthwestLon":-75.18320084,
     "NorthwestLat":42.85935743,
@@ -37459,8 +37459,8 @@
     "SouthwestLat":42.81433067
   },
   {
-    "C_Ilion--Herkimer":3366,
-    "P_Poughkeepsie--Newburgh":731,
+    "C_Ilion-Herkimer":3366,
+    "P_Poughkeepsie-Newburgh":731,
     "prodzone":2899,
     "NorthwestLon":-75.24458249,
     "NorthwestLat":42.90426937,
@@ -37473,7 +37473,7 @@
   },
   {
     "C_Utica":1838,
-    "P_Poughkeepsie--Newburgh":518,
+    "P_Poughkeepsie-Newburgh":518,
     "prodzone":2900,
     "NorthwestLon":-75.30605327,
     "NorthwestLat":42.94914778,
@@ -37486,7 +37486,7 @@
   },
   {
     "C_Utica":3486,
-    "P_Poughkeepsie--Newburgh":1141,
+    "P_Poughkeepsie-Newburgh":1141,
     "prodzone":2901,
     "NorthwestLon":-75.36761341,
     "NorthwestLat":42.9939925,
@@ -37499,7 +37499,7 @@
   },
   {
     "C_Utica":2415,
-    "P_Poughkeepsie--Newburgh":708,
+    "P_Poughkeepsie-Newburgh":708,
     "prodzone":2902,
     "NorthwestLon":-75.42926309,
     "NorthwestLat":43.03880338,
@@ -37512,7 +37512,7 @@
   },
   {
     "C_Utica":2449,
-    "P_Poughkeepsie--Newburgh":732,
+    "P_Poughkeepsie-Newburgh":732,
     "prodzone":2903,
     "NorthwestLon":-75.49100253,
     "NorthwestLat":43.08358026,
@@ -37525,7 +37525,7 @@
   },
   {
     "C_Utica":3042,
-    "P_Poughkeepsie--Newburgh":941,
+    "P_Poughkeepsie-Newburgh":941,
     "prodzone":2904,
     "NorthwestLon":-75.55283192,
     "NorthwestLat":43.12832299,
@@ -37744,7 +37744,7 @@
     "SouthwestLat":41.63461584
   },
   {
-    "C_Poughkeepsie--Newburgh":715,
+    "C_Poughkeepsie-Newburgh":715,
     "P_Newfane":214,
     "prodzone":2921,
     "NorthwestLon":-73.61693829,
@@ -37757,7 +37757,7 @@
     "SouthwestLat":41.68037586
   },
   {
-    "C_Poughkeepsie--Newburgh":763,
+    "C_Poughkeepsie-Newburgh":763,
     "P_Newfane":335,
     "prodzone":2922,
     "NorthwestLon":-73.67611317,
@@ -37784,7 +37784,7 @@
   },
   {
     "C_Kingston":1068,
-    "P_Bridgeport--Stamford":408,
+    "P_Bridgeport-Stamford":408,
     "prodzone":2924,
     "NorthwestLon":-73.79471532,
     "NorthwestLat":41.86250338,
@@ -37797,7 +37797,7 @@
   },
   {
     "C_Kingston":313,
-    "P_Bridgeport--Stamford":122,
+    "P_Bridgeport-Stamford":122,
     "prodzone":2925,
     "NorthwestLon":-73.85414301,
     "NorthwestLat":41.90814523,
@@ -37897,7 +37897,7 @@
   },
   {
     "C_Westfield":297,
-    "P_Poughkeepsie--Newburgh":133,
+    "P_Poughkeepsie-Newburgh":133,
     "prodzone":2933,
     "NorthwestLon":-74.33262976,
     "NorthwestLat":42.27218366,
@@ -37910,7 +37910,7 @@
   },
   {
     "C_Westfield":165,
-    "P_Poughkeepsie--Newburgh":81,
+    "P_Poughkeepsie-Newburgh":81,
     "prodzone":2934,
     "NorthwestLon":-74.39282682,
     "NorthwestLat":42.31754918,
@@ -37923,7 +37923,7 @@
   },
   {
     "C_Westfield":224,
-    "P_Poughkeepsie--Newburgh":123,
+    "P_Poughkeepsie-Newburgh":123,
     "prodzone":2935,
     "NorthwestLon":-74.45311037,
     "NorthwestLat":42.36288325,
@@ -37936,7 +37936,7 @@
   },
   {
     "C_Westfield":440,
-    "P_Poughkeepsie--Newburgh":275,
+    "P_Poughkeepsie-Newburgh":275,
     "prodzone":2936,
     "NorthwestLon":-74.51348063,
     "NorthwestLat":42.40818572,
@@ -37949,7 +37949,7 @@
   },
   {
     "C_Catskill":659,
-    "P_Poughkeepsie--Newburgh":287,
+    "P_Poughkeepsie-Newburgh":287,
     "prodzone":2937,
     "NorthwestLon":-74.57393779,
     "NorthwestLat":42.45345643,
@@ -37962,7 +37962,7 @@
   },
   {
     "C_Catskill":358,
-    "P_Poughkeepsie--Newburgh":152,
+    "P_Poughkeepsie-Newburgh":152,
     "prodzone":2938,
     "NorthwestLon":-74.63448207,
     "NorthwestLat":42.49869525,
@@ -37975,7 +37975,7 @@
   },
   {
     "C_Albany":524,
-    "P_Poughkeepsie--Newburgh":158,
+    "P_Poughkeepsie-Newburgh":158,
     "prodzone":2939,
     "NorthwestLon":-74.69511366,
     "NorthwestLat":42.54390201,
@@ -37988,7 +37988,7 @@
   },
   {
     "C_Cobleskill":518,
-    "P_Poughkeepsie--Newburgh":197,
+    "P_Poughkeepsie-Newburgh":197,
     "prodzone":2940,
     "NorthwestLon":-74.75583277,
     "NorthwestLat":42.58907656,
@@ -38001,7 +38001,7 @@
   },
   {
     "C_Cobleskill":636,
-    "P_Poughkeepsie--Newburgh":250,
+    "P_Poughkeepsie-Newburgh":250,
     "prodzone":2941,
     "NorthwestLon":-74.81663959,
     "NorthwestLat":42.63421875,
@@ -38014,7 +38014,7 @@
   },
   {
     "C_Cobleskill":676,
-    "P_Poughkeepsie--Newburgh":208,
+    "P_Poughkeepsie-Newburgh":208,
     "prodzone":2942,
     "NorthwestLon":-74.87753435,
     "NorthwestLat":42.67932843,
@@ -38040,7 +38040,7 @@
   },
   {
     "C_Cobleskill":574,
-    "P_Poughkeepsie--Newburgh":282,
+    "P_Poughkeepsie-Newburgh":282,
     "prodzone":2944,
     "NorthwestLon":-74.99958844,
     "NorthwestLat":42.76944966,
@@ -38053,7 +38053,7 @@
   },
   {
     "C_Albany":1384,
-    "P_Poughkeepsie--Newburgh":371,
+    "P_Poughkeepsie-Newburgh":371,
     "prodzone":2945,
     "NorthwestLon":-75.06074819,
     "NorthwestLat":42.81446089,
@@ -38066,7 +38066,7 @@
   },
   {
     "C_Albany":1096,
-    "P_Poughkeepsie--Newburgh":378,
+    "P_Poughkeepsie-Newburgh":378,
     "prodzone":2946,
     "NorthwestLon":-75.12199668,
     "NorthwestLat":42.859439,
@@ -38079,7 +38079,7 @@
   },
   {
     "C_Albany":3006,
-    "P_Poughkeepsie--Newburgh":682,
+    "P_Poughkeepsie-Newburgh":682,
     "prodzone":2947,
     "NorthwestLon":-75.18333411,
     "NorthwestLat":42.90438384,
@@ -38091,8 +38091,8 @@
     "SouthwestLat":42.85935743
   },
   {
-    "C_Ilion--Herkimer":4321,
-    "P_Poughkeepsie--Newburgh":967,
+    "C_Ilion-Herkimer":4321,
+    "P_Poughkeepsie-Newburgh":967,
     "prodzone":2948,
     "NorthwestLon":-75.24476068,
     "NorthwestLat":42.94929524,
@@ -38105,7 +38105,7 @@
   },
   {
     "C_Utica":2939,
-    "P_Poughkeepsie--Newburgh":951,
+    "P_Poughkeepsie-Newburgh":951,
     "prodzone":2949,
     "NorthwestLon":-75.30627661,
     "NorthwestLat":42.99417306,
@@ -38118,7 +38118,7 @@
   },
   {
     "C_Utica":2695,
-    "P_Poughkeepsie--Newburgh":892,
+    "P_Poughkeepsie-Newburgh":892,
     "prodzone":2950,
     "NorthwestLon":-75.36788208,
     "NorthwestLat":43.03901715,
@@ -38131,7 +38131,7 @@
   },
   {
     "C_Utica":2033,
-    "P_Poughkeepsie--Newburgh":569,
+    "P_Poughkeepsie-Newburgh":569,
     "prodzone":2951,
     "NorthwestLon":-75.42957732,
     "NorthwestLat":43.08382733,
@@ -38372,7 +38372,7 @@
     "SouthwestLat":41.67963784
   },
   {
-    "C_Poughkeepsie--Newburgh":806,
+    "C_Poughkeepsie-Newburgh":806,
     "P_Newfane":256,
     "prodzone":2970,
     "NorthwestLon":-73.61597146,
@@ -38412,7 +38412,7 @@
   },
   {
     "C_Rhinebeck":710,
-    "P_Bridgeport--Stamford":278,
+    "P_Bridgeport-Stamford":278,
     "prodzone":2973,
     "NorthwestLon":-73.79386868,
     "NorthwestLat":41.90752788,
@@ -38425,7 +38425,7 @@
   },
   {
     "C_Kingston":120,
-    "P_Bridgeport--Stamford":48,
+    "P_Bridgeport-Stamford":48,
     "prodzone":2974,
     "NorthwestLon":-73.85333682,
     "NorthwestLat":41.95317034,
@@ -38555,7 +38555,7 @@
   },
   {
     "C_Catskill":524,
-    "P_Poughkeepsie--Newburgh":229,
+    "P_Poughkeepsie-Newburgh":229,
     "prodzone":2984,
     "NorthwestLon":-74.4527194,
     "NorthwestLat":42.40791175,
@@ -38568,7 +38568,7 @@
   },
   {
     "C_Catskill":295,
-    "P_Poughkeepsie--Newburgh":133,
+    "P_Poughkeepsie-Newburgh":133,
     "prodzone":2985,
     "NorthwestLon":-74.51313226,
     "NorthwestLat":42.45321429,
@@ -38581,7 +38581,7 @@
   },
   {
     "C_Catskill":253,
-    "P_Poughkeepsie--Newburgh":100,
+    "P_Poughkeepsie-Newburgh":100,
     "prodzone":2986,
     "NorthwestLon":-74.57363223,
     "NorthwestLat":42.49848503,
@@ -38594,7 +38594,7 @@
   },
   {
     "C_Albany":351,
-    "P_Poughkeepsie--Newburgh":133,
+    "P_Poughkeepsie-Newburgh":133,
     "prodzone":2987,
     "NorthwestLon":-74.63421951,
     "NorthwestLat":42.54372381,
@@ -38607,7 +38607,7 @@
   },
   {
     "C_Cobleskill":589,
-    "P_Poughkeepsie--Newburgh":221,
+    "P_Poughkeepsie-Newburgh":221,
     "prodzone":2988,
     "NorthwestLon":-74.69489431,
     "NorthwestLat":42.58893049,
@@ -38620,7 +38620,7 @@
   },
   {
     "C_Cobleskill":890,
-    "P_Poughkeepsie--Newburgh":354,
+    "P_Poughkeepsie-Newburgh":354,
     "prodzone":2989,
     "NorthwestLon":-74.75565682,
     "NorthwestLat":42.63410492,
@@ -38633,7 +38633,7 @@
   },
   {
     "C_Cobleskill":812,
-    "P_Poughkeepsie--Newburgh":313,
+    "P_Poughkeepsie-Newburgh":313,
     "prodzone":2990,
     "NorthwestLon":-74.81650726,
     "NorthwestLat":42.67924693,
@@ -38646,7 +38646,7 @@
   },
   {
     "C_Cobleskill":928,
-    "P_Poughkeepsie--Newburgh":290,
+    "P_Poughkeepsie-Newburgh":290,
     "prodzone":2991,
     "NorthwestLon":-74.87744582,
     "NorthwestLat":42.72435639,
@@ -38659,7 +38659,7 @@
   },
   {
     "C_Cobleskill":629,
-    "P_Poughkeepsie--Newburgh":233,
+    "P_Poughkeepsie-Newburgh":233,
     "prodzone":2992,
     "NorthwestLon":-74.93847272,
     "NorthwestLat":42.76943313,
@@ -38673,7 +38673,7 @@
   {
     "C_Albany":782,
     "P_Newark":229,
-    "P_Poughkeepsie--Newburgh":124,
+    "P_Poughkeepsie-Newburgh":124,
     "prodzone":2993,
     "NorthwestLon":-74.99958815,
     "NorthwestLat":42.814477,
@@ -38699,7 +38699,7 @@
   },
   {
     "C_Albany":2672,
-    "P_Poughkeepsie--Newburgh":848,
+    "P_Poughkeepsie-Newburgh":848,
     "prodzone":2995,
     "NorthwestLon":-75.12208543,
     "NorthwestLat":42.90446554,
@@ -38711,8 +38711,8 @@
     "SouthwestLat":42.859439
   },
   {
-    "C_Ilion--Herkimer":3362,
-    "P_Poughkeepsie--Newburgh":961,
+    "C_Ilion-Herkimer":3362,
+    "P_Poughkeepsie-Newburgh":961,
     "prodzone":2996,
     "NorthwestLon":-75.18346768,
     "NorthwestLat":42.94940989,
@@ -38725,7 +38725,7 @@
   },
   {
     "C_Utica":2296,
-    "P_Poughkeepsie--Newburgh":599,
+    "P_Poughkeepsie-Newburgh":599,
     "prodzone":2997,
     "NorthwestLon":-75.24493929,
     "NorthwestLat":42.99432076,
@@ -38738,7 +38738,7 @@
   },
   {
     "C_Utica":2367,
-    "P_Poughkeepsie--Newburgh":684,
+    "P_Poughkeepsie-Newburgh":684,
     "prodzone":2998,
     "NorthwestLon":-75.30650046,
     "NorthwestLat":43.03919799,
@@ -38751,7 +38751,7 @@
   },
   {
     "C_Utica":1441,
-    "P_Poughkeepsie--Newburgh":71,
+    "P_Poughkeepsie-Newburgh":71,
     "P_Utica":375,
     "prodzone":2999,
     "NorthwestLon":-75.36815138,
@@ -38998,7 +38998,7 @@
     "SouthwestLat":40.9885718
   },
   {
-    "C_Poughkeepsie--Newburgh":200,
+    "C_Poughkeepsie-Newburgh":200,
     "P_Newfane":71,
     "prodzone":3018,
     "NorthwestLon":-73.55583195,
@@ -39052,7 +39052,7 @@
   },
   {
     "C_Kingston":359,
-    "P_Bridgeport--Stamford":140,
+    "P_Bridgeport-Stamford":140,
     "prodzone":3022,
     "NorthwestLon":-73.79302011,
     "NorthwestLat":41.95255202,
@@ -39065,7 +39065,7 @@
   },
   {
     "C_Red Hook":605,
-    "P_Bridgeport--Stamford":190,
+    "P_Bridgeport-Stamford":190,
     "prodzone":3023,
     "NorthwestLon":-73.85252879,
     "NorthwestLat":41.99819508,
@@ -39206,7 +39206,7 @@
   },
   {
     "C_Catskill":194,
-    "P_Poughkeepsie--Newburgh":63,
+    "P_Poughkeepsie-Newburgh":63,
     "prodzone":3034,
     "NorthwestLon":-74.51278309,
     "NorthwestLat":42.4982425,
@@ -39219,7 +39219,7 @@
   },
   {
     "C_Albany":162,
-    "P_Poughkeepsie--Newburgh":69,
+    "P_Poughkeepsie-Newburgh":69,
     "prodzone":3035,
     "NorthwestLon":-74.57332597,
     "NorthwestLat":42.54351326,
@@ -39232,7 +39232,7 @@
   },
   {
     "C_Albany":358,
-    "P_Poughkeepsie--Newburgh":139,
+    "P_Poughkeepsie-Newburgh":139,
     "prodzone":3036,
     "NorthwestLon":-74.63395635,
     "NorthwestLat":42.58875202,
@@ -39245,7 +39245,7 @@
   },
   {
     "C_Cobleskill":439,
-    "P_Poughkeepsie--Newburgh":157,
+    "P_Poughkeepsie-Newburgh":157,
     "prodzone":3037,
     "NorthwestLon":-74.69467445,
     "NorthwestLat":42.63395862,
@@ -39258,7 +39258,7 @@
   },
   {
     "C_Cobleskill":509,
-    "P_Poughkeepsie--Newburgh":192,
+    "P_Poughkeepsie-Newburgh":192,
     "prodzone":3038,
     "NorthwestLon":-74.75548047,
     "NorthwestLat":42.67913292,
@@ -39271,7 +39271,7 @@
   },
   {
     "C_Cobleskill":963,
-    "P_Poughkeepsie--Newburgh":241,
+    "P_Poughkeepsie-Newburgh":241,
     "prodzone":3039,
     "NorthwestLon":-74.81637462,
     "NorthwestLat":42.72427476,
@@ -39284,7 +39284,7 @@
   },
   {
     "C_Cobleskill":453,
-    "P_Poughkeepsie--Newburgh":209,
+    "P_Poughkeepsie-Newburgh":209,
     "prodzone":3040,
     "NorthwestLon":-74.87735709,
     "NorthwestLat":42.76938399,
@@ -39297,7 +39297,7 @@
   },
   {
     "C_Albany":806,
-    "P_Poughkeepsie--Newburgh":251,
+    "P_Poughkeepsie-Newburgh":251,
     "prodzone":3041,
     "NorthwestLon":-74.9384281,
     "NorthwestLat":42.81446045,
@@ -39310,7 +39310,7 @@
   },
   {
     "C_Albany":1377,
-    "P_Poughkeepsie--Newburgh":422,
+    "P_Poughkeepsie-Newburgh":422,
     "prodzone":3042,
     "NorthwestLon":-74.99958785,
     "NorthwestLat":42.859504,
@@ -39323,7 +39323,7 @@
   },
   {
     "C_Albany":3159,
-    "P_Poughkeepsie--Newburgh":877,
+    "P_Poughkeepsie-Newburgh":877,
     "prodzone":3043,
     "NorthwestLon":-75.06083654,
     "NorthwestLat":42.90451447,
@@ -39335,7 +39335,7 @@
     "SouthwestLat":42.85948786
   },
   {
-    "C_Ilion--Herkimer":2709,
+    "C_Ilion-Herkimer":2709,
     "P_Newark":784,
     "prodzone":3044,
     "NorthwestLon":-75.12217438,
@@ -39348,7 +39348,7 @@
     "SouthwestLat":42.90446554
   },
   {
-    "C_Ilion--Herkimer":2968,
+    "C_Ilion-Herkimer":2968,
     "P_Newark":910,
     "prodzone":3045,
     "NorthwestLon":-75.18360157,
@@ -39362,7 +39362,7 @@
   },
   {
     "C_Utica":2670,
-    "P_Poughkeepsie--Newburgh":855,
+    "P_Poughkeepsie-Newburgh":855,
     "prodzone":3046,
     "NorthwestLon":-75.24511831,
     "NorthwestLat":43.03934592,
@@ -39375,7 +39375,7 @@
   },
   {
     "C_Utica":820,
-    "P_Poughkeepsie--Newburgh":250,
+    "P_Poughkeepsie-Newburgh":250,
     "prodzone":3047,
     "NorthwestLon":-75.30672482,
     "NorthwestLat":43.08422256,
@@ -39646,7 +39646,7 @@
     "SouthwestLat":40.98733072
   },
   {
-    "C_Poughkeepsie--Newburgh":1041,
+    "C_Poughkeepsie-Newburgh":1041,
     "P_Newfane":317,
     "prodzone":3068,
     "NorthwestLon":-73.55482084,
@@ -39699,7 +39699,7 @@
   },
   {
     "C_Red Hook":379,
-    "P_Bridgeport--Stamford":154,
+    "P_Bridgeport-Stamford":154,
     "prodzone":3072,
     "NorthwestLon":-73.7921696,
     "NorthwestLat":41.99757579,
@@ -39712,7 +39712,7 @@
   },
   {
     "C_Red Hook":900,
-    "P_Bridgeport--Stamford":316,
+    "P_Bridgeport-Stamford":316,
     "prodzone":3073,
     "NorthwestLon":-73.85171891,
     "NorthwestLat":42.04321945,
@@ -39866,7 +39866,7 @@
   },
   {
     "C_Albany":161,
-    "P_Poughkeepsie--Newburgh":62,
+    "P_Poughkeepsie-Newburgh":62,
     "prodzone":3085,
     "NorthwestLon":-74.573019,
     "NorthwestLat":42.58854114,
@@ -39879,7 +39879,7 @@
   },
   {
     "C_Cobleskill":306,
-    "P_Poughkeepsie--Newburgh":181,
+    "P_Poughkeepsie-Newburgh":181,
     "prodzone":3086,
     "NorthwestLon":-74.63369258,
     "NorthwestLat":42.63377987,
@@ -39892,7 +39892,7 @@
   },
   {
     "C_Cobleskill":229,
-    "P_Poughkeepsie--Newburgh":91,
+    "P_Poughkeepsie-Newburgh":91,
     "prodzone":3087,
     "NorthwestLon":-74.69445409,
     "NorthwestLat":42.6789864,
@@ -39905,7 +39905,7 @@
   },
   {
     "C_Cobleskill":411,
-    "P_Poughkeepsie--Newburgh":182,
+    "P_Poughkeepsie-Newburgh":182,
     "prodzone":3088,
     "NorthwestLon":-74.75530372,
     "NorthwestLat":42.72416057,
@@ -39918,7 +39918,7 @@
   },
   {
     "C_Albany":950,
-    "P_Poughkeepsie--Newburgh":313,
+    "P_Poughkeepsie-Newburgh":313,
     "prodzone":3089,
     "NorthwestLon":-74.81624167,
     "NorthwestLat":42.76930223,
@@ -39931,7 +39931,7 @@
   },
   {
     "C_Albany":1546,
-    "P_Poughkeepsie--Newburgh":446,
+    "P_Poughkeepsie-Newburgh":446,
     "prodzone":3090,
     "NorthwestLon":-74.87726816,
     "NorthwestLat":42.81441123,
@@ -39944,7 +39944,7 @@
   },
   {
     "C_Albany":2962,
-    "P_Poughkeepsie--Newburgh":836,
+    "P_Poughkeepsie-Newburgh":836,
     "prodzone":3091,
     "NorthwestLon":-74.93838338,
     "NorthwestLat":42.85948742,
@@ -39957,7 +39957,7 @@
   },
   {
     "C_Albany":3065,
-    "P_Poughkeepsie--Newburgh":877,
+    "P_Poughkeepsie-Newburgh":877,
     "prodzone":3092,
     "NorthwestLon":-74.99958755,
     "NorthwestLat":42.90453063,
@@ -39970,7 +39970,7 @@
   },
   {
     "C_Albany":3306,
-    "P_Poughkeepsie--Newburgh":931,
+    "P_Poughkeepsie-Newburgh":931,
     "prodzone":3093,
     "NorthwestLon":-75.06088086,
     "NorthwestLat":42.94954072,
@@ -39982,8 +39982,8 @@
     "SouthwestLat":42.90451447
   },
   {
-    "C_Ilion--Herkimer":2145,
-    "P_Poughkeepsie--Newburgh":669,
+    "C_Ilion-Herkimer":2145,
+    "P_Poughkeepsie-Newburgh":669,
     "prodzone":3094,
     "NorthwestLon":-75.12226353,
     "NorthwestLat":42.99451754,
@@ -39995,8 +39995,8 @@
     "SouthwestLat":42.94949172
   },
   {
-    "C_Ilion--Herkimer":2133,
-    "P_Poughkeepsie--Newburgh":661,
+    "C_Ilion-Herkimer":2133,
+    "P_Poughkeepsie-Newburgh":661,
     "prodzone":3095,
     "NorthwestLon":-75.18373576,
     "NorthwestLat":43.03946092,
@@ -40385,7 +40385,7 @@
   },
   {
     "C_Red Hook":123,
-    "P_Bridgeport--Stamford":41,
+    "P_Bridgeport-Stamford":41,
     "prodzone":3125,
     "NorthwestLon":-73.79131715,
     "NorthwestLat":42.04259919,
@@ -40398,7 +40398,7 @@
   },
   {
     "C_Red Hook":1345,
-    "P_Bridgeport--Stamford":439,
+    "P_Bridgeport-Stamford":439,
     "prodzone":3126,
     "NorthwestLon":-73.85090718,
     "NorthwestLat":42.08824345,
@@ -40567,7 +40567,7 @@
   },
   {
     "C_Cobleskill":419,
-    "P_Poughkeepsie--Newburgh":193,
+    "P_Poughkeepsie-Newburgh":193,
     "prodzone":3139,
     "NorthwestLon":-74.63342821,
     "NorthwestLat":42.67880737,
@@ -40580,7 +40580,7 @@
   },
   {
     "C_Cobleskill":321,
-    "P_Poughkeepsie--Newburgh":154,
+    "P_Poughkeepsie-Newburgh":154,
     "prodzone":3140,
     "NorthwestLon":-74.69423322,
     "NorthwestLat":42.72401382,
@@ -40593,7 +40593,7 @@
   },
   {
     "C_Albany":181,
-    "P_Poughkeepsie--Newburgh":102,
+    "P_Poughkeepsie-Newburgh":102,
     "prodzone":3141,
     "NorthwestLon":-74.75512655,
     "NorthwestLat":42.76918786,
@@ -40606,7 +40606,7 @@
   },
   {
     "C_Albany":1417,
-    "P_Poughkeepsie--Newburgh":434,
+    "P_Poughkeepsie-Newburgh":434,
     "prodzone":3142,
     "NorthwestLon":-74.81610842,
     "NorthwestLat":42.81432935,
@@ -40619,7 +40619,7 @@
   },
   {
     "C_Albany":3450,
-    "P_Poughkeepsie--Newburgh":963,
+    "P_Poughkeepsie-Newburgh":963,
     "prodzone":3143,
     "NorthwestLon":-74.87717902,
     "NorthwestLat":42.85943812,
@@ -40632,7 +40632,7 @@
   },
   {
     "C_Albany":3202,
-    "P_Poughkeepsie--Newburgh":925,
+    "P_Poughkeepsie-Newburgh":925,
     "prodzone":3144,
     "NorthwestLon":-74.93833856,
     "NorthwestLat":42.90451403,
@@ -40645,7 +40645,7 @@
   },
   {
     "C_Albany":2688,
-    "P_Poughkeepsie--Newburgh":799,
+    "P_Poughkeepsie-Newburgh":799,
     "prodzone":3145,
     "NorthwestLon":-74.99958725,
     "NorthwestLat":42.94955691,
@@ -40657,8 +40657,8 @@
     "SouthwestLat":42.90453063
   },
   {
-    "C_Ilion--Herkimer":2043,
-    "P_Poughkeepsie--Newburgh":658,
+    "C_Ilion-Herkimer":2043,
+    "P_Poughkeepsie-Newburgh":658,
     "prodzone":3146,
     "NorthwestLon":-75.06092529,
     "NorthwestLat":42.99456662,
@@ -40670,8 +40670,8 @@
     "SouthwestLat":42.94954072
   },
   {
-    "C_Ilion--Herkimer":2124,
-    "P_Poughkeepsie--Newburgh":558,
+    "C_Ilion-Herkimer":2124,
+    "P_Poughkeepsie-Newburgh":558,
     "prodzone":3147,
     "NorthwestLon":-75.12235289,
     "NorthwestLat":43.03954301,
@@ -40683,9 +40683,9 @@
     "SouthwestLat":42.99451754
   },
   {
-    "C_Ilion--Herkimer":187,
+    "C_Ilion-Herkimer":187,
     "C_Utica":1734,
-    "P_Poughkeepsie--Newburgh":475,
+    "P_Poughkeepsie-Newburgh":475,
     "prodzone":3148,
     "NorthwestLon":-75.18387026,
     "NorthwestLat":43.08448591,
@@ -40698,7 +40698,7 @@
   },
   {
     "C_Utica":226,
-    "P_Poughkeepsie--Newburgh":67,
+    "P_Poughkeepsie-Newburgh":67,
     "prodzone":3149,
     "NorthwestLon":-75.24547759,
     "NorthwestLat":43.12939517,
@@ -41049,7 +41049,7 @@
   },
   {
     "C_Red Hook":202,
-    "P_Bridgeport--Stamford":170,
+    "P_Bridgeport-Stamford":170,
     "prodzone":3176,
     "NorthwestLon":-73.79046275,
     "NorthwestLat":42.08762222,
@@ -41231,7 +41231,7 @@
   },
   {
     "C_Cobleskill":1741,
-    "P_Poughkeepsie--Newburgh":222,
+    "P_Poughkeepsie-Newburgh":222,
     "P_Westfield":430,
     "prodzone":3190,
     "NorthwestLon":-74.63316324,
@@ -41245,7 +41245,7 @@
   },
   {
     "C_Albany":949,
-    "P_Poughkeepsie--Newburgh":407,
+    "P_Poughkeepsie-Newburgh":407,
     "prodzone":3191,
     "NorthwestLon":-74.69401185,
     "NorthwestLat":42.76904088,
@@ -41258,7 +41258,7 @@
   },
   {
     "C_Albany":1071,
-    "P_Poughkeepsie--Newburgh":353,
+    "P_Poughkeepsie-Newburgh":353,
     "prodzone":3192,
     "NorthwestLon":-74.75494898,
     "NorthwestLat":42.8142148,
@@ -41271,7 +41271,7 @@
   },
   {
     "C_Albany":2822,
-    "P_Poughkeepsie--Newburgh":830,
+    "P_Poughkeepsie-Newburgh":830,
     "prodzone":3193,
     "NorthwestLon":-74.81597486,
     "NorthwestLat":42.85935611,
@@ -41284,7 +41284,7 @@
   },
   {
     "C_Albany":2741,
-    "P_Poughkeepsie--Newburgh":746,
+    "P_Poughkeepsie-Newburgh":746,
     "prodzone":3194,
     "NorthwestLon":-74.87708967,
     "NorthwestLat":42.90446465,
@@ -41297,7 +41297,7 @@
   },
   {
     "C_Albany":2856,
-    "P_Poughkeepsie--Newburgh":812,
+    "P_Poughkeepsie-Newburgh":812,
     "prodzone":3195,
     "NorthwestLon":-74.93829363,
     "NorthwestLat":42.94954028,
@@ -41310,7 +41310,7 @@
   },
   {
     "C_Canajoharie":1186,
-    "P_Poughkeepsie--Newburgh":426,
+    "P_Poughkeepsie-Newburgh":426,
     "prodzone":3196,
     "NorthwestLon":-74.99958695,
     "NorthwestLat":42.99458284,
@@ -41322,8 +41322,8 @@
     "SouthwestLat":42.94955691
   },
   {
-    "C_Ilion--Herkimer":565,
-    "P_Ilion--Herkimer":161,
+    "C_Ilion-Herkimer":565,
+    "P_Ilion-Herkimer":161,
     "prodzone":3197,
     "NorthwestLon":-75.06096982,
     "NorthwestLat":43.03959217,
@@ -41335,8 +41335,8 @@
     "SouthwestLat":42.99456662
   },
   {
-    "C_Ilion--Herkimer":2306,
-    "P_Ilion--Herkimer":634,
+    "C_Ilion-Herkimer":2306,
+    "P_Ilion-Herkimer":634,
     "prodzone":3198,
     "NorthwestLon":-75.12244246,
     "NorthwestLat":43.08456812,
@@ -41349,7 +41349,7 @@
   },
   {
     "C_Utica":2018,
-    "P_Ilion--Herkimer":548,
+    "P_Ilion-Herkimer":548,
     "prodzone":3199,
     "NorthwestLon":-75.18400507,
     "NorthwestLat":43.12951053,
@@ -41362,7 +41362,7 @@
   },
   {
     "C_Utica":623,
-    "P_Ilion--Herkimer":215,
+    "P_Ilion-Herkimer":215,
     "prodzone":3200,
     "NorthwestLon":-75.24565786,
     "NorthwestLat":43.17441926,
@@ -41714,7 +41714,7 @@
   {
     "C_Catskill":292,
     "C_Hudson":368,
-    "P_Bridgeport--Stamford":267,
+    "P_Bridgeport-Stamford":267,
     "prodzone":3227,
     "NorthwestLon":-73.78960639,
     "NorthwestLat":42.13264488,
@@ -41910,7 +41910,7 @@
   },
   {
     "C_Albany":1922,
-    "P_Poughkeepsie--Newburgh":595,
+    "P_Poughkeepsie-Newburgh":595,
     "prodzone":3242,
     "NorthwestLon":-74.69378996,
     "NorthwestLat":42.81406759,
@@ -41923,7 +41923,7 @@
   },
   {
     "C_Albany":2109,
-    "P_Poughkeepsie--Newburgh":680,
+    "P_Poughkeepsie-Newburgh":680,
     "prodzone":3243,
     "NorthwestLon":-74.75477101,
     "NorthwestLat":42.85924138,
@@ -41936,7 +41936,7 @@
   },
   {
     "C_Albany":2123,
-    "P_Poughkeepsie--Newburgh":576,
+    "P_Poughkeepsie-Newburgh":576,
     "prodzone":3244,
     "NorthwestLon":-74.81584099,
     "NorthwestLat":42.90438251,
@@ -41949,7 +41949,7 @@
   },
   {
     "C_Albany":2222,
-    "P_Poughkeepsie--Newburgh":757,
+    "P_Poughkeepsie-Newburgh":757,
     "prodzone":3245,
     "NorthwestLon":-74.87700012,
     "NorthwestLat":42.94949083,
@@ -41962,7 +41962,7 @@
   },
   {
     "C_Canajoharie":1798,
-    "P_Poughkeepsie--Newburgh":692,
+    "P_Poughkeepsie-Newburgh":692,
     "prodzone":3246,
     "NorthwestLon":-74.9382486,
     "NorthwestLat":42.99456618,
@@ -41975,7 +41975,7 @@
   },
   {
     "C_Little Falls":871,
-    "P_Poughkeepsie--Newburgh":319,
+    "P_Poughkeepsie-Newburgh":319,
     "prodzone":3247,
     "NorthwestLon":-74.99958664,
     "NorthwestLat":43.03960841,
@@ -41987,8 +41987,8 @@
     "SouthwestLat":42.99458284
   },
   {
-    "C_Ilion--Herkimer":1405,
-    "P_Ilion--Herkimer":565,
+    "C_Ilion-Herkimer":1405,
+    "P_Ilion-Herkimer":565,
     "prodzone":3248,
     "NorthwestLon":-75.06101445,
     "NorthwestLat":43.08461736,
@@ -42000,8 +42000,8 @@
     "SouthwestLat":43.03959217
   },
   {
-    "C_Ilion--Herkimer":1693,
-    "P_Ilion--Herkimer":571,
+    "C_Ilion-Herkimer":1693,
+    "P_Ilion-Herkimer":571,
     "prodzone":3249,
     "NorthwestLon":-75.12253223,
     "NorthwestLat":43.12959288,
@@ -42014,7 +42014,7 @@
   },
   {
     "C_Utica":723,
-    "P_Ilion--Herkimer":329,
+    "P_Ilion-Herkimer":329,
     "prodzone":3250,
     "NorthwestLon":-75.18414019,
     "NorthwestLat":43.17453481,
@@ -42027,7 +42027,7 @@
   },
   {
     "C_Utica":1130,
-    "P_Ilion--Herkimer":415,
+    "P_Ilion-Herkimer":415,
     "prodzone":3251,
     "NorthwestLon":-75.24583854,
     "NorthwestLat":43.21944299,
@@ -42573,7 +42573,7 @@
   },
   {
     "C_Albany":2837,
-    "P_Poughkeepsie--Newburgh":929,
+    "P_Poughkeepsie-Newburgh":929,
     "prodzone":3293,
     "NorthwestLon":-74.75459262,
     "NorthwestLat":42.90426761,
@@ -42586,7 +42586,7 @@
   },
   {
     "C_Albany":965,
-    "P_Poughkeepsie--Newburgh":526,
+    "P_Poughkeepsie-Newburgh":526,
     "prodzone":3294,
     "NorthwestLon":-74.81570682,
     "NorthwestLat":42.94940856,
@@ -42599,7 +42599,7 @@
   },
   {
     "C_Canajoharie":1275,
-    "P_Poughkeepsie--Newburgh":568,
+    "P_Poughkeepsie-Newburgh":568,
     "prodzone":3295,
     "NorthwestLon":-74.87691036,
     "NorthwestLat":42.99451665,
@@ -42612,7 +42612,7 @@
   },
   {
     "C_Little Falls":1592,
-    "P_Poughkeepsie--Newburgh":504,
+    "P_Poughkeepsie-Newburgh":504,
     "prodzone":3296,
     "NorthwestLon":-74.93820347,
     "NorthwestLat":43.03959173,
@@ -42625,7 +42625,7 @@
   },
   {
     "C_Little Falls":2141,
-    "P_Poughkeepsie--Newburgh":838,
+    "P_Poughkeepsie-Newburgh":838,
     "prodzone":3297,
     "NorthwestLon":-74.99958634,
     "NorthwestLat":43.08463362,
@@ -42637,8 +42637,8 @@
     "SouthwestLat":43.03960841
   },
   {
-    "C_Ilion--Herkimer":1031,
-    "P_Poughkeepsie--Newburgh":430,
+    "C_Ilion-Herkimer":1031,
+    "P_Poughkeepsie-Newburgh":430,
     "prodzone":3298,
     "NorthwestLon":-75.06105919,
     "NorthwestLat":43.12964219,
@@ -42650,8 +42650,8 @@
     "SouthwestLat":43.08461736
   },
   {
-    "C_Ilion--Herkimer":1144,
-    "P_Ilion--Herkimer":471,
+    "C_Ilion-Herkimer":1144,
+    "P_Ilion-Herkimer":471,
     "prodzone":3299,
     "NorthwestLon":-75.12262221,
     "NorthwestLat":43.17461728,
@@ -42664,7 +42664,7 @@
   },
   {
     "C_Utica":1653,
-    "P_Ilion--Herkimer":569,
+    "P_Ilion-Herkimer":569,
     "prodzone":3300,
     "NorthwestLon":-75.18427562,
     "NorthwestLat":43.21955872,
@@ -42677,7 +42677,7 @@
   },
   {
     "C_Utica":1310,
-    "P_Ilion--Herkimer":417,
+    "P_Ilion-Herkimer":417,
     "prodzone":3301,
     "NorthwestLon":-75.24601963,
     "NorthwestLat":43.26446637,
@@ -43261,7 +43261,7 @@
   },
   {
     "C_Canajoharie":2362,
-    "P_Poughkeepsie--Newburgh":963,
+    "P_Poughkeepsie-Newburgh":963,
     "prodzone":3346,
     "NorthwestLon":-74.81557233,
     "NorthwestLat":42.99443426,
@@ -43274,7 +43274,7 @@
   },
   {
     "C_Albany":1271,
-    "P_Poughkeepsie--Newburgh":511,
+    "P_Poughkeepsie-Newburgh":511,
     "prodzone":3347,
     "NorthwestLon":-74.8768204,
     "NorthwestLat":43.03954212,
@@ -43287,7 +43287,7 @@
   },
   {
     "C_Little Falls":2475,
-    "P_Poughkeepsie--Newburgh":1003,
+    "P_Poughkeepsie-Newburgh":1003,
     "prodzone":3348,
     "NorthwestLon":-74.93815823,
     "NorthwestLat":43.08461691,
@@ -43300,7 +43300,7 @@
   },
   {
     "C_Little Falls":1748,
-    "P_Poughkeepsie--Newburgh":728,
+    "P_Poughkeepsie-Newburgh":728,
     "prodzone":3349,
     "NorthwestLon":-74.99958604,
     "NorthwestLat":43.12965848,
@@ -43314,7 +43314,7 @@
   {
     "C_Gloversville":389,
     "C_Little Falls":1296,
-    "P_Poughkeepsie--Newburgh":578,
+    "P_Poughkeepsie-Newburgh":578,
     "prodzone":3350,
     "NorthwestLon":-75.06110402,
     "NorthwestLat":43.17466667,
@@ -43327,7 +43327,7 @@
   },
   {
     "C_Gloversville":3110,
-    "P_Ilion--Herkimer":1013,
+    "P_Ilion-Herkimer":1013,
     "prodzone":3351,
     "NorthwestLon":-75.1227124,
     "NorthwestLat":43.21964132,
@@ -43340,7 +43340,7 @@
   },
   {
     "C_Utica":1872,
-    "P_Ilion--Herkimer":531,
+    "P_Ilion-Herkimer":531,
     "prodzone":3352,
     "NorthwestLon":-75.18441137,
     "NorthwestLat":43.26458228,
@@ -43353,7 +43353,7 @@
   },
   {
     "C_Utica":1937,
-    "P_Ilion--Herkimer":569,
+    "P_Ilion-Herkimer":569,
     "prodzone":3353,
     "NorthwestLon":-75.24620115,
     "NorthwestLat":43.30948939,
@@ -43968,7 +43968,7 @@
   {
     "C_Little Falls":2341,
     "P_Little Falls":760,
-    "P_Poughkeepsie--Newburgh":65,
+    "P_Poughkeepsie-Newburgh":65,
     "prodzone":3400,
     "NorthwestLon":-74.87673023,
     "NorthwestLat":43.08456723,
@@ -44020,8 +44020,8 @@
   },
   {
     "C_Gloversville":1750,
-    "P_Ilion--Herkimer":272,
-    "P_Poughkeepsie--Newburgh":195,
+    "P_Ilion-Herkimer":272,
+    "P_Poughkeepsie-Newburgh":195,
     "prodzone":3404,
     "NorthwestLon":-75.1228028,
     "NorthwestLat":43.26466501,
@@ -44034,7 +44034,7 @@
   },
   {
     "C_Utica":553,
-    "P_Ilion--Herkimer":143,
+    "P_Ilion-Herkimer":143,
     "prodzone":3405,
     "NorthwestLon":-75.18454743,
     "NorthwestLat":43.30960548,
@@ -44047,7 +44047,7 @@
   },
   {
     "C_Utica":1187,
-    "P_Ilion--Herkimer":421,
+    "P_Ilion-Herkimer":421,
     "prodzone":3406,
     "NorthwestLon":-75.24638308,
     "NorthwestLat":43.35451206,
