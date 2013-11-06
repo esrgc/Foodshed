@@ -45,6 +45,7 @@ body{
 
 .btn-group{
 	width:100%;
+	float:center;
 }
 
 .btn.btn-default.dropdown-toggle{
@@ -105,4 +106,9 @@ body{
 .info h4 {
     margin: 0 0 5px;
     color: #777;
+}
+
+.btn{
+	padding-left:10px;
+	padding-right:10px;
 }

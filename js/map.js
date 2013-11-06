@@ -43,12 +43,13 @@ function MapPane(){
 			dataType: "json",
 			success: function(data) {
 				var arr = new Array();
+				var shortenedKey = '';
 				for(var i=0;i<data.length;i++){
-		          	var obj = data[i];
-		          	if(data[i][city]!=0){
+		          	if((data[i]["P_"+city]!=null)||(data[i]["C_"+city]!=null)){
 		          		arr.push(data[i]);
 		          	}
 		        }
+
 				var numDivisions;
 				var divisionLength=1;
 				var remainder=0;
@@ -62,7 +63,9 @@ function MapPane(){
 				}
 				var divisionNum=1;
 				var divisionCount=0;
-				arr.sort(function(a,b){return a[city]-b[city]});
+				arr.sort(function(a,b){return (a["C_"+city]+a["P_"+city])-(b["C_"+city]+b["P_"+city])});
+
+				console.log(arr);
 
 				var toColor = function ( d ) {
 		     		  var c = Number(d).toString(16);
@@ -97,7 +100,7 @@ function MapPane(){
 				for(var i=0;i<arr.length;i++){
 					divisionCount++;		
 					if(divisionCount<divisionLength){
-						console.log(divisionCount+"   "+divisionLength);
+						//console.log(divisionCount+"   "+divisionLength);
 					}
 					else{
 						if(divisionNum!=numDivisions){

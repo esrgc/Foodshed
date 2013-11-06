@@ -26,9 +26,9 @@ function SidePanel(mapPanel){
         $('#dropdown-title-state').html($(this).find('a').html());
         $('#dropdown-title-city').html("Select a City");
 
-        that.loadedFilename = $(this).find('a').attr("id")+"data";
+        that.loadedFilename = $(this).find('a').attr("id")+"Data";
 
-        var cityHTML = that.setCities(that.loadedFilename);
+        that.setCities($(this).find('a').attr("id"));
     });
 
     $('#button-green').on('click', function() {
@@ -70,31 +70,27 @@ function SidePanel(mapPanel){
     piechart.update(data);
   };
 
-  that.setCities = function(filename){
+  that.setCities = function(state){
     $.ajax({
-      url: "data/"+filename+".json",
+      url: "data/Cities.json",
       processData: true,
       data: {},
       dataType: "json",
       success: function(data) {
-        var cityHTML=""
-        for(var i=0;i<data.length;i++){
-          var obj = data[i];
-          for(var key in obj){
-            if(key=="ID"){
-              $('#dropdown-options-city').html(cityHTML);
-              $('#dropdown-options-city li').on('click', function() {
-                that.city = $(this).find('a').html();
-
-                $('#dropdown-title-city').html(that.city);
-
-                that.mapPanel.selectCity(that.loadedFilename, that.city);
-              });
-              return;
-            }
-            cityHTML+='<li><a href="#">'+key+'</a></li>'
-          }
+        var cityHTML="";
+        var cityList = data[state];
+        for(var key in data[state]){
+          cityHTML+='<li><a href="#">'+data[state][key]+'</a></li>'
         }
+        $('#dropdown-options-city').html(cityHTML);
+        $('#dropdown-options-city li').on('click', function() {
+          that.city = $(this).find('a').html();
+
+          $('#dropdown-title-city').html(that.city);
+
+          that.mapPanel.selectCity(that.loadedFilename, that.city);
+        });
+        return;
       },
       error: function(x,y,z) {
         console.log("Error");
