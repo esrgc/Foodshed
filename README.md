@@ -23,7 +23,7 @@ This assumes that the data is being stored in Manifold.
 		WHERE IsArea([ID])
 		SPLIT BY Coords([Geom (I)] as [Vertex]
 	))
-'''
+```
 
 * Take the generated table and export it to another CSV file. Open it in Excel.
 * Delete the first row (the one that contains column titles)
@@ -47,12 +47,10 @@ This assumes that the data is being stored in Manifold.
 * Add the state abbreviation and the city names in the pattern evident in the file
 * In panel.js, in the line that begins with:
 
-'''javascript
+```javascript
 	$('#dropdown-options-state').html('
-'''
-
+```
 , add the new state in the list with the format
-
-'''html
+```html
 	<li><a id="STATE ABBREVIATION" href="#">STATE NAME</a></li>
-'''
+```
