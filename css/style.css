@@ -80,7 +80,8 @@ body{
 }
 
 .piechart{
-	height:calc(100% - 105px);
+	height:0px;
+	width:100%;
 }
 
 .legend {
@@ -111,4 +112,9 @@ body{
 .btn{
 	padding-left:10px;
 	padding-right:10px;
+}
+
+hr{
+	margin-top:3px;
+	margin-bottom:10px;
 }

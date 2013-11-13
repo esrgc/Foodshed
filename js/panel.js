@@ -7,19 +7,31 @@ function SidePanel(mapPanel){
 
   that.mapPanel = mapPanel;
 
+  var piechart;
+
   that.init = function(){
     $('.dropdown-toggle').dropdown();
-    $('#slider').slider()
-      .on('slide', function(ev){
 
+    $('#slider').slider()
+      .on('slideStop', function(ev){
+          
+          that.mapPanel.opacity = ($('#slider').slider('getValue')[0].value)/100.0;
+          that.mapPanel.selectCity(that.loadedFilename, that.city);
       }
     );
 
     $('#dropdown-options-state').html('<li><a id="NY" href="#">New York</a></li><li><a id="MI" href="#">Michigan</a></li>');
 
-
     $('#dropdown-options-data-classification li').on('click', function() {
         $('#dropdown-title-data-classification').html($(this).find('a').html());
+        if(($(this).find('a').html()) == 'Equal Interval'){
+          that.mapPanel.classification = 'Equal Interval';
+          that.mapPanel.selectCity(that.loadedFilename, that.city);
+        }
+        if(($(this).find('a').html()) == 'Quantile'){
+          that.mapPanel.classification = 'Quantile';
+          that.mapPanel.selectCity(that.loadedFilename, that.city);
+        }
     });
 
     $('#dropdown-options-state li').on('click', function() {
@@ -51,24 +63,50 @@ function SidePanel(mapPanel){
         that.mapPanel.selectCity(that.loadedFilename, that.city);
     });
 
-    var piechart = new GeoDash.PieChart('.piechart', {
-      label: 'source',
-      value: 'percent',
-      colors: ["#0B6909", "#d80000"],
-      innerRadius: 10,
-      hover:true
-    });
-
-    var data = [{
-        "source":"Met",
-        "percent":68
-      },{
-        "source":"Unmet",
-        "percent":32
-      }];
-
-    piechart.update(data);
   };
+
+  that.updateStatistics = function(state, city){
+    $.ajax({
+      url: "data/"+state+"Needs.json",
+      processData: true,
+      data: {},
+      dataType: "json",
+      success: function(data) {
+        for(var i=0; i<data.length; i++){
+          if(data[i]['UAUC_NAME']==city){
+            console.log("here");
+            var needed = data[i]['FOODNEED_H'];
+            var population = data[i]['POPULATION'];
+            var neededPercent = (parseFloat(needed)/parseInt(population))*100;
+            if(that.piechart==null){
+              $('#instructions').html('');
+              $('.piechart').css('height', $('.piechart').width()+'px');
+
+              that.piechart = new GeoDash.PieChart('.piechart', {
+                label: 'source',
+                value: 'percent',
+                colors: ["#0B6909", "#d80000"],
+                innerRadius: 10,
+                hover:true
+              });
+            }
+            var data = [{
+              "source": "Needs Met",
+              "percent": 100-neededPercent
+            },
+            {
+              "source":"Needs Unmet",
+              "percent": neededPercent
+            }];
+            that.piechart.update(data);
+            $('#produced').html('Food Produced (HNE): '+(population-needed));
+            $('#population').html('Population : '+population);
+            return;
+          }
+        }
+      }
+    });
+  }
 
   that.setCities = function(state){
     $.ajax({
@@ -84,11 +122,13 @@ function SidePanel(mapPanel){
         }
         $('#dropdown-options-city').html(cityHTML);
         $('#dropdown-options-city li').on('click', function() {
+
           that.city = $(this).find('a').html();
 
           $('#dropdown-title-city').html(that.city);
 
           that.mapPanel.selectCity(that.loadedFilename, that.city);
+          that.updateStatistics(state, that.city);
         });
         return;
       },
