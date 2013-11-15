@@ -74,7 +74,6 @@ function SidePanel(mapPanel){
       success: function(data) {
         for(var i=0; i<data.length; i++){
           if(data[i]['UAUC_NAME']==city){
-            console.log("here");
             var needed = data[i]['FOODNEED_H'];
             var population = data[i]['POPULATION'];
             var neededPercent = (parseFloat(needed)/parseInt(population))*100;
@@ -99,8 +98,8 @@ function SidePanel(mapPanel){
               "percent": neededPercent
             }];
             that.piechart.update(data);
-            $('#produced').html('Food Produced (HNE): '+(population-needed));
-            $('#population').html('Population : '+population);
+            $('#produced').html('Food Produced (HNE): '+ that.addNumberCommas(population-needed));
+            $('#population').html('Population : '+ that.addNumberCommas(population));
             return;
           }
         }
@@ -136,5 +135,18 @@ function SidePanel(mapPanel){
         console.log("Error");
       }
     });
+  }
+
+  that.addNumberCommas = function(num){
+    var count = 0;
+    num = num.toString();
+    for(var i=num.length-1; i>0; i--){
+      count++;
+      if(count == 3){
+        num = num.substring(0, i) + ',' + num.substring(i);
+        count = 0; 
+      }
+    }
+    return num;
   }
 }
