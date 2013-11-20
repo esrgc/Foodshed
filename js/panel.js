@@ -109,15 +109,15 @@ function SidePanel(mapPanel){
 
   that.setCities = function(state){
     $.ajax({
-      url: "data/Cities.json",
+      url: "data/CitiesTest.json",
       processData: true,
       data: {},
       dataType: "json",
       success: function(data) {
         var cityHTML="";
         var cityList = data[state];
-        for(var key in data[state]){
-          cityHTML+='<li><a href="#">'+data[state][key]+'</a></li>'
+        for(var key in data[state]["Formatted to Unformatted"]){
+          cityHTML+='<li><a href="#">'+data[state]["Formatted to Unformatted"][key][0]+'</a></li>'
         }
         $('#dropdown-options-city').html(cityHTML);
         $('#dropdown-options-city li').on('click', function() {
