@@ -5,7 +5,7 @@ function MapPane(){
 
 	that.loadedFilename = null;
 
-	that.features;
+	that.geoJSONLayer;
 
 	that.polygonColor="0xff5555";
 
@@ -30,56 +30,56 @@ function MapPane(){
 		}).addTo(that.mapObj);
 	};
 
-	that.selectCity = function(loadedFilename, city){
+	that.selectCity = function(loadedFilename, unformattedCity, formattedCity){
 		that.loadedFilename = loadedFilename;
 
-		if(typeof(that.features)=="undefined"){
-			that.features = L.featureGroup().addTo(that.mapObj);
-		}
-		else{
-			that.features.clearLayers();
+		if(typeof(that.geoJSONLayer)!="undefined"){
+			that.geoJSONLayer.clearLayers();
 		}
 
 		$.ajax({
-			url: "data/"+that.loadedFilename+".json",
+			url: "data/"+that.loadedFilename+"Data.geojson",
 			processData: true,
 			data: {},
 			dataType: "json",
 			success: function(data) {
-				var arr = new Array();
 				var shortenedKey = '';
-				for(var i=0;i<data.length;i++){
-		          	if((data[i]["P_"+city]!=null)||(data[i]["C_"+city]!=null)){
-		          		arr.push(data[i]);
+				var geojsonData = {
+					"type": "FeatureCollection",
+                    "features": []
+				};
+				for(var i=0;i<data.features.length;i++){
+		          	if((data.features[i].properties["P_"+unformattedCity]!=0.0)||(data.features[i].properties["C_"+unformattedCity]!=0.0)){
+		          		geojsonData.features.push(data.features[i]);
 		          	}
 		        }
 
 				var numDivisions;
 				var divisionLength=1;
 				var remainder=0;
-				if(arr.length<5){
-					numDivisions=arr.length;
+				if(geojsonData.features.length<5){
+					numDivisions=geojsonData.features.length;
 				}
 				else{
 					numDivisions=5;
-					divisionLength=parseInt(arr.length/5);
-					remainder=arr.length%5;
+					divisionLength=parseInt(geojsonData.features.length/5);
+					remainder=geojsonData.features.length%5;
 				}
 				var divisionNum=1;
 				var divisionCount=0;
-				arr.sort(function(a,b){
+				geojsonData.features.sort(function(a,b){
 					var aP_ = 0, aC_ = 0, bP_ = 0, bC_ = 0;
-				    if(a["P_"+city] != undefined){
-				    	aP_ = parseInt(a["P_"+city]);
+				    if(a.properties["P_"+unformattedCity] != undefined){
+				    	aP_ = parseInt(a.properties["P_"+unformattedCity]);
 				    }
-				    if(a["C_"+city] != undefined){
-				    	aC_ = parseInt(a["C_"+city]);
+				    if(a.properties["C_"+unformattedCity] != undefined){
+				    	aC_ = parseInt(a.properties["C_"+unformattedCity]);
 				    }
-				    if(b["P_"+city] != undefined){
-				    	bP_ = parseInt(b["P_"+city]);
+				    if(b.properties["P_"+unformattedCity] != undefined){
+				    	bP_ = parseInt(b.properties["P_"+unformattedCity]);
 				    }
-				    if(b["C_"+city] != undefined){
-				    	bC_ = parseInt(b["C_"+city]);
+				    if(b.properties["C_"+unformattedCity] != undefined){
+				    	bC_ = parseInt(b.properties["C_"+unformattedCity]);
 				    }
 
 				    if((aP_+aC_)<(bP_+bC_)){
@@ -122,39 +122,39 @@ function MapPane(){
 					    	//To Do - fix so that it works when there's a remainder. See NY - Akron for an example.
 
 					    	if(i!=numDivisions){
-					    		if((arr[(divisionLength*i)-1]["P_"+city]) != undefined){
-							    	P_ = parseInt(arr[(divisionLength*i)-1]["P_"+city]);
+					    		if((geojsonData.features[(divisionLength*i)-1].properties["P_"+unformattedCity]) != undefined){
+							    	P_ = parseInt(geojsonData.features[(divisionLength*i)-1].properties["P_"+unformattedCity]);
 							    }
-							    if((arr[(divisionLength*i)-1]["C_"+city]) != undefined){
-							    	C_ = parseInt(arr[(divisionLength*i)-1]["C_"+city]);
+							    if((geojsonData.features[(divisionLength*i)-1].properties["C_"+unformattedCity]) != undefined){
+							    	C_ = parseInt(geojsonData.features[(divisionLength*i)-1].properties["C_"+unformattedCity]);
 							    }
 					    	}
 					    	//We get the last value in the array if we're generating the largest legend key to account for the remainder of 
-					    	//arr.length%divisionLength. This means that there will sometimes be more dark boxes on the map.
+					    	//geojsonData.features.length%divisionLength. This means that there will sometimes be more dark boxes on the map.
 					    	else{
-					    		if((arr[arr.length-1]["P_"+city]) != undefined){
-						    		P_ = parseInt(arr[arr.length-1]["P_"+city]);
+					    		if((geojsonData.features[geojsonData.features.length-1].properties["P_"+unformattedCity]) != undefined){
+						    		P_ = parseInt(geojsonData.features[geojsonData.features.length-1].properties["P_"+unformattedCity]);
 						    	}
-						    	if((arr[arr.length-1]["C_"+city]) != undefined){
-						    		C_ = parseInt(arr[arr.length-1]["C_"+city]);
+						    	if((geojsonData.features[geojsonData.features.length-1].properties["C_"+unformattedCity]) != undefined){
+						    		C_ = parseInt(geojsonData.features[geojsonData.features.length-1].properties["C_"+unformattedCity]);
 						    	}
 					    	}
-					    	//This makes it so we don't access arr[-1]. We set the previous interval value unless it's the first loop, then we just let
-					    	//oldP_ and oldC_ be arr[0]
+					    	//This makes it so we don't access geojsonData.features[-1]. We set the previous interval value unless it's the first loop, then we just let
+					    	//oldP_ and oldC_ be geojsonData.features[0]
 					    	if(i!=1){
-					    		if((arr[(divisionLength*(i-1))-1]["P_"+city]) != undefined){
-								    oldP_ = parseInt(arr[(divisionLength*(i-1))-1]["P_"+city]);
+					    		if((geojsonData.features[(divisionLength*(i-1))-1].properties["P_"+unformattedCity]) != undefined){
+								    oldP_ = parseInt(geojsonData.features[(divisionLength*(i-1))-1].properties["P_"+unformattedCity]);
 								}
-								if((arr[(divisionLength*(i-1))-1]["C_"+city]) != undefined){
-								    oldC_ = parseInt(arr[(divisionLength*(i-1))-1]["C_"+city]);
+								if((geojsonData.features[(divisionLength*(i-1))-1].properties["C_"+unformattedCity]) != undefined){
+								    oldC_ = parseInt(geojsonData.features[(divisionLength*(i-1))-1].properties["C_"+unformattedCity]);
 								}
 					    	}
 					    	else{
-					    		if((arr[0]["P_"+city]) != undefined){
-								    oldP_ = parseInt(arr[0]["P_"+city]);
+					    		if((geojsonData.features[0]["P_"+unformattedCity]) != undefined){
+								    oldP_ = parseInt(geojsonData.features[0].properties["P_"+unformattedCity]);
 								}
-								if((arr[0]["C_"+city]) != undefined){
-								    oldC_ = parseInt(arr[0]["C_"+city]);
+								if((geojsonData.features[0]["C_"+unformattedCity]) != undefined){
+								    oldC_ = parseInt(geojsonData.features[0].properties["C_"+unformattedCity]);
 								}
 					    	}
 
@@ -171,17 +171,17 @@ function MapPane(){
 					else if(that.classification == 'Equal Interval'){
 						var smallP_=0, smallC_=0, bigP_=0, bigC_=0;
 
-						if((arr[0]["P_"+city]) != undefined){
-						    smallP_ = parseInt(arr[0]["P_"+city]);
+						if((geojsonData.features[0].properties["P_"+unformattedCity]) != undefined){
+						    smallP_ = parseInt(geojsonData.features[0].properties["P_"+unformattedCity]);
 						}
-						if((arr[0]["C_"+city]) != undefined){
-						    smallC_ = parseInt(arr[0]["C_"+city]);
+						if((geojsonData.features[0].properties["C_"+unformattedCity]) != undefined){
+						    smallC_ = parseInt(geojsonData.features[0].properties["C_"+unformattedCity]);
 						}
-						if((arr[arr.length-1]["P_"+city]) != undefined){
-				    		bigP_ = parseInt(arr[arr.length-1]["P_"+city]);
+						if((geojsonData.features[geojsonData.features.length-1].properties["P_"+unformattedCity]) != undefined){
+				    		bigP_ = parseInt(geojsonData.features[geojsonData.features.length-1].properties["P_"+unformattedCity]);
 				    	}
-				    	if((arr[arr.length-1]["C_"+city]) != undefined){
-				    		bigC_ = parseInt(arr[arr.length-1]["C_"+city]);
+				    	if((geojsonData.features[geojsonData.features.length-1].properties["C_"+unformattedCity]) != undefined){
+				    		bigC_ = parseInt(geojsonData.features[geojsonData.features.length-1].properties["C_"+unformattedCity]);
 				    	}
 
 				    	var range = (bigP_ + bigC_) - (smallP_ + smallC_);
@@ -212,50 +212,50 @@ function MapPane(){
 				col=that.polygonColor;
 				var equalIntervalCurrentIndex = 0;
 
-				for(var i=0;i<arr.length;i++){
-					if(that.classification == 'Quantile'){
-						divisionCount++;		
-						if(divisionCount>=divisionLength){
-							if(divisionNum!=numDivisions){
-								divisionCount=0;
-								col=(col-0x111111);
-								divisionNum++;
-							}						
+				that.geoJSONLayer = L.geoJson(geojsonData,{
+					onEachFeature: function (feature, layer) {
+						if(that.classification == 'Quantile'){
+							divisionCount++;		
+							if(divisionCount>=divisionLength){
+								if(divisionNum!=numDivisions){
+									divisionCount=0;
+									col=(col-0x111111);
+									divisionNum++;
+								}						
+							}
 						}
-					}
 
-					//These values are used both for the equal interval calculation and pop up creation
-					var C_=0, P_=0;
-					if((arr[i]["P_"+city]) != undefined){
-					    P_ = parseInt(arr[i]["P_"+city]);
-					}
-					if((arr[i]["C_"+city]) != undefined){
-					    C_ = parseInt(arr[i]["C_"+city]);
-					}
-					
-					if (that.classification == 'Equal Interval'){
-						
-						if((C_ + P_)>equalIntervalUpperBounds[equalIntervalCurrentIndex]){
-							col=(col-0x111111);
-							equalIntervalCurrentIndex++;
+						//These values are used both for the equal interval calculation and pop up creation
+						var C_=0, P_=0;
+						if((feature.properties["P_"+unformattedCity]) != undefined){
+						    P_ = feature.properties["P_"+unformattedCity];
 						}
-					}
-					L.polygon([
-						[arr[i]["SouthwestLat"], arr[i]["SouthwestLon"]], 
-						[arr[i]["SoutheastLat"], arr[i]["SoutheastLon"]], 
-						[arr[i]["NortheastLat"], arr[i]["NortheastLon"]], 
-						[arr[i]["NorthwestLat"], arr[i]["NorthwestLon"]]
-					],
-					{
-						color:toColor(col),
-						weight:1,
-						fillOpacity:that.opacity
-					}).bindPopup(new L.popup().setContent('<center>Production Zone #' + arr[i]['prodzone'] + ' and ' + city + '</center><hr><center>All values are in Human Nutritional Equivalents (HNE), or the amount of food that meets the nutritional requirments for one person for one year.</center><br><table class="table"><tr><td>Perennial Crops</td><td>' + P_ + '</td></tr><tr><td>Cover Crops</td><td>' + C_ + "</td></tr</table>")).addTo(that.features);
-				}	
-				that.mapObj.fitBounds(that.features.getBounds());
+						if((feature.properties["C_"+unformattedCity]) != undefined){
+						    C_ = feature.properties["C_"+unformattedCity];
+						}
+						
+						if (that.classification == 'Equal Interval'){
+							
+							if((C_ + P_)>equalIntervalUpperBounds[equalIntervalCurrentIndex]){
+								col=(col-0x111111);
+								equalIntervalCurrentIndex++;
+							}
+						}
+
+				        layer.bindPopup(new L.popup().setContent('<center>Production Zone #' + feature.properties['prodzone'] + ' and ' + formattedCity + '</center><hr><center>All values are in Human Nutritional Equivalents (HNE), or the amount of food that meets the nutritional requirments for one person for one year.</center><br><table class="table"><tr><td>Perennial Crops</td><td>' + P_ + '</td></tr><tr><td>Cover Crops</td><td>' + C_ + "</td></tr</table>"));
+				    },
+				    style: function (feature) {
+				        return {
+				        	color: toColor(col),
+						    weight:1,
+							fillOpacity:that.opacity
+				        };
+				    }
+				}).addTo(that.mapObj);
+				that.mapObj.fitBounds(that.geoJSONLayer.getBounds());
 			},
-			error: function(x,y,z) {
-				console.log("Error");
+			error: function(a, b, c) {
+				console.log(b.parsererror);
 			}
 		});
 	};

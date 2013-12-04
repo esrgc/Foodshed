@@ -3,7 +3,7 @@ function SidePanel(mapPanel){
 
   var loadedFilename = null;
 
-  that.city = null;
+  that.formattedCity = null;
 
   that.mapPanel = mapPanel;
 
@@ -16,7 +16,7 @@ function SidePanel(mapPanel){
       .on('slideStop', function(ev){
           
           that.mapPanel.opacity = ($('#slider').slider('getValue')[0].value)/100.0;
-          that.mapPanel.selectCity(that.loadedFilename, that.city);
+          that.mapPanel.selectCity(that.loadedFilename, that.formattedCity);
       }
     );
 
@@ -26,11 +26,11 @@ function SidePanel(mapPanel){
         $('#dropdown-title-data-classification').html($(this).find('a').html());
         if(($(this).find('a').html()) == 'Equal Interval'){
           that.mapPanel.classification = 'Equal Interval';
-          that.mapPanel.selectCity(that.loadedFilename, that.city);
+          that.mapPanel.selectCity(that.loadedFilename, that.formattedCity);
         }
         if(($(this).find('a').html()) == 'Quantile'){
           that.mapPanel.classification = 'Quantile';
-          that.mapPanel.selectCity(that.loadedFilename, that.city);
+          that.mapPanel.selectCity(that.loadedFilename, that.formattedCity);
         }
     });
 
@@ -38,29 +38,29 @@ function SidePanel(mapPanel){
         $('#dropdown-title-state').html($(this).find('a').html());
         $('#dropdown-title-city').html("Select a City");
 
-        that.loadedFilename = $(this).find('a').attr("id")+"Data";
+        that.loadedFilename = $(this).find('a').attr("id");
 
         that.setCities($(this).find('a').attr("id"));
     });
 
     $('#button-green').on('click', function() {
         that.mapPanel.changeColor("0x55ff55");
-        that.mapPanel.selectCity(that.loadedFilename, that.city);
+        that.mapPanel.selectCity(that.loadedFilename, that.formattedCity);
     });
 
     $('#button-red').on('click', function() {
         that.mapPanel.changeColor("0xff5555");
-        that.mapPanel.selectCity(that.loadedFilename, that.city);
+        that.mapPanel.selectCity(that.loadedFilename, that.formattedCity);
     });
 
     $('#button-blue').on('click', function() {
         that.mapPanel.changeColor("0x5555ff");
-        that.mapPanel.selectCity(that.loadedFilename, that.city);
+        that.mapPanel.selectCity(that.loadedFilename, that.formattedCity);
     });
 
     $('#button-orange').on('click', function() {
         that.mapPanel.changeColor("0xff9955");
-        that.mapPanel.selectCity(that.loadedFilename, that.city);
+        that.mapPanel.selectCity(that.loadedFilename, that.formattedCity);
     });
 
   };
@@ -73,7 +73,7 @@ function SidePanel(mapPanel){
       dataType: "json",
       success: function(data) {
         for(var i=0; i<data.length; i++){
-          if(data[i]['UAUC_NAME']==city){
+          if(data[i]['UAUC_NAME']==that.formattedCity){
             var needed = data[i]['FOODNEED_H'];
             var population = data[i]['POPULATION'];
             var neededPercent = (parseFloat(needed)/parseInt(population))*100;
@@ -109,7 +109,7 @@ function SidePanel(mapPanel){
 
   that.setCities = function(state){
     $.ajax({
-      url: "data/CitiesTest.json",
+      url: "data/Cities.json",
       processData: true,
       data: {},
       dataType: "json",
@@ -122,12 +122,20 @@ function SidePanel(mapPanel){
         $('#dropdown-options-city').html(cityHTML);
         $('#dropdown-options-city li').on('click', function() {
 
-          that.city = $(this).find('a').html();
+          that.formattedCity = $(this).find('a').html();
 
-          $('#dropdown-title-city').html(that.city);
+          $('#dropdown-title-city').html(that.formattedCity);
 
-          that.mapPanel.selectCity(that.loadedFilename, that.city);
-          that.updateStatistics(state, that.city);
+          var unformattedCity;
+          for(var key in data[state]["Formatted to Unformatted"]){
+            if(data[state]["Formatted to Unformatted"][key][0]==that.formattedCity){
+              unformattedCity=data[state]["Formatted to Unformatted"][key][1];
+              break;
+            }
+          }
+
+          that.mapPanel.selectCity(that.loadedFilename, unformattedCity, that.formattedCity);
+          that.updateStatistics(state, that.formattedCity);
         });
         return;
       },
