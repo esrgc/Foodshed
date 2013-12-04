@@ -33,8 +33,6 @@ function MapPane(){
 	that.selectCity = function(loadedFilename, unformattedCity, formattedCity){
 		that.loadedFilename = loadedFilename;
 
-		console.log(typeof(that.geoJSONLayer));
-
 		if(typeof(that.geoJSONLayer)!="undefined"){
 			that.mapObj.removeLayer(that.geoJSONLayer);
 		}
@@ -51,7 +49,7 @@ function MapPane(){
                     "features": []
 				};
 				for(var i=0;i<data.features.length;i++){
-		          	if((data.features[i].properties["P_"+unformattedCity]!=0.0)||(data.features[i].properties["C_"+unformattedCity]!=0.0)){
+		          	if((data.features[i].properties["P_"+unformattedCity]!=undefined)||(data.features[i].properties["C_"+unformattedCity]!=undefined)){
 		          		geojsonData.features.push(data.features[i]);
 		          	}
 		        }
