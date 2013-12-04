@@ -20,7 +20,7 @@ function SidePanel(mapPanel){
       }
     );
 
-    $('#dropdown-options-state').html('<li><a id="NY" href="#">New York</a></li><li><a id="MI" href="#">Michigan</a></li>');
+    $('#dropdown-options-state').html('<li><a id="NY" href="#">New York</a></li><!--<li><a id="MI" href="#">Michigan</a></li>-->');
 
     $('#dropdown-options-data-classification li').on('click', function() {
         $('#dropdown-title-data-classification').html($(this).find('a').html());
