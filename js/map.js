@@ -33,8 +33,10 @@ function MapPane(){
 	that.selectCity = function(loadedFilename, unformattedCity, formattedCity){
 		that.loadedFilename = loadedFilename;
 
+		console.log(typeof(that.geoJSONLayer));
+
 		if(typeof(that.geoJSONLayer)!="undefined"){
-			that.geoJSONLayer.clearLayers();
+			that.mapObj.removeLayer(that.geoJSONLayer);
 		}
 
 		$.ajax({
@@ -161,7 +163,7 @@ function MapPane(){
 					    	col=(col-0x111111);
 
 					    	if((oldC_+oldP_)!=(C_+P_)){
-					        	div.innerHTML += '<i style="background:' + toColor(col) + '"></i> ' + (oldC_ + oldP_) + ' - ' + (C_ + P_) + '<br><br>';
+					        	div.innerHTML += '<i style="background:' + toColor(col) + '"></i> ' + (oldC_ + oldP_+1) + ' - ' + (C_ + P_) + '<br><br>';
 					        }
 					        else{
 					        	div.innerHTML += '<i style="background:' + toColor(col) + '"></i> ' + (C_ + P_) + '<br><br>';
@@ -184,19 +186,26 @@ function MapPane(){
 				    		bigC_ = parseInt(geojsonData.features[geojsonData.features.length-1].properties["C_"+unformattedCity]);
 				    	}
 
-				    	var range = (bigP_ + bigC_) - (smallP_ + smallC_);
-				    	var intervalLength = parseInt(range/numDivisions);
+				    	var range = (bigP_ + bigC_) - 1;
+				    	var intervalLength = parseInt(parseInt(range/numDivisions)-((range%numDivisions)/numDivisions));
 
 				    	var old = (smallP_+smallC_);
 				    	var current = old;
 
 				    	for(var i = 0; i<numDivisions; i++){
+				    		if(i==0){
+				    			old=0;
+				    		}
 				    		col=(col-0x111111);
 				    		current+=intervalLength;
 				    		equalIntervalUpperBounds[i] = current;
 
+				    		if(i==(numDivisions-1)){
+				    			current = bigP_+bigC_;
+				    		}
+
 							if((oldC_+oldP_)!=(C_+P_)){
-					        	div.innerHTML += '<i style="background:' + toColor(col) + '"></i> ' + old + ' - ' + current + '<br><br>';
+					        	div.innerHTML += '<i style="background:' + toColor(col) + '"></i> ' + (old+1) + ' - ' + current + '<br><br>';
 					        }
 					        else{
 					        	div.innerHTML += '<i style="background:' + toColor(col) + '"></i> ' + (C_ + P_) + '<br><br>';
@@ -211,9 +220,21 @@ function MapPane(){
 				that.legend.addTo(that.mapObj);
 				col=that.polygonColor;
 				var equalIntervalCurrentIndex = 0;
+				var C_=0, P_=0;
 
 				that.geoJSONLayer = L.geoJson(geojsonData,{
 					onEachFeature: function (feature, layer) {
+						//These values are used both for the equal interval calculation and pop up creation
+						if((feature.properties["P_"+unformattedCity]) != undefined){
+						    P_ = feature.properties["P_"+unformattedCity];
+						}
+						if((feature.properties["C_"+unformattedCity]) != undefined){
+						    C_ = feature.properties["C_"+unformattedCity];
+						}
+
+				        layer.bindPopup(new L.popup().setContent('<center>Production Zone #' + feature.properties['prodzone'] + ' and ' + formattedCity + '</center><hr><center>All values are in Human Nutritional Equivalents (HNE), or the amount of food that meets the nutritional requirments for one person for one year.</center><br><table class="table"><tr><td>Perennial Crops</td><td>' + P_ + '</td></tr><tr><td>Cover Crops</td><td>' + C_ + "</td></tr</table>"));
+				    },
+				    style: function (feature) {
 						if(that.classification == 'Quantile'){
 							divisionCount++;		
 							if(divisionCount>=divisionLength){
@@ -225,26 +246,22 @@ function MapPane(){
 							}
 						}
 
-						//These values are used both for the equal interval calculation and pop up creation
-						var C_=0, P_=0;
 						if((feature.properties["P_"+unformattedCity]) != undefined){
 						    P_ = feature.properties["P_"+unformattedCity];
 						}
 						if((feature.properties["C_"+unformattedCity]) != undefined){
 						    C_ = feature.properties["C_"+unformattedCity];
 						}
-						
+		
 						if (that.classification == 'Equal Interval'){
-							
-							if((C_ + P_)>equalIntervalUpperBounds[equalIntervalCurrentIndex]){
+							console.log((C_ + P_)+">"+equalIntervalUpperBounds[equalIntervalCurrentIndex]);
+							while((C_ + P_)>equalIntervalUpperBounds[equalIntervalCurrentIndex]){
 								col=(col-0x111111);
 								equalIntervalCurrentIndex++;
 							}
+							console.log("being set as "+toColor(col));
 						}
 
-				        layer.bindPopup(new L.popup().setContent('<center>Production Zone #' + feature.properties['prodzone'] + ' and ' + formattedCity + '</center><hr><center>All values are in Human Nutritional Equivalents (HNE), or the amount of food that meets the nutritional requirments for one person for one year.</center><br><table class="table"><tr><td>Perennial Crops</td><td>' + P_ + '</td></tr><tr><td>Cover Crops</td><td>' + C_ + "</td></tr</table>"));
-				    },
-				    style: function (feature) {
 				        return {
 				        	color: toColor(col),
 						    weight:1,
@@ -261,7 +278,7 @@ function MapPane(){
 	};
 	that.changeColor = function(newColor){
 		that.polygonColor=newColor;
-		that.features.setStyle({color:newColor});
+		//that.features.setStyle({color:newColor});
 	};
 }
 

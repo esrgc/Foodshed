@@ -3,7 +3,12 @@ function SidePanel(mapPanel){
 
   var loadedFilename = null;
 
+  that.state = null;
+
+  that.data = null;
+
   that.formattedCity = null;
+  that.unformattedCity = null;
 
   that.mapPanel = mapPanel;
 
@@ -15,8 +20,8 @@ function SidePanel(mapPanel){
     $('#slider').slider()
       .on('slideStop', function(ev){
           
-          that.mapPanel.opacity = ($('#slider').slider('getValue')[0].value)/100.0;
-          that.mapPanel.selectCity(that.loadedFilename, that.formattedCity);
+        that.mapPanel.opacity = ($('#slider').slider('getValue')[0].value)/100.0;
+        that.changeData();
       }
     );
 
@@ -26,12 +31,11 @@ function SidePanel(mapPanel){
         $('#dropdown-title-data-classification').html($(this).find('a').html());
         if(($(this).find('a').html()) == 'Equal Interval'){
           that.mapPanel.classification = 'Equal Interval';
-          that.mapPanel.selectCity(that.loadedFilename, that.formattedCity);
         }
         if(($(this).find('a').html()) == 'Quantile'){
           that.mapPanel.classification = 'Quantile';
-          that.mapPanel.selectCity(that.loadedFilename, that.formattedCity);
         }
+        that.changeData();
     });
 
     $('#dropdown-options-state li').on('click', function() {
@@ -39,28 +43,29 @@ function SidePanel(mapPanel){
         $('#dropdown-title-city').html("Select a City");
 
         that.loadedFilename = $(this).find('a').attr("id");
+        that.state = $(this).find('a').attr("id");
 
-        that.setCities($(this).find('a').attr("id"));
+        that.setCities();
     });
 
     $('#button-green').on('click', function() {
         that.mapPanel.changeColor("0x55ff55");
-        that.mapPanel.selectCity(that.loadedFilename, that.formattedCity);
+        that.changeData();
     });
 
     $('#button-red').on('click', function() {
         that.mapPanel.changeColor("0xff5555");
-        that.mapPanel.selectCity(that.loadedFilename, that.formattedCity);
+        that.changeData();
     });
 
     $('#button-blue').on('click', function() {
         that.mapPanel.changeColor("0x5555ff");
-        that.mapPanel.selectCity(that.loadedFilename, that.formattedCity);
+        that.changeData();
     });
 
     $('#button-orange').on('click', function() {
         that.mapPanel.changeColor("0xff9955");
-        that.mapPanel.selectCity(that.loadedFilename, that.formattedCity);
+        that.changeData();
     });
 
   };
@@ -107,35 +112,32 @@ function SidePanel(mapPanel){
     });
   }
 
-  that.setCities = function(state){
+  that.setCities = function(){
     $.ajax({
       url: "data/Cities.json",
       processData: true,
       data: {},
       dataType: "json",
       success: function(data) {
+        that.data = data;
         var cityHTML="";
-        var cityList = data[state];
-        for(var key in data[state]["Formatted to Unformatted"]){
-          cityHTML+='<li><a href="#">'+data[state]["Formatted to Unformatted"][key][0]+'</a></li>'
+        var cityList = that.data[that.state];
+        for(var key in that.data[that.state]["Formatted to Unformatted"]){
+          cityHTML+='<li><a href="#">'+that.data[that.state]["Formatted to Unformatted"][key][0]+'</a></li>'
         }
         $('#dropdown-options-city').html(cityHTML);
         $('#dropdown-options-city li').on('click', function() {
-
           that.formattedCity = $(this).find('a').html();
-
           $('#dropdown-title-city').html(that.formattedCity);
 
-          var unformattedCity;
-          for(var key in data[state]["Formatted to Unformatted"]){
-            if(data[state]["Formatted to Unformatted"][key][0]==that.formattedCity){
-              unformattedCity=data[state]["Formatted to Unformatted"][key][1];
+          for(var key in that.data[that.state]["Formatted to Unformatted"]){
+            if(that.data[that.state]["Formatted to Unformatted"][key][0]==that.formattedCity){
+              that.unformattedCity=that.data[that.state]["Formatted to Unformatted"][key][1];
               break;
             }
           }
-
-          that.mapPanel.selectCity(that.loadedFilename, unformattedCity, that.formattedCity);
-          that.updateStatistics(state, that.formattedCity);
+          
+          that.changeData();
         });
         return;
       },
@@ -143,6 +145,11 @@ function SidePanel(mapPanel){
         console.log("Error");
       }
     });
+  }
+
+  that.changeData = function(){
+    that.mapPanel.selectCity(that.loadedFilename, that.unformattedCity, that.formattedCity);
+    that.updateStatistics(that.state, that.formattedCity);
   }
 
   that.addNumberCommas = function(num){
