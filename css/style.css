@@ -22,10 +22,17 @@ body{
 }
 
 .panel{
-	height:calc(50% - 22px);
 	margin:20px;
 	border:2px solid;
 	overflow:auto;
+}
+
+.panel-controls{
+	max-height:40%;
+}
+
+.panel-stats{
+	max-height:50%;
 }
 
 .panel-default{
