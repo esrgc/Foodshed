@@ -116,11 +116,6 @@ function MapPane(){
 					    for (var i = 1; i <= numDivisions; i++) {
 					    	var P_ = 0, C_ = 0, oldP_ = 0, oldC_ = 0;
 
-
-
-
-					    	//To Do - fix so that it works when there's a remainder. See NY - Akron for an example.
-
 					    	if(i!=numDivisions){
 					    		if((geojsonData.features[(divisionLength*i)-1].properties["P_"+unformattedCity]) != undefined){
 							    	P_ = parseInt(geojsonData.features[(divisionLength*i)-1].properties["P_"+unformattedCity]);
