@@ -63,7 +63,7 @@ function SidePanel(mapPanel){
         that.changeData();
     });
 
-    $('#button-orange').on('click', function() {
+    $('#button-yellow').on('click', function() {
         that.mapPanel.changeColor("0xff9955");
         that.changeData();
     });

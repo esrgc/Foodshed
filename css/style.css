@@ -67,18 +67,26 @@ body{
 
 #button-green{
 	background-color:green;
+	width:42px;
+	height:25px;
 }
 
 #button-red{
 	background-color:red;
+	width:42px;
+	height:25px;
 }
 
 #button-blue{
 	background-color:blue;
+	width:42px;
+	height:25px;
 }
 
 #button-yellow{
 	background-color:yellow;
+	width:42px;
+	height:25px;
 }
 
 .btn-group.horizontal {
