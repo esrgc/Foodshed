@@ -105,6 +105,7 @@ function SidePanel(mapPanel){
               "percent": neededPercent
             }];
             that.piechart.update(data);
+            $('#location').html('Location: '+ that.formattedCity + ", " + that.state);
             $('#produced').html('Food Produced (HNE): '+ that.addNumberCommas(population-needed));
             $('#population').html('Population : '+ that.addNumberCommas(population));
             return;
