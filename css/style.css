@@ -28,7 +28,6 @@ body{
 }
 
 .panel-controls{
-	max-height:40%;
 }
 
 .panel-stats{
@@ -138,4 +137,9 @@ hr{
 
 h3{
 	margin-top:0px;
+}
+
+.no-margin{
+	margin-top:0px;
+	margin-bottom:0px;
 }

@@ -33,56 +33,62 @@
 				<div id="controls" class="panel panel-controls panel-default">
 		  			<div class="panel-body">
 		  				<center>
-		  					<h3>Controls</h3>
-			  				<div class="btn-group">
-							    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-							 	   <span id="dropdown-title-state">Select a State</span><span class="caret"></span>
-							  	</button>
-							    <ul id="dropdown-options-state" class="dropdown-menu" role="menu"></ul>
-							</div>
-							<div class="btn-group">
-							    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-							 	   <span id="dropdown-title-city">Select a City</span><span class="caret"></span>
-							  	</button>
-							    <ul id="dropdown-options-city" class="dropdown-menu" role="menu"></ul>
-							</div>
-							<div class="btn-group">
-							    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-									<span id="dropdown-title-data-classification">Quantile</span><span class="caret"></span>
-							  	</button>
-							    <ul id="dropdown-options-data-classification" class="dropdown-menu" role="menu">
-							   	 	<li><a href="#">Quantile</a></li>
-							    	<li><a href="#">Equal Interval</a></li>
-							  	</ul>
-							</div>
-							<h5>
-								Color
-							</h5>
-							<div style="text-align:center">
-								<div class="btn-group horizontal">
-									<button id="button-green" type="button" class="btn btn-success"></button>
-									<button id="button-red" type="button" class="btn btn-danger"></button>
-									<button id="button-blue" type="button" class="btn btn-primary"></button>
-									<button id="button-yellow" type="button" class="btn btn-warning"></button>
-								</div>
-							</div>
-							<h5>
-								Opacity
-							</h5>
-							<input type="text" id="slider" class="span2" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="80" data-slider-orientation="horizontal" data-slider-selection="after"data-slider-tooltip="hide">
+		  					<ul class="nav nav-tabs" id="myTab">
+			                    <li class="active"><a href="#a" data-toggle="tab">Controls</a></li>
+			                    <li ><a href="#b" data-toggle="tab">Statistics</a></li>
+			                </ul>
+
+			                <div class="tab-content">
+			                    <div class="tab-pane active" id="a">
+			                        <br>
+								  	<div class="btn-group">
+									    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+									 	   <span id="dropdown-title-state">Select a State</span><span class="caret"></span>
+									  	</button>
+									    <ul id="dropdown-options-state" class="dropdown-menu" role="menu"></ul>
+									</div>
+									<div class="btn-group">
+									    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+									 	   <span id="dropdown-title-city">Select a City</span><span class="caret"></span>
+									  	</button>
+									    <ul id="dropdown-options-city" class="dropdown-menu" role="menu"></ul>
+									</div>
+									<div class="btn-group">
+									    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+											<span id="dropdown-title-data-classification">Quantile</span><span class="caret"></span>
+									  	</button>
+									    <ul id="dropdown-options-data-classification" class="dropdown-menu" role="menu">
+									   	 	<li><a href="#">Quantile</a></li>
+									    	<li><a href="#">Equal Interval</a></li>
+									  	</ul>
+									</div>
+									<h5>
+										Color
+									</h5>
+									<div style="text-align:center">
+										<div class="btn-group horizontal">
+											<button id="button-green" type="button" class="btn btn-success"></button>
+											<button id="button-red" type="button" class="btn btn-danger"></button>
+											<button id="button-blue" type="button" class="btn btn-primary"></button>
+											<button id="button-yellow" type="button" class="btn btn-warning"></button>
+										</div>
+									</div>
+									<h5>
+										Opacity
+									</h5>
+									<input type="text" id="slider" class="span2" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="80" data-slider-orientation="horizontal" data-slider-selection="after"data-slider-tooltip="hide">
+			                    </div>
+
+			                    <div class="tab-pane" id="b">
+			                    	<br>
+			                        <h5 id="produced" class="no-margin"></h5>
+				  					<h5 id="population" class="no-margin"></h5>
+				  					<div class="piechart"></div>
+				  					<h5 id="explanation" class="no-margin">This data uses the unit Human Nutritional Equivalent (HNE), or the amount of food that meets the nutritional requirments for one person for one year.</h5>
+				  					<h5 id="instructions" class="no-margin"><br>Select a state and a city</h5>
+			                    </div>
+			                </div>
 						</center>
-		  			</div>
-				</div>
-				<div id="statistics" class="panel panel-stats panel-default">
-		  			<div class="panel-body">
-		  				<center>
-		  					<h3>Statistics</h3>
-		  					<h5 id="produced"></h5>
-		  					<h5 id="population"></h5>
-		  					<div class="piechart"></div>
-		  					<h5 id="explanation">This data uses the unit Human Nutritional Equivalent (HNE), or the amount of food that meets the nutritional requirments for one person for one year.</h5>
-		  					<h5 id="instructions"><br>Select a state and a city</h5>
-		  				</center>
 		  			</div>
 				</div>
 			</div>

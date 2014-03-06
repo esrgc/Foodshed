@@ -15,6 +15,7 @@ function SidePanel(mapPanel){
   var piechart;
 
   that.init = function(){
+
     $('.dropdown-toggle').dropdown();
 
     $('#slider').slider()
