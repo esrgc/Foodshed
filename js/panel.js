@@ -47,6 +47,7 @@ function SidePanel(mapPanel){
         that.state = $(this).find('a').attr("id");
 
         that.setCities();
+        that.cacheStateFile();
     });
 
     $('#button-green').on('click', function() {
@@ -145,6 +146,16 @@ function SidePanel(mapPanel){
       error: function(x,y,z) {
         console.log("Error");
       }
+    });
+  }
+
+  that.cacheStateFile = function(){
+    $.ajax({
+      url: "data/"+that.loadedFilename+"Data.geojson",
+      processData: true,
+      data: {},
+      dataType: "json",
+      success: function(data) {}
     });
   }
 
