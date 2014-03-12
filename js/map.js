@@ -255,6 +255,8 @@ function MapPane(){
 							console.log("being set as "+toColor(col));
 						}
 
+						console.log(that.opacity);
+
 				        return {
 				        	color: toColor(col),
 						    weight:1,

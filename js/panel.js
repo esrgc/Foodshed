@@ -20,8 +20,7 @@ function SidePanel(mapPanel){
 
     $('#slider').slider()
       .on('slideStop', function(ev){
-          
-        that.mapPanel.opacity = ($('#slider').slider('getValue')[0].value)/100.0;
+        that.mapPanel.opacity = (ev.value)/100.0;
         that.changeData();
       }
     );
@@ -93,7 +92,7 @@ function SidePanel(mapPanel){
                 value: 'percent',
                 colors: ["#0B6909", "#d80000"],
                 innerRadius: 10,
-                hover:true
+                hover:false
               });
             }
             var data = [{
@@ -108,6 +107,9 @@ function SidePanel(mapPanel){
             $('#location').html('Location: '+ that.formattedCity + ", " + that.state);
             $('#produced').html('Food Produced (HNE): '+ that.addNumberCommas(population-needed));
             $('#population').html('Population : '+ that.addNumberCommas(population));
+            $('#needsmet').html('Needs Met: '+ (100-neededPercent).toFixed(3) + "%");
+            $('#needsnotmet').html('Needs Not Met: '+ neededPercent.toFixed(3) + "%");
+            $('#needsnotmet').css("margin-bottom", "10px");
             return;
           }
         }
