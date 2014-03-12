@@ -18,13 +18,15 @@ body{
 	width:25%;
 	margin-left:75%;
 	z-index:10000;
+	background: rgb(224,224,224);
 	background: rgba(142,207,71, 0.5);
 }
 
 .panel{
 	margin:20px;
 	border:2px solid;
-	overflow:auto;
+	/*overflow:auto;*/
+	max-height:60%;
 }
 
 .panel-controls{
@@ -147,4 +149,10 @@ h3{
 
 .title{
 	margin-top:20px;
+}
+
+#dropdown-options-city{
+	max-height: 200px;
+	overflow: hidden;
+	overflow-y: auto;
 }
