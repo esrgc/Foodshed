@@ -105,7 +105,7 @@ function SidePanel(mapPanel){
             }];
             that.piechart.update(data);
             $('#location').html('Location: '+ that.formattedCity + ", " + that.state);
-            $('#produced').html('Food Produced (HNE): '+ that.addNumberCommas(population-needed));
+            $('#produced').html('HNE Produced: '+ that.addNumberCommas(population-needed));
             $('#population').html('Population : '+ that.addNumberCommas(population));
             $('#needsmet').html('Needs Met: '+ (100-neededPercent).toFixed(3) + "%");
             $('#needsnotmet').html('Needs Not Met: '+ neededPercent.toFixed(3) + "%");
